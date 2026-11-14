@@ -8037,5 +8037,271 @@
   "links": [],
   "data_noticia": "2026-11-04",
   "coletado_em": "2026-11-14T19:04:22Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-onda-verde-sp-abre-processo-seletivo-com-salarios-de-ate-4104": {
+  "inscricao_inicio": "2026-11-17",
+  "inscricao_fim": "2026-11-29",
+  "site_inscricao": null,
+  "taxa_min": 40.0,
+  "taxa_max": 70.0,
+  "data_prova": "2026-12-20",
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Inspetor de Alunos",
+    "vagas": null
+   },
+   {
+    "cargo": "Cuidador Educacional",
+    "vagas": null
+   },
+   {
+    "cargo": "Monitor de Transporte Escolar",
+    "vagas": null
+   },
+   {
+    "cargo": "Oficial Administrativo Escolar",
+    "vagas": null
+   },
+   {
+    "cargo": "PEB I, Professor de Educação Básica I, Infantil",
+    "vagas": 2
+   },
+   {
+    "cargo": "PEB I, Professor de Educação Básica I, Fundamental",
+    "vagas": 2
+   },
+   {
+    "cargo": "PEB II, Professor de Educação Básica II, Educação Física",
+    "vagas": null
+   },
+   {
+    "cargo": "PEB II, Professor de Educação Especial",
+    "vagas": null
+   },
+   {
+    "cargo": "PEB II, Professor de Educação Básica II, Artes",
+    "vagas": null
+   },
+   {
+    "cargo": "PEB II, Professor de Educação Básica II, Inglês",
+    "vagas": null
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-14",
+  "coletado_em": "2026-11-14T19:43:30Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/crp-05-rj-abre-concurso-publico-com-salarios-de-ate-7313": {
+  "inscricao_inicio": "2026-11-16",
+  "inscricao_fim": "2026-12-17",
+  "site_inscricao": null,
+  "taxa_min": 99.0,
+  "taxa_max": 140.0,
+  "data_prova": "2027-02-28",
+  "isencao_inicio": "2026-11-16",
+  "isencao_fim": "2026-11-18",
+  "cargos": [
+   {
+    "cargo": "Técnico Administrativo Nível Superior",
+    "vagas": 5
+   },
+   {
+    "cargo": "Contador",
+    "vagas": 1
+   },
+   {
+    "cargo": "Técnico Tecnologia da Informação",
+    "vagas": 1
+   },
+   {
+    "cargo": "Jornalista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Agente Administrativo",
+    "vagas": 4
+   }
+  ],
+  "bancas": [
+   "FGV"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-12",
+  "coletado_em": "2026-11-14T19:43:32Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/creci-es-abre-concurso-publico-com-salarios-de-ate-8250": {
+  "inscricao_inicio": "2026-10-05",
+  "inscricao_fim": "2026-11-10",
+  "site_inscricao": "www.quadrix.org.br",
+  "taxa_min": 66.0,
+  "taxa_max": 68.0,
+  "data_prova": "2027-01-17",
+  "isencao_inicio": "2026-10-05",
+  "isencao_fim": "2026-10-06",
+  "cargos": [],
+  "bancas": [
+   "Quadrix"
+  ],
+  "links": [],
+  "data_noticia": "2026-10-02",
+  "coletado_em": "2026-11-14T19:43:33Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios": {
+  "inscricao_inicio": "2026-10-05",
+  "inscricao_fim": "2026-11-05",
+  "site_inscricao": null,
+  "taxa_min": 90.0,
+  "taxa_max": 110.0,
+  "data_prova": "2027-01-17",
+  "isencao_inicio": "2026-10-05",
+  "isencao_fim": "2026-10-09",
+  "cargos": [
+   {
+    "cargo": "Analista Judiciário - Área Judiciária",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área Judiciária - Especialidade Oficial de Justiça Avaliador Federal",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área Administrativa",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Tecnologia da Informação",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área Administrativa - Especialidade Contabilidade",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Estatística",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Comunicação Social",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Arquitetura",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Arquivologia",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Biblioteconomia",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Enfermagem",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Engenharia Civil",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Engenharia Elétrica",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Engenharia de Segurança do Trabalho",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Medicina",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Médico do Trabalho",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Odontologia",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Psicologia",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Serviço Social",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade História",
+    "vagas": null
+   },
+   {
+    "cargo": "Técnico Judiciário - Área Administrativa",
+    "vagas": null
+   },
+   {
+    "cargo": "Técnico Judiciário - Área de Apoio Especializado - Especialidade Enfermagem",
+    "vagas": null
+   },
+   {
+    "cargo": "Técnico Judiciário - Área de Apoio Especializado - Especialidade Tecnologia da Informação",
+    "vagas": null
+   },
+   {
+    "cargo": "Técnico Judiciário - Área Administrativa - Especialidade Agente da Polícia Judicial",
+    "vagas": null
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-10-02",
+  "coletado_em": "2026-11-14T19:43:35Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/cref16-rn-abre-concurso-publico-para-profissionais-de-nivel-superior": {
+  "inscricao_inicio": "2026-10-30",
+  "inscricao_fim": "2026-11-15",
+  "site_inscricao": null,
+  "taxa_min": 150.0,
+  "taxa_max": 150.0,
+  "data_prova": "2026-12-13",
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Advogado",
+    "vagas": 1
+   },
+   {
+    "cargo": "Contador",
+    "vagas": 1
+   },
+   {
+    "cargo": "Agente de Licitações e Contratos",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-10-26",
+  "coletado_em": "2026-11-14T19:43:37Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios": {
+  "inscricao_inicio": "2026-10-26",
+  "inscricao_fim": "2026-11-25",
+  "site_inscricao": null,
+  "taxa_min": 90.0,
+  "taxa_max": 110.0,
+  "data_prova": "2027-01-31",
+  "isencao_inicio": "2026-10-26",
+  "isencao_fim": "2026-10-30",
+  "cargos": [],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-10-22",
+  "coletado_em": "2026-11-14T19:43:38Z"
  }
 }
