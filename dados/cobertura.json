@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-14T19:43:19Z",
+ "gerado_em": "2026-11-14T20:23:48Z",
  "resumo": {
   "PNCP (obrigatório)": 254,
   "sem cobertura": 227,
@@ -48,7 +48,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3500758",
@@ -92,7 +92,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3501103",
@@ -301,7 +301,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 3,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3503307",
@@ -422,7 +422,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3503950",
@@ -554,7 +554,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 0
   },
   {
    "codigo_ibge": "3505302",
@@ -609,7 +609,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3505708",
@@ -708,7 +708,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3506409",
@@ -862,7 +862,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 10,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3507605",
@@ -1060,7 +1060,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3509254",
@@ -1225,7 +1225,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3510609",
@@ -1302,7 +1302,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3511300",
@@ -1390,7 +1390,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3512100",
@@ -1401,7 +1401,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3512209",
@@ -2193,7 +2193,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3518404",
@@ -2424,7 +2424,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 3
+   "futuros": 2
   },
   {
    "codigo_ibge": "3519709",
@@ -2490,7 +2490,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 3
+   "futuros": 2
   },
   {
    "codigo_ibge": "3520301",
@@ -2501,7 +2501,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3520426",
@@ -2589,7 +2589,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3521002",
@@ -2699,7 +2699,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3522000",
@@ -2864,7 +2864,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3523404",
@@ -3007,7 +3007,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 3
+   "futuros": 2
   },
   {
    "codigo_ibge": "3524501",
@@ -3084,7 +3084,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3525201",
@@ -3172,7 +3172,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 1,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3526001",
@@ -3183,7 +3183,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 3
+   "futuros": 2
   },
   {
    "codigo_ibge": "3526209",
@@ -3689,7 +3689,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3530300",
@@ -3876,7 +3876,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3532009",
@@ -4184,7 +4184,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3534302",
@@ -4195,7 +4195,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3534401",
@@ -4250,7 +4250,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3534757",
@@ -4316,7 +4316,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3535408",
@@ -4492,7 +4492,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3536802",
@@ -4569,7 +4569,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 5
+   "futuros": 2
   },
   {
    "codigo_ibge": "3537404",
@@ -4624,7 +4624,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3537909",
@@ -5031,7 +5031,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 0
   },
   {
    "codigo_ibge": "3541307",
@@ -5053,7 +5053,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 7,
-   "futuros": 4
+   "futuros": 2
   },
   {
    "codigo_ibge": "3541505",
@@ -5108,7 +5108,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3541901",
@@ -5262,7 +5262,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3543303",
@@ -5394,7 +5394,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3544251",
@@ -5482,7 +5482,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3545001",
@@ -5526,7 +5526,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3545407",
@@ -5735,7 +5735,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3547403",
@@ -5933,7 +5933,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3551306",
@@ -5988,7 +5988,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 4
+   "futuros": 3
   },
   {
    "codigo_ibge": "3551801",
@@ -6043,7 +6043,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 1,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3552304",
@@ -6076,7 +6076,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 1,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3552551",
@@ -6109,7 +6109,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 3
+   "futuros": 1
   },
   {
    "codigo_ibge": "3548807",
@@ -6186,7 +6186,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 3
+   "futuros": 2
   },
   {
    "codigo_ibge": "3549805",
@@ -6219,7 +6219,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 2,
-   "futuros": 2
+   "futuros": 0
   },
   {
    "codigo_ibge": "3549201",
@@ -6296,7 +6296,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3550308",
@@ -6340,7 +6340,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 1,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3550704",
@@ -6384,7 +6384,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 3
+   "futuros": 0
   },
   {
    "codigo_ibge": "3552601",
@@ -6461,7 +6461,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3553302",
@@ -6527,7 +6527,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3553807",
@@ -6571,7 +6571,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 1,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3554003",
@@ -6593,7 +6593,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 1
   },
   {
    "codigo_ibge": "3554201",
@@ -6615,7 +6615,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3554409",
@@ -6868,7 +6868,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 0
   },
   {
    "codigo_ibge": "3556305",
@@ -6912,7 +6912,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 4
+   "futuros": 2
   },
   {
    "codigo_ibge": "3556602",
@@ -6934,7 +6934,7 @@
    "pncp_visto_em": "2026-02-13",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3556800",
@@ -6978,7 +6978,7 @@
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
    "abertos": 1,
-   "futuros": 1
+   "futuros": 0
   },
   {
    "codigo_ibge": "3557105",
