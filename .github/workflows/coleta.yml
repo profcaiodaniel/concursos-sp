@@ -29,7 +29,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          ref: main # sempre a versão mais nova, para não publicar dados antigos quando há execuções em fila
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -40,7 +41,10 @@ jobs:
           coletar=sim
           if [ "${{ github.event_name }}" = "push" ]; then
             # push que só mexe em dados/ ou site/ (ex.: revisão semanal) apenas republica a página
-            if ! git diff --name-only HEAD~1 HEAD | grep -qvE '^(dados|site)/'; then coletar=nao; fi
+            antes="${{ github.event.before }}"
+            if git cat-file -e "$antes^{commit}" 2>/dev/null; then
+              if ! git diff --name-only "$antes" "${{ github.sha }}" | grep -qvE '^(dados|site)/'; then coletar=nao; fi
+            fi
             if [ ! -f dados/concursos.json ]; then coletar=sim; fi
           fi
           echo "coletar=$coletar" >> "$GITHUB_OUTPUT"
