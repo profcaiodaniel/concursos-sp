@@ -1,0 +1,14 @@
+{
+ "execucoes": [
+  {
+   "gerado_em": "2026-11-14T18:59:07Z",
+   "abertos": 191,
+   "autorizados": 9,
+   "banca_em_licitacao": 29,
+   "banca_contratada": 255,
+   "encerrados": 4,
+   "fontes_ok": 6,
+   "fontes_total": 7
+  }
+ ]
+}

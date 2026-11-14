@@ -1,0 +1,204 @@
+{
+ "gerado_em": "2026-11-14T18:59:07Z",
+ "fontes": [
+  {
+   "nome": "PCI Concursos",
+   "tipo": "agregador",
+   "url": "https://www.pciconcursos.com.br/concursos/sudeste/",
+   "papel": "Descoberta de concursos abertos (seção SP e nacional)",
+   "quando": "2026-11-14T18:59:07Z",
+   "ok": true,
+   "itens": 187,
+   "erro": null,
+   "obs": "182 na seção SP, 7 na nacional; 189 páginas de detalhe lidas nesta execução"
+  },
+  {
+   "nome": "Nosso Rumo",
+   "tipo": "banca",
+   "url": "https://www.nossorumo.org.br/",
+   "papel": "Fonte primária: datas de inscrição, prova e resultado",
+   "quando": "2026-11-14T18:59:07Z",
+   "ok": true,
+   "itens": 68,
+   "erro": null,
+   "obs": "0 registros que não estavam nos agregadores"
+  },
+  {
+   "nome": "Instituto Mais",
+   "tipo": "banca",
+   "url": "https://www.institutomais.org.br/Concursos/ConcursosAbertos",
+   "papel": "Fonte primária: confirma concursos com inscrições abertas",
+   "quando": "2026-11-14T18:59:07Z",
+   "ok": true,
+   "itens": 5,
+   "erro": null,
+   "obs": "4 registros confirmados na banca"
+  },
+  {
+   "nome": "Concursos no Brasil",
+   "tipo": "agregador",
+   "url": "https://concursosnobrasil.com/concursos/sp/",
+   "papel": "Checagem cruzada do PCI",
+   "quando": "2026-11-14T18:59:07Z",
+   "ok": true,
+   "itens": 115,
+   "erro": null,
+   "obs": "8 registros que não estavam no PCI"
+  },
+  {
+   "nome": "PNCP",
+   "tipo": "oficial",
+   "url": "https://pncp.gov.br",
+   "papel": "Fase anterior ao edital: contratação da banca organizadora",
+   "quando": "2026-11-14T18:59:07Z",
+   "ok": true,
+   "itens": 362,
+   "erro": null,
+   "obs": "1700 contratações lidas"
+  },
+  {
+   "nome": "Diário Oficial do Estado de SP",
+   "tipo": "oficial",
+   "url": "https://www.doe.sp.gov.br",
+   "papel": "Autorizações de concurso na esfera estadual",
+   "quando": "2026-11-14T18:59:07Z",
+   "ok": true,
+   "itens": 9,
+   "erro": null,
+   "obs": "9 publicações lidas"
+  },
+  {
+   "nome": "Querido Diário",
+   "tipo": "oficial",
+   "url": "https://queridodiario.ok.org.br",
+   "papel": "Diários oficiais de 116 municípios: autorizações, comissões e contratações",
+   "quando": "2026-11-14T18:59:07Z",
+   "ok": false,
+   "itens": 0,
+   "erro": "Querido Diário: API não respondeu. SSLError em https://api.queridodiario.ok.org.br/gazettes",
+   "obs": null
+  }
+ ],
+ "testadas_sem_uso": [
+  {
+   "nome": "Vunesp",
+   "tipo": "banca",
+   "url": "https://www.vunesp.com.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "IBFC",
+   "tipo": "banca",
+   "url": "https://www.ibfc.org.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "Avança SP",
+   "tipo": "banca",
+   "url": "https://www.avancasp.org.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "IBAM",
+   "tipo": "banca",
+   "url": "https://www.ibamsp-concursos.org.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "Consulplan",
+   "tipo": "banca",
+   "url": "https://www.institutoconsulplan.org.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "SHDias",
+   "tipo": "banca",
+   "url": "https://www.shdias.com.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "Instituto AOCP",
+   "tipo": "banca",
+   "url": "https://www.institutoaocp.org.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "Instituto Access",
+   "tipo": "banca",
+   "url": "https://www.access.org.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "Cebraspe",
+   "tipo": "banca",
+   "url": "https://www.cebraspe.org.br/concursos/",
+   "resultado": "página depende de JavaScript; sem listagem legível por script"
+  },
+  {
+   "nome": "FCC",
+   "tipo": "banca",
+   "url": "https://www.concursosfcc.com.br",
+   "resultado": "página depende de JavaScript; sem listagem legível por script"
+  },
+  {
+   "nome": "RBO",
+   "tipo": "banca",
+   "url": "https://www.rboconcursos.com.br",
+   "resultado": "página depende de JavaScript; sem listagem legível por script"
+  },
+  {
+   "nome": "Publiconsult",
+   "tipo": "banca",
+   "url": "https://www.publiconsult.com.br",
+   "resultado": "página depende de JavaScript; sem listagem legível por script"
+  },
+  {
+   "nome": "FGV",
+   "tipo": "banca",
+   "url": "https://conhecimento.fgv.br/concursos",
+   "resultado": "acessível, mas lista só nomes de concursos do país inteiro, sem datas; usada apenas como link primário"
+  },
+  {
+   "nome": "Indepac",
+   "tipo": "banca",
+   "url": "https://www.indepac.org.br",
+   "resultado": "acessível, sem listagem estruturada; usada apenas como link primário"
+  },
+  {
+   "nome": "Dédalus",
+   "tipo": "banca",
+   "url": "https://www.dedalusconcursos.com.br",
+   "resultado": "acessível, sem listagem estruturada; usada apenas como link primário"
+  },
+  {
+   "nome": "Zambini",
+   "tipo": "banca",
+   "url": "https://www.zambini.org.br/portal/concursos",
+   "resultado": "acessível; sem concursos em andamento no dia do teste"
+  },
+  {
+   "nome": "JC Concursos",
+   "tipo": "agregador",
+   "url": "https://jcconcursos.com.br/concursos/sp",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "Diário Oficial da União (in.gov.br)",
+   "tipo": "oficial",
+   "url": "https://www.in.gov.br",
+   "resultado": "recusa conexões vindas do GitHub e o robots.txt proíbe a busca; autorizações federais entram pela revisão semanal"
+  },
+  {
+   "nome": "Diário Oficial da Cidade de São Paulo",
+   "tipo": "oficial",
+   "url": "https://diariooficial.prefeitura.sp.gov.br",
+   "resultado": "bloqueia acesso automatizado (HTTP 403)"
+  },
+  {
+   "nome": "IBGE Localidades",
+   "tipo": "oficial",
+   "url": "https://servicodados.ibge.gov.br",
+   "resultado": "sem resposta a partir do GitHub; população obtida pelo SIDRA/IBGE, que respondeu"
+  }
+ ]
+}
