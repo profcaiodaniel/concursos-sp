@@ -2,6 +2,8 @@
 
 Mapa de concursos públicos com lotação no estado de São Paulo: os que estão com inscrições abertas e os que ainda estão em preparação (autorizados ou com banca em contratação).
 
+Entram também os concursos de órgãos federais de todo o país, como os sediados em Brasília. Ficam fora apenas universidades federais, institutos federais e vagas de docente de outros estados. Na página, esses registros aparecem como "Órgão federal fora de SP" e podem ser ocultados no filtro.
+
 Página: https://profcaiodaniel.github.io/concursos-sp/
 
 ## Como funciona
@@ -24,7 +26,7 @@ As fontes testadas que não puderam ser usadas, e o motivo, estão em `dados/fon
 
 Nenhum registro entra sem link para a fonte. "Autorizado" exige ato oficial publicado; notícia de imprensa ou de cursinho não conta. Campo que não pôde ser extraído com segurança fica vazio e listado em `a_conferir`, nunca preenchido por estimativa. O coletor respeita o `robots.txt` de cada site, espera entre requisições e se identifica no cabeçalho `User-Agent`. Quando uma fonte falha, a falha aparece na página.
 
-Estágios, residências e vestibulares ficam fora. Processos seletivos entram marcados como tal e ficam ocultos por padrão.
+Estágios, residências e vestibulares ficam fora. A esfera federal é reconhecida por palavras-chave no nome do órgão; um órgão federal pouco conhecido pode não ser reconhecido e ficar de fora quando for de outro estado. Processos seletivos entram marcados como tal e ficam ocultos por padrão.
 
 ## Limites conhecidos
 

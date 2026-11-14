@@ -146,6 +146,7 @@ footer p{max-width:38rem;margin:.4rem 0}
         <fieldset><legend>Mostrar também</legend><div class="opcoes">
           <label><input type="checkbox" id="f-ps"> Processos seletivos</label>
           <label><input type="checkbox" id="f-nacional" checked> Nacionais com lotação a confirmar</label>
+          <label><input type="checkbox" id="f-fora" checked> Federais de outros estados</label>
           <label id="lb-antigos"><input type="checkbox" id="f-antigos"> Bancas contratadas há mais de 120 dias</label>
           <label id="lb-academico"><input type="checkbox" id="f-academico"> Docentes de universidades</label>
         </div></fieldset>
@@ -232,7 +233,7 @@ function estado(){
     esfera:[].slice.call(document.querySelectorAll("[name=esfera]:checked")).map(function(i){return i.value}),
     esc:[].slice.call(document.querySelectorAll("[name=esc]:checked")).map(function(i){return i.value}),
     regiao:el("f-regiao").value,salario:+el("f-salario").value,ordem:el("f-ordem").value,
-    ps:el("f-ps").checked,nacional:el("f-nacional").checked,antigos:el("f-antigos").checked,academico:el("f-academico").checked};
+    ps:el("f-ps").checked,nacional:el("f-nacional").checked,fora:el("f-fora").checked,antigos:el("f-antigos").checked,academico:el("f-academico").checked};
 }
 function guardar(){try{localStorage.setItem("concursos-sp-filtros",JSON.stringify(estado()))}catch(e){}}
 function restaurar(){
@@ -242,7 +243,7 @@ function restaurar(){
   [].forEach.call(document.querySelectorAll("[name=esfera]"),function(i){i.checked=!s.esfera||s.esfera.indexOf(i.value)>=0});
   [].forEach.call(document.querySelectorAll("[name=esc]"),function(i){i.checked=!!s.esc&&s.esc.indexOf(i.value)>=0});
   el("f-regiao").value=s.regiao||""; el("f-salario").value=String(s.salario||0); el("f-ordem").value=s.ordem||"prazo";
-  el("f-ps").checked=!!s.ps; el("f-nacional").checked=s.nacional!==false; el("f-antigos").checked=!!s.antigos; el("f-academico").checked=!!s.academico;
+  el("f-ps").checked=!!s.ps; el("f-nacional").checked=s.nacional!==false; el("f-fora").checked=s.fora!==false; el("f-antigos").checked=!!s.antigos; el("f-academico").checked=!!s.academico;
 }
 
 function passa(r,s,hj,ignorarAba){
@@ -254,6 +255,7 @@ function passa(r,s,hj,ignorarAba){
   }
   if(s.esfera.indexOf(r.esfera)<0)return false;
   if(!s.ps&&r.tipo==="processo seletivo")return false;
+  if(!s.fora&&r.abrangencia==="outro estado")return false;
   if(s.regiao&&r.regiao!==s.regiao)return false;
   if(futuro){
     if(!s.antigos&&r.id.charAt(0)==="p"&&r.data_ato&&dias(hj,r.data_ato)>120)return false;
@@ -297,6 +299,7 @@ function linhaLocal(r){
   var p=[];
   if(r.municipio)p.push(r.municipio);
   else if(r.abrangencia==="nacional")p.push("Abrangência nacional");
+  else if(r.abrangencia==="outro estado")p.push("Órgão federal fora de SP"+(r.uf?" ("+r.uf+")":""));
   else if(r.esfera==="estadual")p.push("Estado de São Paulo");
   if(r.esfera&&r.esfera!=="a conferir")p.push("esfera "+r.esfera);
   if(r.tipo&&r.tipo!=="concurso público"&&r.tipo!=="a conferir")p.push(r.tipo);
@@ -346,10 +349,11 @@ function ficha(r){
     if(r.cargos&&r.cargos.length){h+="<h4>Cargos ("+r.cargos.length+")</h4><ul class=\"cargos\">"+r.cargos.map(function(c){return"<li>"+esc(c)+"</li>"}).join("")+"</ul>";}
     else if(r.cargos_resumo&&!/v[aá]rios/i.test(r.cargos_resumo))h+="<p>Cargos: "+esc(r.cargos_resumo)+"</p>";
   }
+  if((r.notas||{}).local)h+="<p>"+esc(r.notas.local)+"</p>";
   var ac=(r.a_conferir||[]);
   if(ac.length&&!fut){
     h+='<div class="conferir"><p><strong>A conferir na fonte:</strong> '+esc(ac.map(function(c){return ROTULO[c]||c}).join(", "))+".</p>";
-    var n=r.notas||{};Object.keys(n).forEach(function(k){if(k!=="alerta"&&k!=="salario_ate")h+="<p>"+esc(n[k])+"</p>"});
+    var n=r.notas||{};Object.keys(n).forEach(function(k){if(k!=="alerta"&&k!=="salario_ate"&&k!=="local")h+="<p>"+esc(n[k])+"</p>"});
     h+="</div>";
   }
   u=urlSegura(e.link_edital)||urlSegura(r.link_primario);
@@ -445,7 +449,7 @@ el("btn-filtros").addEventListener("click",function(){
 el("btn-limpar").addEventListener("click",function(){
   el("q").value=""; try{localStorage.removeItem("concursos-sp-filtros")}catch(e){}
   montarFiltros(); el("f-salario").value="0"; el("f-ordem").value="prazo";
-  el("f-ps").checked=false; el("f-nacional").checked=true; el("f-antigos").checked=false; el("f-academico").checked=false;
+  el("f-ps").checked=false; el("f-nacional").checked=true; el("f-fora").checked=true; el("f-antigos").checked=false; el("f-academico").checked=false;
   limite=60; desenhar();
 });
 el("btn-mais").addEventListener("click",function(){limite+=60;desenhar()});

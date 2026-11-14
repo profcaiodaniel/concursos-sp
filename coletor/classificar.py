@@ -29,6 +29,12 @@ RE_NAO_E_CAPITAL = re.compile(
     r"(estado|universidade|governo|federal|justi[cç]a|tecnologia|regional|trabalho|eleitoral|contas|"
     r"regi[aã]o metropolitana|metropolitano|companhia|ambiental|paulista|hospital|medicina|corretores de im[oó]veis do estado)"
     r"( do estado)? de s[aã]o paulo", re.I)
+RE_DISTRITO_FEDERAL = re.compile(r"distrito federal", re.I)
+# universidades, institutos federais e vagas de docente: ficam fora quando o orgao e de outro estado
+RE_ENSINO = re.compile(
+    r"universidade|\bUF[A-Z]{1,7}\b|\bUNI[A-Z]{2,8}\b|\bUTFPR\b|\bFURG\b|instituto federal|\bIF[A-Z]{1,4}\b|"
+    r"\bCEFET\b|centro federal de educa|col[eé]gio|faculdade|professor|docente|magist[eé]rio|"
+    r"hospital universit[aá]rio|\bHU[- ][A-Z]|hospital de cl[ií]nicas|\bHC[- ]?UF", re.I)
 RE_PREFEITURA = re.compile(r"\bprefeitura\b|^\s*munic[ií]pio d", re.I)
 RE_CAMARA = re.compile(r"\bc[aâ]mara\b", re.I)
 
@@ -50,7 +56,7 @@ def esfera_de(orgao: str, titulo: str, mun: dict | None, esfera_fonte: str | Non
         e = norm(esfera_fonte)
         if e in ("municipal", "estadual", "federal"):
             return e
-    alvo = f"{orgao} | {titulo}"
+    alvo = RE_DISTRITO_FEDERAL.sub(" ", f"{orgao} | {titulo}")
     if re.search(r"c[aâ]mara dos deputados|senado federal|c[aâ]mara legislativa", orgao, re.I):
         return "federal" if not re.search(r"legislativa", orgao, re.I) else "a conferir"
     if RE_PREFEITURA.search(orgao) or RE_CAMARA.search(orgao):
@@ -109,3 +115,10 @@ def mesmo_orgao_por_sigla(nome_curto: str, orgao_longo: str) -> bool:
         return False
     compacto = n.replace(" ", "")
     return compacto == sig or (len(sig) >= 4 and (compacto.startswith(sig) or n.split()[0] == sig))
+
+
+def federal_de_alcance_amplo(orgao: str, titulo: str) -> bool:
+    """Orgao federal que nao e universidade, instituto federal nem vaga de docente."""
+    if esfera_de(orgao, titulo, None) != "federal":
+        return False
+    return not RE_ENSINO.search(f"{orgao} | {titulo}")

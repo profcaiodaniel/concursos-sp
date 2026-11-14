@@ -82,6 +82,7 @@ def classificar(it: dict) -> dict | None:
         "poder": it.get("poder_nome"),
         "municipio": it.get("municipio_nome"),
         "codigo_ibge": str(it.get("codigo_ibge") or "") or None,
+        "uf": it.get("uf"),
         "objeto": (it.get("description") or "").strip(),
         "modalidade": modalidade,
         "situacao_pncp": it.get("situacao_nome"),
@@ -115,7 +116,7 @@ def coletar(cli: Cliente, max_paginas: int = 12) -> dict:
                 if (it.get("data_publicacao_pncp") or "")[:10] < limite:
                     antigos += 1
                     continue
-                if it.get("esfera_id") == "M" and it.get("codigo_ibge"):
+                if it.get("esfera_id") == "M" and str(it.get("codigo_ibge") or "").startswith("35"):
                     municipios_publicando.add(str(it["codigo_ibge"]))
                 chave = it.get("numero_controle_pncp") or it.get("id")
                 if chave in vistos:
@@ -126,6 +127,34 @@ def coletar(cli: Cliente, max_paginas: int = 12) -> dict:
                     bancas.append(c)
             if len(itens) < 100 or antigos == len(itens):
                 break
+    # orgaos federais de qualquer estado (sem filtro de UF); a esfera e conferida item a item
+    for pag in range(1, 9):
+        try:
+            r = cli.get(URL, params={"q": "concurso público", "tipos_documento": "edital", "ordenacao": "-data",
+                                     "pagina": pag, "tam_pagina": 100, "status": "todos", "esferas": "F"},
+                        tentativas=5, espera=15, intervalo=4)
+            itens = r.json().get("items") or []
+        except (ErroFonte, ValueError) as e:
+            erros.append(f"federais p{pag}: {e}")
+            break
+        antigos = 0
+        for it in itens:
+            lidos += 1
+            if (it.get("data_publicacao_pncp") or "")[:10] < limite:
+                antigos += 1
+                continue
+            if it.get("esfera_id") != "F" or it.get("uf") == "SP":
+                continue
+            chave = it.get("numero_controle_pncp") or it.get("id")
+            if chave in vistos:
+                continue
+            vistos.add(chave)
+            c = classificar(it)
+            if c:
+                c["federal_outro_estado"] = True
+                bancas.append(c)
+        if len(itens) < 100 or antigos == len(itens):
+            break
     if lidos == 0:
         raise ErroFonte("PNCP: nenhuma página respondeu. " + "; ".join(erros[:2]))
     return {"itens": bancas, "lidos": lidos, "erros": erros,

@@ -12,6 +12,10 @@ from ..base import Cliente, ErroFonte, data_br, dinheiro, limpa_html
 
 URL_SUDESTE = "https://www.pciconcursos.com.br/concursos/sudeste/"
 URL_NACIONAL = "https://www.pciconcursos.com.br/concursos/nacional/"
+URLS_OUTRAS_REGIOES = ["https://www.pciconcursos.com.br/concursos/norte/",
+                       "https://www.pciconcursos.com.br/concursos/nordeste/",
+                       "https://www.pciconcursos.com.br/concursos/centrooeste/",
+                       "https://www.pciconcursos.com.br/concursos/sul/"]
 
 RE_ITEM = re.compile(
     r'<div class="(?:da|na|ea)"[^>]*data-url="(?P<url>[^"]+)"[^>]*>\s*'
@@ -133,15 +137,25 @@ def parse_detalhe(pagina: str) -> dict:
 
 
 def coletar(cli: Cliente) -> dict:
-    """Devolve {'sp': [...], 'nacional': [...]}"""
+    """Devolve {'sp': [...], 'nacional': [...], 'outros_estados': [...], 'regioes_com_falha': [...]}"""
     r = cli.get(URL_SUDESTE)
     sp = parse_listagem(r.text, "SÃO PAULO")
     if len(sp) < 20:
         raise ErroFonte(f"PCI: só {len(sp)} itens na seção SP (layout mudou?)")
-    nacional = []
+    outros = [x for x in parse_listagem(r.text, None) if x["uf"] and x["uf"] != "SP"]
+    nacional, falhas = [], []
     try:
-        rn = cli.get(URL_NACIONAL)
-        nacional = parse_listagem(rn.text, None)
+        nacional = parse_listagem(cli.get(URL_NACIONAL).text, None)
     except ErroFonte:
-        pass
-    return {"sp": sp, "nacional": nacional}
+        falhas.append("nacional")
+    for u in URLS_OUTRAS_REGIOES:
+        try:
+            outros += [x for x in parse_listagem(cli.get(u).text, None) if x["uf"] != "SP"]
+        except ErroFonte:
+            falhas.append(u.rstrip("/").rsplit("/", 1)[-1])
+    vistos, unicos = set(), []
+    for x in outros:
+        if x["url_pci"] not in vistos:
+            vistos.add(x["url_pci"])
+            unicos.append(x)
+    return {"sp": sp, "nacional": nacional, "outros_estados": unicos, "regioes_com_falha": falhas}

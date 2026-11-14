@@ -12,7 +12,8 @@ import re
 import sys
 
 from .base import DADOS, Cliente, ErroFonte, Municipios, agora_iso, hoje, id_de, norm
-from .classificar import chave_orgao, esfera_de, mesmo_orgao_por_sigla, municipio_de, tipo_de
+from .classificar import (RE_ENSINO, chave_orgao, esfera_de, federal_de_alcance_amplo, mesmo_orgao_por_sigla,
+                          municipio_de, tipo_de)
 from .extrair import datas_da_frase, extrair
 from .fontes import bancas, concursosnobrasil, doe_sp, pci, pncp, querido_diario
 
@@ -149,6 +150,11 @@ def registro_pci(it: dict, det: dict | None, M: Municipios, abrangencia: str, ag
         conferir.append("escolaridade")
     if esfera == "a conferir":
         conferir.append("esfera")
+    if abrangencia == "outro estado":
+        esfera = "federal"
+        conferir = [c for c in conferir if c != "esfera"]
+        notas["local"] = (f"Órgão federal listado em {it.get('uf') or 'outro estado'}: as vagas ficam fora de "
+                          "São Paulo, salvo se o edital indicar outras cidades de lotação.")
     if abrangencia == "nacional":
         conferir.append("lotacao_sp")
         notas["lotacao_sp"] = "Concurso de abrangência nacional ou de outro estado listado como nacional: confirmar no edital se há vagas em SP."
@@ -158,6 +164,7 @@ def registro_pci(it: dict, det: dict | None, M: Municipios, abrangencia: str, ag
         "situacao": "aberto", "tipo": tipo, "orgao": it["orgao"], "esfera": esfera,
         "municipio": mun["nome"] if mun else None, "codigo_ibge": mun["codigo_ibge"] if mun else None,
         "regiao": mun.get("regiao") if mun else None, "abrangencia": abrangencia,
+        "uf": "SP" if abrangencia == "SP" else (it.get("uf") or None),
         "cargos": cargos, "cargos_resumo": cargos_resumo, "vagas": vagas,
         "cadastro_reserva": it["cadastro_reserva"], "salario_ate": salario,
         "escolaridade": it["escolaridade"], "banca": banca, "site_inscricao": site,
@@ -288,6 +295,8 @@ def fundir_instituto_mais(recs: list[dict], itens: list[dict], M: Municipios, ag
 def registros_pncp(itens: list[dict], M: Municipios, agora: str) -> list[dict]:
     recs = []
     for c in itens:
+        if c.get("federal_outro_estado") and RE_ENSINO.search(c["orgao"] + " | " + c["unidade"]):
+            continue  # universidades e institutos federais de outros estados ficam fora
         mun = M.por_codigo.get(c["codigo_ibge"] or "")
         esfera = esfera_de(c["orgao"], c["objeto"], mun, c.get("esfera_pncp"))
         if esfera != "municipal":
@@ -300,7 +309,8 @@ def registros_pncp(itens: list[dict], M: Municipios, agora: str) -> list[dict]:
             "situacao": c["situacao"], "tipo": c["tipo"], "orgao": nome, "orgao_fonte": c["orgao"],
             "esfera": esfera, "municipio": mun_local["nome"] if mun_local else None,
             "codigo_ibge": mun_local["codigo_ibge"] if mun_local else None,
-            "regiao": mun_local.get("regiao") if mun_local else None, "abrangencia": "SP",
+            "regiao": mun_local.get("regiao") if mun_local else None,
+            "abrangencia": "outro estado" if c.get("federal_outro_estado") else "SP", "uf": c.get("uf"),
             "data_ato": c["data_publicacao"], "evidencia": "Contratação de organizadora publicada no PNCP "
             f"({c['modalidade'] or 'modalidade não informada'}).",
             "trecho": re.sub(r"\s+", " ", c["objeto"])[:420], "link_primario": c["url"],
@@ -407,8 +417,13 @@ def main(argv=None) -> int:
                     "Descoberta de concursos abertos (seção SP e nacional)")
     pci_ok = res is not None
     if res:
-        todos = res["sp"] + res["nacional"]
+        fora = [it for it in res["outros_estados"] if federal_de_alcance_amplo(it["orgao"], it["titulo"])]
+        todos = res["sp"] + res["nacional"] + fora
         novos, falhas = detalhar_pci(cli, todos, cache, args.max_detalhes)
+        for it in fora:
+            r = registro_pci(it, cache.get(it["url_pci"]), M, "outro estado", agora)
+            if r:
+                abertos.append(r)
         for it in res["sp"]:
             r = registro_pci(it, cache.get(it["url_pci"]), M, "SP", agora)
             if r:
@@ -418,7 +433,10 @@ def main(argv=None) -> int:
             if r:
                 abertos.append(r)
         ln["itens"] = len(abertos)
-        ln["obs"] = (f"{len(res['sp'])} na seção SP, {len(res['nacional'])} na nacional; "
+        ln["obs"] = (f"{len(res['sp'])} na seção SP, {len(res['nacional'])} na nacional, "
+                     f"{len(fora)} federais de outros estados"
+                     + (f" (regiões sem resposta: {', '.join(res['regioes_com_falha'])})" if res["regioes_com_falha"] else "")
+                     + "; "
                      f"{novos} páginas de detalhe lidas nesta execução" + (f", {falhas} falharam" if falhas else ""))
         usados = {it["url_pci"] for it in todos}
         for u in [u for u in cache if u not in usados]:
