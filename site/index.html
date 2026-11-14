@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Concursos públicos em São Paulo</title>
 <meta name="description" content="Concursos públicos abertos e em preparação com lotação no estado de São Paulo, com prazo de inscrição, fonte oficial e cobertura por município.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1D4E89">
+<link rel="icon" href="icone-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Concursos SP">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -114,6 +121,8 @@ footer p{max-width:38rem;margin:.4rem 0}
 <header class="topo"><div class="largura">
   <h1>Concursos públicos em São Paulo</h1>
   <p class="situacao-geral" id="situacao-geral">Carregando a base…</p>
+  <p class="situacao-geral" id="sem-rede" hidden><strong>Sem internet.</strong> Você está vendo a última base guardada neste aparelho.</p>
+  <p id="instalar-linha" hidden><button class="botao" id="btn-instalar">Instalar no celular</button></p>
 </div></header>
 
 <div class="barra"><div class="largura">
@@ -461,6 +470,18 @@ el("lista").addEventListener("toggle",function(e){
   var r=base.filter(function(x){return x.id===d.dataset.id})[0]; if(r){f.innerHTML=ficha(r);f.dataset.pronto="1"}
 },true);
 carregar();
+
+// --- aplicativo instalável
+function rede(){el("sem-rede").hidden=navigator.onLine!==false}
+window.addEventListener("online",rede); window.addEventListener("offline",rede); rede();
+if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}
+var convite=null;
+window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();convite=e;el("instalar-linha").hidden=false});
+el("btn-instalar").addEventListener("click",function(){
+  if(!convite)return; convite.prompt();
+  convite.userChoice.then(function(){convite=null;el("instalar-linha").hidden=true});
+});
+window.addEventListener("appinstalled",function(){el("instalar-linha").hidden=true});
 })();
 </script>
 </body>
