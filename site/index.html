@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concursos públicos em São Paulo</title>
+<meta name="description" content="Concursos públicos abertos e em preparação com lotação no estado de São Paulo, com prazo de inscrição, fonte oficial e cobertura por município.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --papel:#F3F5F2; --folha:#FFFFFF; --tinta:#16202B; --cinza:#55616B; --regua:#CFD6D2;
+  --azul:#1D4E89; --azul-fundo:#E4ECF6; --verde:#1B6B44; --ambar:#9A4A06; --vermelho:#9B2226;
+  --ambar-fundo:#FBEFD9;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--papel);color:var(--tinta);
+  font:400 1.0625rem/1.5 "Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--azul);text-underline-offset:.15em}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--azul);outline-offset:2px;border-radius:2px}
+.pular{position:absolute;left:-999px}
+.pular:focus{left:.5rem;top:.5rem;background:var(--folha);padding:.5rem .75rem;z-index:20}
+.largura{max-width:54rem;margin:0 auto;padding:0 1rem}
+
+header.topo{padding:1.25rem 0 .5rem}
+h1{font-size:1.6rem;line-height:1.15;margin:0 0 .35rem;letter-spacing:-.01em}
+.situacao-geral{margin:0;color:var(--cinza)}
+.situacao-geral strong{color:var(--tinta)}
+
+.barra{position:sticky;top:0;z-index:10;background:var(--papel);border-bottom:2px solid var(--tinta);padding-top:.5rem}
+.abas{display:flex;gap:.25rem;overflow-x:auto;scrollbar-width:none;margin:0 -1rem;padding:0 1rem}
+.abas::-webkit-scrollbar{display:none}
+.abas button{flex:none;font:inherit;font-weight:700;color:var(--cinza);background:none;border:0;
+  border-bottom:4px solid transparent;padding:.6rem .7rem .5rem;min-height:44px;cursor:pointer;white-space:nowrap}
+.abas button[aria-selected="true"]{color:var(--tinta);border-bottom-color:var(--azul)}
+.abas .n{font-weight:400;font-variant-numeric:tabular-nums}
+
+.controles{padding:.75rem 0 .25rem}
+.busca{display:flex;gap:.5rem}
+.busca input{flex:1;min-width:0;font:inherit;padding:.6rem .75rem;border:2px solid var(--tinta);border-radius:4px;background:var(--folha);color:var(--tinta);min-height:44px}
+.botao{font:inherit;font-weight:700;padding:.5rem .9rem;min-height:44px;border:2px solid var(--tinta);border-radius:4px;background:var(--folha);color:var(--tinta);cursor:pointer}
+.botao[aria-expanded="true"]{background:var(--tinta);color:var(--folha)}
+.filtros{display:none;margin-top:.75rem;padding:1rem;background:var(--folha);border:1px solid var(--regua);border-radius:4px}
+.filtros.aberto{display:grid;gap:1rem}
+@media(min-width:40rem){.filtros.aberto{grid-template-columns:1fr 1fr}}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend,.rotulo{font-weight:700;padding:0;margin-bottom:.35rem;display:block}
+.opcoes{display:flex;flex-wrap:wrap;gap:.25rem 1rem}
+.opcoes label{display:flex;align-items:center;gap:.4rem;min-height:36px}
+input[type=checkbox]{width:1.15rem;height:1.15rem;accent-color:var(--azul)}
+select{font:inherit;width:100%;padding:.5rem;min-height:44px;border:2px solid var(--tinta);border-radius:4px;background:var(--folha);color:var(--tinta)}
+.contagem{margin:.75rem 0 .25rem;color:var(--cinza)}
+
+ol.lista{list-style:none;margin:0;padding:0}
+ol.lista>li{border-bottom:1px solid var(--regua)}
+details.item>summary{list-style:none;display:grid;grid-template-columns:4.6rem 1fr;gap:.9rem;padding:.9rem 0;cursor:pointer}
+details.item>summary::-webkit-details-marker{display:none}
+.prazo{border-left:5px solid var(--verde);padding-left:.6rem;color:var(--verde);align-self:start}
+.prazo .dia{display:block;font-size:1.9rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.prazo .mes{display:block;font-size:.95rem;line-height:1.3}
+.prazo.perto{border-color:var(--ambar);color:var(--ambar)}
+.prazo.urgente{border-color:var(--vermelho);color:var(--vermelho)}
+.prazo.neutro{border-color:var(--azul);color:var(--azul)}
+.prazo.apagado{border-color:var(--cinza);color:var(--cinza)}
+.prazo .sem{font-size:.9rem;line-height:1.25;font-weight:700}
+.resumo{min-width:0}
+.resumo .quando{font-weight:700}
+.resumo h3{font-size:1.125rem;line-height:1.25;margin:.1rem 0 .15rem;overflow-wrap:anywhere}
+.resumo p{margin:0;color:var(--cinza)}
+.resumo .numeros{color:var(--tinta)}
+.aviso{display:inline-block;margin-top:.3rem;padding:.05rem .45rem;background:var(--ambar-fundo);color:var(--ambar);border-radius:3px;font-size:.92rem;font-weight:700}
+.fase{font-weight:700;color:var(--azul)}
+details.item[open]>summary h3{text-decoration:underline;text-decoration-color:var(--azul);text-decoration-thickness:3px;text-underline-offset:.2em}
+
+.ficha{padding:0 0 1.25rem;margin-left:0}
+@media(min-width:40rem){.ficha{margin-left:5.5rem}}
+.ficha p{margin:.4rem 0}
+.ficha h4{font-size:1rem;margin:1rem 0 .3rem}
+.ficha table{border-collapse:collapse;width:100%;max-width:30rem}
+.ficha th,.ficha td{text-align:left;padding:.3rem .75rem .3rem 0;border-bottom:1px solid var(--regua);vertical-align:top;font-variant-numeric:tabular-nums}
+.ficha th{font-weight:400;color:var(--cinza);width:45%}
+.ficha ul{margin:.3rem 0;padding-left:1.2rem}
+.ficha .cargos{columns:2 14rem;column-gap:1.5rem}
+.acao{display:inline-block;margin:.6rem 0 .2rem;padding:.6rem 1rem;background:var(--azul);color:#fff;border-radius:4px;font-weight:700;text-decoration:none}
+.acao:hover{background:#163C6B}
+.conferir{background:var(--ambar-fundo);border-left:5px solid var(--ambar);padding:.6rem .8rem;margin:.8rem 0}
+.conferir p{margin:.15rem 0}
+.pcd{background:var(--azul-fundo);border-left:5px solid var(--azul);padding:.6rem .8rem;margin:.8rem 0}
+.trecho{border-left:3px solid var(--regua);padding-left:.75rem;color:var(--cinza);font-style:italic}
+
+.vazio{padding:2rem 0;color:var(--cinza)}
+.painel{padding:1rem 0 2rem}
+.painel h2{font-size:1.25rem;margin:1.5rem 0 .4rem}
+.painel p{max-width:38rem}
+.quadro{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));gap:0;border-top:2px solid var(--tinta);margin:1rem 0}
+.quadro div{padding:.7rem .75rem .7rem 0;border-bottom:1px solid var(--regua)}
+.quadro b{display:block;font-size:1.6rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.tabela-rolagem{overflow-x:auto}
+table.dados{border-collapse:collapse;width:100%;font-size:1rem}
+table.dados th,table.dados td{text-align:left;padding:.45rem .75rem .45rem 0;border-bottom:1px solid var(--regua);vertical-align:top}
+table.dados th{border-bottom:2px solid var(--tinta)}
+.ok{color:var(--verde);font-weight:700}.falha{color:var(--vermelho);font-weight:700}
+footer{border-top:2px solid var(--tinta);margin-top:2rem;padding:1rem 0 3rem;color:var(--cinza);font-size:1rem}
+footer p{max-width:38rem;margin:.4rem 0}
+@media(prefers-reduced-motion:no-preference){details.item[open] .ficha{animation:abrir .18s ease-out}}
+@keyframes abrir{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="pular" href="#conteudo">Ir para a lista</a>
+<header class="topo"><div class="largura">
+  <h1>Concursos públicos em São Paulo</h1>
+  <p class="situacao-geral" id="situacao-geral">Carregando a base…</p>
+</div></header>
+
+<div class="barra"><div class="largura">
+  <div class="abas" role="tablist" aria-label="Seções">
+    <button role="tab" data-aba="abertos" aria-selected="true">Abertos <span class="n" id="n-abertos"></span></button>
+    <button role="tab" data-aba="breve" aria-selected="false">Encerrando em breve <span class="n" id="n-breve"></span></button>
+    <button role="tab" data-aba="futuros" aria-selected="false">Futuros <span class="n" id="n-futuros"></span></button>
+    <button role="tab" data-aba="cobertura" aria-selected="false">Cobertura</button>
+  </div>
+</div></div>
+
+<main id="conteudo" class="largura" tabindex="-1">
+  <section id="sec-lista">
+    <div class="controles">
+      <div class="busca">
+        <label class="pular" for="q">Buscar por órgão, cidade ou cargo</label>
+        <input id="q" type="search" placeholder="Buscar órgão, cidade ou cargo" autocomplete="off">
+        <button class="botao" id="btn-filtros" aria-expanded="false" aria-controls="filtros">Filtros</button>
+      </div>
+      <div class="filtros" id="filtros">
+        <fieldset><legend>Esfera</legend><div class="opcoes" id="f-esfera"></div></fieldset>
+        <fieldset><legend>Escolaridade</legend><div class="opcoes" id="f-escolaridade"></div></fieldset>
+        <div><label class="rotulo" for="f-regiao">Região</label><select id="f-regiao"></select></div>
+        <div><label class="rotulo" for="f-salario">Salário a partir de</label><select id="f-salario">
+          <option value="0">Qualquer valor</option><option value="3000">R$ 3 mil</option><option value="5000">R$ 5 mil</option>
+          <option value="8000">R$ 8 mil</option><option value="10000">R$ 10 mil</option><option value="15000">R$ 15 mil</option></select></div>
+        <div><label class="rotulo" for="f-ordem">Ordenar por</label><select id="f-ordem">
+          <option value="prazo">Prazo mais próximo</option><option value="salario">Maior salário</option>
+          <option value="novo">Entrou na base por último</option><option value="orgao">Nome do órgão</option></select></div>
+        <fieldset><legend>Mostrar também</legend><div class="opcoes">
+          <label><input type="checkbox" id="f-ps"> Processos seletivos</label>
+          <label><input type="checkbox" id="f-nacional" checked> Nacionais com lotação a confirmar</label>
+          <label id="lb-antigos"><input type="checkbox" id="f-antigos"> Atos com mais de 120 dias</label>
+          <label id="lb-academico"><input type="checkbox" id="f-academico"> Docentes de universidades</label>
+        </div></fieldset>
+        <div><button class="botao" id="btn-limpar">Limpar filtros</button></div>
+      </div>
+      <p class="contagem" id="contagem" aria-live="polite"></p>
+    </div>
+    <ol class="lista" id="lista"></ol>
+    <p class="vazio" id="vazio" hidden></p>
+    <p><button class="botao" id="btn-mais" hidden>Mostrar mais</button></p>
+  </section>
+
+  <section id="sec-cobertura" class="painel" hidden></section>
+</main>
+
+<footer><div class="largura">
+  <p>Esta página junta informações de agregadores, bancas e diários oficiais. Ela não substitui o edital: antes de se inscrever, confira tudo na fonte indicada em cada registro.</p>
+  <p>Campos marcados como “a conferir” não puderam ser extraídos com segurança e foram deixados em branco de propósito.</p>
+  <p>Código e dados abertos em <a href="https://github.com/profcaiodaniel/concursos-sp">github.com/profcaiodaniel/concursos-sp</a>.</p>
+</div></footer>
+
+<script>
+(function(){
+"use strict";
+var MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+var ROTULO={inscricao_inicio:"início das inscrições",inscricao_fim:"fim das inscrições",banca:"banca organizadora",
+  link_primario:"link da fonte primária",vagas:"número de vagas",salario_ate:"salário",escolaridade:"escolaridade",
+  esfera:"esfera",lotacao_sp:"lotação em SP",cargos:"cargos",orgao:"órgão",edital:"edital",situacao:"situação"};
+var FUTURAS=["autorizado","banca em licitação","banca contratada"];
+var base=[],enr={},cob=null,fontes=null,resumo={},aba="abertos",limite=60;
+var el=function(id){return document.getElementById(id)};
+
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function hojeSP(){var d=new Date(Date.now()-3*3600e3);return d.toISOString().slice(0,10)}
+function dias(a,b){return Math.round((Date.parse(a+"T00:00:00Z")-Date.parse(b+"T00:00:00Z"))/864e5)}
+function dataBR(s){if(!s)return"";var p=s.split("-");return p[2]+"/"+p[1]+"/"+p[0]}
+function dinheiro(v){return v==null?"":"R$ "+Number(v).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2})}
+function semAcento(s){return String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase()}
+function urlSegura(u){return /^https?:\/\//i.test(u||"")?u:null}
+
+function aplicarEnriquecimento(r){
+  var e=enr[r.id]; if(!e) return r;
+  var c=e.correcoes||{}; var k;
+  for(k in c){ if(Object.prototype.hasOwnProperty.call(c,k)){ r[k]=c[k]; r.a_conferir=(r.a_conferir||[]).filter(function(x){return x!==k}); } }
+  r._enr=e; return r;
+}
+
+function carregar(){
+  var op={cache:"no-cache"};
+  Promise.all([
+    fetch("dados/concursos.json",op).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}),
+    fetch("dados/enriquecimento.json",op).then(function(r){return r.ok?r.json():{itens:{}}}).catch(function(){return{itens:{}}}),
+    fetch("dados/cobertura.json",op).then(function(r){return r.ok?r.json():null}).catch(function(){return null}),
+    fetch("dados/fontes.json",op).then(function(r){return r.ok?r.json():null}).catch(function(){return null})
+  ]).then(function(v){
+    enr=(v[1]&&v[1].itens)||{}; cob=v[2]; fontes=v[3]; resumo=v[0].resumo||{};
+    base=(v[0].concursos||[]).map(aplicarEnriquecimento);
+    base.forEach(function(r){r._busca=semAcento([r.orgao,r.municipio,r.regiao,r.banca,r.cargos_resumo,(r.cargos||[]).join(" "),r.trecho].join(" "))});
+    montarFiltros(); restaurar(); cabecalho(); desenhar();
+  }).catch(function(e){
+    el("situacao-geral").textContent="Não foi possível carregar a base ("+e.message+"). Tente recarregar a página em alguns minutos.";
+  });
+}
+
+function cabecalho(){
+  var q=resumo.gerado_em?new Date(resumo.gerado_em):null;
+  var quando=q?q.toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"}):"data desconhecida";
+  var falhas=(resumo.fontes_total||0)-(resumo.fontes_ok||0);
+  el("situacao-geral").innerHTML="Atualizado em <strong>"+esc(quando)+"</strong>. "+
+    (falhas>0?"<strong>"+falhas+(falhas===1?" fonte falhou":" fontes falharam")+"</strong> na última coleta; veja a aba Cobertura.":"Todas as fontes responderam na última coleta.");
+}
+
+function montarFiltros(){
+  el("f-esfera").innerHTML=["municipal","estadual","federal","a conferir"].map(function(x){
+    return '<label><input type="checkbox" name="esfera" value="'+x+'" checked> '+x.charAt(0).toUpperCase()+x.slice(1)+'</label>'}).join("");
+  el("f-escolaridade").innerHTML=["fundamental","médio","técnico","superior"].map(function(x){
+    return '<label><input type="checkbox" name="esc" value="'+x+'"> '+x.charAt(0).toUpperCase()+x.slice(1)+'</label>'}).join("");
+  var regs={}; base.forEach(function(r){if(r.regiao)regs[r.regiao]=1});
+  el("f-regiao").innerHTML='<option value="">Todo o estado</option>'+Object.keys(regs).sort().map(function(x){return'<option>'+esc(x)+'</option>'}).join("");
+}
+
+function estado(){
+  return {q:el("q").value,
+    esfera:[].slice.call(document.querySelectorAll("[name=esfera]:checked")).map(function(i){return i.value}),
+    esc:[].slice.call(document.querySelectorAll("[name=esc]:checked")).map(function(i){return i.value}),
+    regiao:el("f-regiao").value,salario:+el("f-salario").value,ordem:el("f-ordem").value,
+    ps:el("f-ps").checked,nacional:el("f-nacional").checked,antigos:el("f-antigos").checked,academico:el("f-academico").checked};
+}
+function guardar(){try{localStorage.setItem("concursos-sp-filtros",JSON.stringify(estado()))}catch(e){}}
+function restaurar(){
+  var s; try{s=JSON.parse(localStorage.getItem("concursos-sp-filtros")||"null")}catch(e){s=null}
+  var h=(location.hash||"").slice(1); if(["abertos","breve","futuros","cobertura"].indexOf(h)>=0) aba=h;
+  if(!s) return;
+  [].forEach.call(document.querySelectorAll("[name=esfera]"),function(i){i.checked=!s.esfera||s.esfera.indexOf(i.value)>=0});
+  [].forEach.call(document.querySelectorAll("[name=esc]"),function(i){i.checked=!!s.esc&&s.esc.indexOf(i.value)>=0});
+  el("f-regiao").value=s.regiao||""; el("f-salario").value=String(s.salario||0); el("f-ordem").value=s.ordem||"prazo";
+  el("f-ps").checked=!!s.ps; el("f-nacional").checked=s.nacional!==false; el("f-antigos").checked=!!s.antigos; el("f-academico").checked=!!s.academico;
+}
+
+function passa(r,s,hj,ignorarAba){
+  var futuro=FUTURAS.indexOf(r.situacao)>=0;
+  if(!ignorarAba){
+    if(aba==="abertos"&&r.situacao!=="aberto")return false;
+    if(aba==="breve"&&!(r.situacao==="aberto"&&r.inscricao_fim&&dias(r.inscricao_fim,hj)<=7))return false;
+    if(aba==="futuros"&&!futuro)return false;
+  }
+  if(s.esfera.indexOf(r.esfera)<0)return false;
+  if(!s.ps&&r.tipo==="processo seletivo")return false;
+  if(s.regiao&&r.regiao!==s.regiao)return false;
+  if(futuro){
+    if(!s.antigos&&r.data_ato&&dias(hj,r.data_ato)>120)return false;
+    if(!s.academico&&r.academico)return false;
+  }else{
+    if(!s.nacional&&r.abrangencia==="nacional")return false;
+    if(s.salario&&!(r.salario_ate>=s.salario))return false;
+    if(s.esc.length&&!s.esc.some(function(x){return(r.escolaridade||[]).indexOf(x)>=0}))return false;
+  }
+  if(s.q){var t=semAcento(s.q).split(/\s+/).filter(Boolean);for(var i=0;i<t.length;i++){if(r._busca.indexOf(t[i])<0)return false}}
+  return true;
+}
+
+function ordenar(l,s){
+  var f;
+  if(aba==="futuros") f=function(a,b){return(b.data_ato||"").localeCompare(a.data_ato||"")};
+  else if(s.ordem==="salario") f=function(a,b){return(b.salario_ate||0)-(a.salario_ate||0)};
+  else if(s.ordem==="novo") f=function(a,b){return(b.primeira_coleta||"").localeCompare(a.primeira_coleta||"")||(a.inscricao_fim||"9").localeCompare(b.inscricao_fim||"9")};
+  else if(s.ordem==="orgao") f=function(a,b){return semAcento(a.orgao).localeCompare(semAcento(b.orgao))};
+  else f=function(a,b){return(a.inscricao_fim||"9999").localeCompare(b.inscricao_fim||"9999")};
+  return l.slice().sort(f);
+}
+
+function blocoPrazo(r,hj){
+  var d,cls,txt;
+  if(FUTURAS.indexOf(r.situacao)>=0){
+    if(!r.data_ato)return{html:'<div class="prazo apagado"><span class="sem">sem data</span></div>',txt:""};
+    d=r.data_ato.split("-"); var ha=dias(hj,r.data_ato);
+    return{html:'<div class="prazo neutro"><span class="dia">'+(+d[2])+'</span><span class="mes">'+MESES[+d[1]-1]+" "+d[0].slice(2)+'</span></div>',
+      txt:"Ato publicado "+(ha<=0?"hoje":ha===1?"ontem":"há "+ha+" dias")};
+  }
+  if(!r.inscricao_fim)return{html:'<div class="prazo apagado"><span class="sem">prazo a conferir</span></div>',txt:"Prazo de inscrição não informado pela fonte"};
+  d=r.inscricao_fim.split("-"); var f=dias(r.inscricao_fim,hj);
+  cls=f<=2?"urgente":f<=7?"perto":"";
+  if(r.inscricao_inicio&&dias(r.inscricao_inicio,hj)>0){var a=dias(r.inscricao_inicio,hj);txt="Inscrições abrem "+(a===1?"amanhã":"em "+a+" dias")+" e vão até "+dataBR(r.inscricao_fim);cls="neutro";}
+  else txt=f<0?"Inscrições encerradas":f===0?"Inscrições encerram hoje":f===1?"Falta 1 dia para o fim das inscrições":"Faltam "+f+" dias para o fim das inscrições";
+  return{html:'<div class="prazo '+cls+'"><span class="dia">'+(+d[2])+'</span><span class="mes">'+MESES[+d[1]-1]+" "+d[0].slice(2)+'</span></div>',txt:txt};
+}
+
+function linhaLocal(r){
+  var p=[];
+  if(r.municipio)p.push(r.municipio);
+  else if(r.abrangencia==="nacional")p.push("Abrangência nacional");
+  else if(r.esfera==="estadual")p.push("Estado de São Paulo");
+  if(r.esfera&&r.esfera!=="a conferir")p.push("esfera "+r.esfera);
+  if(r.tipo&&r.tipo!=="concurso público"&&r.tipo!=="a conferir")p.push(r.tipo);
+  return p.join(", ");
+}
+function linhaNumeros(r){
+  var p=[];
+  if(r.vagas!=null)p.push(r.vagas.toLocaleString("pt-BR")+(r.vagas===1?" vaga":" vagas")+(r.cadastro_reserva?" e cadastro de reserva":""));
+  else if(r.cadastro_reserva)p.push("Cadastro de reserva");
+  if(r.salario_ate!=null)p.push("até "+dinheiro(r.salario_ate)+((r.notas||{}).salario_ate?" por hora":""));
+  var t=p.join(", "); if(r.escolaridade&&r.escolaridade.length)t+=(t?". ":"")+"Nível "+r.escolaridade.join(", ");
+  return t;
+}
+
+function linhaTabela(th,td){return td?"<tr><th scope=\"row\">"+esc(th)+"</th><td>"+td+"</td></tr>":""}
+function periodo(a,b){return a&&b?esc(dataBR(a))+" a "+esc(dataBR(b)):b?"até "+esc(dataBR(b)):a?"a partir de "+esc(dataBR(a)):""}
+
+function ficha(r){
+  var e=r._enr||{},h="",fut=FUTURAS.indexOf(r.situacao)>=0,u;
+  if(e.descricao)h+="<p>"+esc(e.descricao)+"</p>";
+  if(fut){
+    h+="<p>"+esc(r.evidencia||"")+"</p>";
+    if(r.trecho)h+='<p class="trecho">“'+esc(r.trecho)+'”</p>';
+    if((r.notas||{}).alerta)h+='<div class="conferir"><p>'+esc(r.notas.alerta)+"</p></div>";
+  }else{
+    var linhas="";
+    if(e.cronograma&&e.cronograma.length){
+      e.cronograma.forEach(function(c){linhas+=linhaTabela(c.evento,c.fim&&c.inicio&&c.fim!==c.inicio?periodo(c.inicio,c.fim):esc(dataBR(c.inicio||c.fim))+(c.obs?" ("+esc(c.obs)+")":""))});
+    }else{
+      linhas+=linhaTabela("Inscrições",periodo(r.inscricao_inicio,r.inscricao_fim));
+      linhas+=linhaTabela("Pedido de isenção da taxa",periodo(r.isencao_inicio,r.isencao_fim));
+      linhas+=linhaTabela("Prova",r.data_prova?esc(dataBR(r.data_prova))+" (prevista)":"");
+      linhas+=linhaTabela("Resultado final",r.data_resultado?esc(dataBR(r.data_resultado))+" (previsto)":"");
+    }
+    linhas+=linhaTabela("Taxa de inscrição",r.taxa_min!=null?(r.taxa_min===r.taxa_max?dinheiro(r.taxa_min):dinheiro(r.taxa_min)+" a "+dinheiro(r.taxa_max)):"");
+    linhas+=linhaTabela("Banca",r.banca?esc(r.banca):(r.site_inscricao?esc(r.site_inscricao):""));
+    if(linhas)h+="<h4>Cronograma e inscrição</h4><table>"+linhas+"</table>";
+    if(r.ato_anterior)h+="<p>Antes do edital: "+esc(r.ato_anterior.descricao)+" Publicado em "+esc(dataBR(r.ato_anterior.data))+
+      ((u=urlSegura(r.ato_anterior.url))?' (<a href="'+esc(u)+'" rel="noopener">ver no PNCP</a>)':"")+".</p>";
+    var p=e.pcd;
+    if(p){h+='<div class="pcd"><h4 style="margin-top:0">Pessoas com deficiência</h4><table>'+
+      linhaTabela("Reserva de vagas",esc(p.percentual||"")+(p.vagas_reservadas!=null?" ("+esc(p.vagas_reservadas)+" vagas)":""))+
+      linhaTabela("Laudo exigido",esc(p.laudo||""))+linhaTabela("Prazo de envio",esc(p.prazo_envio||""))+
+      linhaTabela("Forma de envio",esc(p.forma_envio||""))+"</table>"+(p.observacoes?"<p>"+esc(p.observacoes)+"</p>":"")+
+      "<p>Conferido no edital em "+esc(dataBR(e.conferido_em))+".</p></div>";}
+    else h+='<div class="pcd"><p><strong>Pessoas com deficiência:</strong> as regras de reserva de vagas e de envio do laudo deste edital ainda não foram conferidas. Consulte o edital.</p></div>';
+    if(r.cargos&&r.cargos.length){h+="<h4>Cargos ("+r.cargos.length+")</h4><ul class=\"cargos\">"+r.cargos.map(function(c){return"<li>"+esc(c)+"</li>"}).join("")+"</ul>";}
+    else if(r.cargos_resumo&&!/v[aá]rios/i.test(r.cargos_resumo))h+="<p>Cargos: "+esc(r.cargos_resumo)+"</p>";
+  }
+  var ac=(r.a_conferir||[]);
+  if(ac.length&&!fut){
+    h+='<div class="conferir"><p><strong>A conferir na fonte:</strong> '+esc(ac.map(function(c){return ROTULO[c]||c}).join(", "))+".</p>";
+    var n=r.notas||{};Object.keys(n).forEach(function(k){if(k!=="alerta"&&k!=="salario_ate")h+="<p>"+esc(n[k])+"</p>"});
+    h+="</div>";
+  }
+  u=urlSegura(e.link_edital)||urlSegura(r.link_primario);
+  if(u)h+='<p><a class="acao" href="'+esc(u)+'" rel="noopener">'+(e.link_edital?"Abrir o edital":fut?"Abrir o ato oficial":"Abrir o site da inscrição")+"</a></p>";
+  h+="<h4>Fontes</h4><ul>"+(r.fontes||[]).map(function(f){var x=urlSegura(f.url);
+    return"<li>"+(x?'<a href="'+esc(x)+'" rel="noopener">'+esc(f.nome)+"</a>":esc(f.nome))+" ("+esc(f.tipo||"")+"), coletado em "+esc(dataBR((f.coletado_em||"").slice(0,10)))+"</li>"}).join("")+"</ul>";
+  return h;
+}
+
+function item(r,hj){
+  var b=blocoPrazo(r,hj),fut=FUTURAS.indexOf(r.situacao)>=0,ac=(r.a_conferir||[]).length;
+  var h='<li><details class="item" data-id="'+esc(r.id)+'"><summary>'+b.html+'<div class="resumo">';
+  if(b.txt)h+='<span class="quando">'+esc(b.txt)+"</span>";
+  h+="<h3>"+esc(r.orgao)+"</h3>";
+  var loc=linhaLocal(r); if(loc)h+="<p>"+esc(loc)+"</p>";
+  if(fut)h+='<p><span class="fase">'+esc(r.situacao.charAt(0).toUpperCase()+r.situacao.slice(1))+"</span>"+(r.tipo&&r.tipo!=="concurso público"?", "+esc(r.tipo):"")+"</p>";
+  else{var n=linhaNumeros(r); if(n)h+='<p class="numeros">'+esc(n)+"</p>";}
+  if(!fut&&ac)h+='<span class="aviso">'+ac+(ac===1?" campo a conferir":" campos a conferir")+"</span>";
+  if(fut&&(r.notas||{}).alerta)h+='<span class="aviso">sem edital localizado</span>';
+  h+='</div></summary><div class="ficha"></div></details></li>';
+  return h;
+}
+
+function desenhar(){
+  var hj=hojeSP(),s=estado();
+  [].forEach.call(document.querySelectorAll(".abas button"),function(b){b.setAttribute("aria-selected",b.dataset.aba===aba?"true":"false")});
+  var abaAtual=aba,cont={};
+  ["abertos","breve","futuros"].forEach(function(a){aba=a;cont[a]=base.filter(function(r){return passa(r,s,hj)}).length});
+  aba=abaAtual;
+  el("n-abertos").textContent=cont.abertos; el("n-breve").textContent=cont.breve; el("n-futuros").textContent=cont.futuros;
+  var lista=aba!=="cobertura";
+  el("sec-lista").hidden=!lista; el("sec-cobertura").hidden=lista;
+  el("lb-antigos").hidden=el("lb-academico").hidden=aba!=="futuros";
+  if(!lista){desenharCobertura();return}
+  var l=ordenar(base.filter(function(r){return passa(r,s,hj)}),s);
+  var total=base.filter(function(r){return aba==="futuros"?FUTURAS.indexOf(r.situacao)>=0:aba==="breve"?(r.situacao==="aberto"&&r.inscricao_fim&&dias(r.inscricao_fim,hj)<=7):r.situacao==="aberto"}).length;
+  var nome={abertos:"com inscrições abertas ou marcadas",breve:"encerrando nos próximos 7 dias",futuros:"em preparação, sem edital publicado"}[aba];
+  el("contagem").textContent=l.length+(l.length===1?" registro ":" registros ")+nome+(l.length<total?". Os filtros ocultam "+(total-l.length)+".":".");
+  el("lista").innerHTML=l.slice(0,limite).map(function(r){return item(r,hj)}).join("");
+  el("btn-mais").hidden=l.length<=limite;
+  el("btn-mais").textContent="Mostrar mais "+Math.min(60,l.length-limite)+" de "+(l.length-limite)+" restantes";
+  el("vazio").hidden=l.length>0;
+  if(!l.length)el("vazio").textContent=total?"Nenhum registro passa pelos filtros atuais. Use “Limpar filtros” para ver todos os "+total+".":
+    aba==="breve"?"Nenhuma inscrição encerra nos próximos 7 dias.":"Nenhum registro nesta seção na última coleta.";
+}
+
+function desenharCobertura(){
+  var c=el("sec-cobertura"); if(c.dataset.pronto)return;
+  var h="",r=(cob&&cob.resumo)||{},t=resumo.municipios_total||645;
+  var obrig=r["PNCP (obrigatório)"]||0,viu=r["PNCP (já publicou)"]||0,qd=r["Querido Diário"]||0,sem=r["sem cobertura"]||0;
+  h+="<h2>O que esta página enxerga</h2>";
+  h+="<p>Concursos com edital aberto são descobertos em agregadores e bancas, que cobrem o estado inteiro. A fase anterior ao edital depende de cada município publicar seus atos em fontes que um programa consegue ler.</p>";
+  h+='<div class="quadro"><div><b>'+(resumo.abertos||0)+"</b>abertos na base</div><div><b>"+(resumo.municipios_com_aberto||0)+"</b>municípios com concurso aberto</div><div><b>"+
+    ((resumo.autorizados||0)+(resumo.banca_em_licitacao||0)+(resumo.banca_contratada||0))+"</b>em preparação</div><div><b>"+(resumo.encerrados||0)+"</b>encerrados recentes</div></div>";
+  h+="<h2>Cobertura da fase anterior ao edital, por município</h2>";
+  h+='<div class="quadro"><div><b>'+obrig+"</b>acima de 20 mil habitantes, obrigados a publicar no PNCP</div><div><b>"+viu+"</b>até 20 mil habitantes que já publicaram no PNCP</div><div><b>"+qd+
+    "</b>cobertos só pelo Querido Diário</div><div><b>"+sem+"</b>sem cobertura antes do edital</div></div>";
+  h+="<p>Dos "+t+" municípios paulistas, "+(resumo.municipios_ate_20mil||0)+" têm até 20 mil habitantes (estimativa do IBGE). A Lei 14.133/2021 dá a eles prazo até abril de 2027 para adotar o PNCP. Nos "+sem+
+    " sem cobertura, a página só vê o concurso quando o edital sai."+(resumo.querido_diario_ok===false?" O Querido Diário não respondeu na última coleta, por isso seus municípios não contam aqui.":"")+"</p>";
+  if(fontes){
+    h+="<h2>Fontes na última coleta</h2><div class=\"tabela-rolagem\"><table class=\"dados\"><thead><tr><th>Fonte</th><th>Situação</th><th>Registros</th><th>Observação</th></tr></thead><tbody>";
+    (fontes.fontes||[]).forEach(function(f){var u=urlSegura(f.url);
+      h+="<tr><td>"+(u?'<a href="'+esc(u)+'" rel="noopener">'+esc(f.nome)+"</a>":esc(f.nome))+"<br><small>"+esc(f.papel||"")+"</small></td><td>"+
+        (f.ok?'<span class="ok">respondeu</span>':'<span class="falha">falhou</span>')+"</td><td>"+esc(f.itens)+"</td><td>"+esc(f.ok?(f.obs||""):(f.erro||""))+"</td></tr>"});
+    h+="</tbody></table></div>";
+    var ts=fontes.testadas_sem_uso||[];
+    if(ts.length){h+="<h2>Fontes testadas que não puderam ser usadas</h2><div class=\"tabela-rolagem\"><table class=\"dados\"><thead><tr><th>Fonte</th><th>Resultado do teste</th></tr></thead><tbody>"+
+      ts.map(function(f){return"<tr><td>"+esc(f.nome)+" ("+esc(f.tipo)+")</td><td>"+esc(f.resultado)+"</td></tr>"}).join("")+"</tbody></table></div>";}
+  }
+  if(cob){
+    h+='<h2>Município por município</h2><div class="busca" style="margin:.5rem 0"><label class="pular" for="cq">Buscar município</label><input id="cq" type="search" placeholder="Buscar município">'+
+      '<label class="pular" for="cs">Situação</label><select id="cs" style="max-width:15rem"><option value="sem cobertura">Sem cobertura</option><option value="">Todos</option><option>PNCP (obrigatório)</option><option>PNCP (já publicou)</option><option>Querido Diário</option></select></div>'+
+      '<p class="contagem" id="cn" aria-live="polite"></p><div class="tabela-rolagem"><table class="dados"><thead><tr><th>Município</th><th>População</th><th>Antes do edital</th><th>Abertos</th><th>Em preparação</th></tr></thead><tbody id="ctb"></tbody></table></div>';
+  }
+  c.innerHTML=h; c.dataset.pronto="1";
+  if(cob){var f=function(){
+      var q=semAcento(el("cq").value),s=el("cs").value;
+      var l=cob.municipios.filter(function(m){return(!s||m.pre_edital===s)&&(!q||semAcento(m.nome).indexOf(q)>=0)});
+      el("cn").textContent=l.length+(l.length===1?" município":" municípios");
+      el("ctb").innerHTML=l.map(function(m){return"<tr><td>"+esc(m.nome)+"</td><td>"+m.populacao.toLocaleString("pt-BR")+"</td><td>"+esc(m.pre_edital)+"</td><td>"+m.abertos+"</td><td>"+m.futuros+"</td></tr>"}).join("");
+    };
+    el("cq").addEventListener("input",f); el("cs").addEventListener("change",f); f();}
+}
+
+document.querySelector(".abas").addEventListener("click",function(e){
+  var b=e.target.closest("button"); if(!b)return;
+  aba=b.dataset.aba; limite=60; try{history.replaceState(null,"","#"+aba)}catch(x){}
+  desenhar(); window.scrollTo({top:0});
+});
+el("btn-filtros").addEventListener("click",function(){
+  var a=el("filtros").classList.toggle("aberto"); this.setAttribute("aria-expanded",a?"true":"false");
+});
+el("btn-limpar").addEventListener("click",function(){
+  el("q").value=""; try{localStorage.removeItem("concursos-sp-filtros")}catch(e){}
+  montarFiltros(); el("f-salario").value="0"; el("f-ordem").value="prazo";
+  el("f-ps").checked=false; el("f-nacional").checked=true; el("f-antigos").checked=false; el("f-academico").checked=false;
+  limite=60; desenhar();
+});
+el("btn-mais").addEventListener("click",function(){limite+=60;desenhar()});
+el("filtros").addEventListener("change",function(){limite=60;guardar();desenhar()});
+var espera; el("q").addEventListener("input",function(){clearTimeout(espera);espera=setTimeout(function(){limite=60;desenhar()},180)});
+el("lista").addEventListener("toggle",function(e){
+  var d=e.target; if(!d.open||!d.classList||!d.classList.contains("item"))return;
+  var f=d.querySelector(".ficha"); if(f.dataset.pronto)return;
+  var r=base.filter(function(x){return x.id===d.dataset.id})[0]; if(r){f.innerHTML=ficha(r);f.dataset.pronto="1"}
+},true);
+carregar();
+})();
+</script>
+</body>
+</html>
