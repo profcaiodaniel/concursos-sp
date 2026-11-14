@@ -146,7 +146,7 @@ footer p{max-width:38rem;margin:.4rem 0}
         <fieldset><legend>Mostrar também</legend><div class="opcoes">
           <label><input type="checkbox" id="f-ps"> Processos seletivos</label>
           <label><input type="checkbox" id="f-nacional" checked> Nacionais com lotação a confirmar</label>
-          <label id="lb-antigos"><input type="checkbox" id="f-antigos"> Atos com mais de 120 dias</label>
+          <label id="lb-antigos"><input type="checkbox" id="f-antigos"> Bancas contratadas há mais de 120 dias</label>
           <label id="lb-academico"><input type="checkbox" id="f-academico"> Docentes de universidades</label>
         </div></fieldset>
         <div><button class="botao" id="btn-limpar">Limpar filtros</button></div>
@@ -256,7 +256,7 @@ function passa(r,s,hj,ignorarAba){
   if(!s.ps&&r.tipo==="processo seletivo")return false;
   if(s.regiao&&r.regiao!==s.regiao)return false;
   if(futuro){
-    if(!s.antigos&&r.data_ato&&dias(hj,r.data_ato)>120)return false;
+    if(!s.antigos&&r.id.charAt(0)==="p"&&r.data_ato&&dias(hj,r.data_ato)>120)return false;
     if(!s.academico&&r.academico)return false;
   }else{
     if(!s.nacional&&r.abrangencia==="nacional")return false;
@@ -437,7 +437,7 @@ function desenharCobertura(){
 document.querySelector(".abas").addEventListener("click",function(e){
   var b=e.target.closest("button"); if(!b)return;
   aba=b.dataset.aba; limite=60; try{history.replaceState(null,"","#"+aba)}catch(x){}
-  desenhar(); window.scrollTo({top:0});
+  desenhar(); window.scrollTo({top:0}); try{b.scrollIntoView({inline:"center",block:"nearest"})}catch(x){}
 });
 el("btn-filtros").addEventListener("click",function(){
   var a=el("filtros").classList.toggle("aberto"); this.setAttribute("aria-expanded",a?"true":"false");
