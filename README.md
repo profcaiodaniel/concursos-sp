@@ -81,3 +81,9 @@ Para rodar localmente: `pip install requests && python -m coletor.main`.
 ```
 
 O que estiver em `correcoes` substitui o campo correspondente do registro na página e o tira da lista "a conferir".
+
+## Revisão semanal: registro de divergências
+
+Ao conferir um registro no edital, a revisão semanal grava também, na entrada do registro em `dados/enriquecimento.json`, o campo `conferencia`: `{"campos_conferidos": ["inscricao_fim", "vagas", ...], "divergencias": [{"campo": "...", "base": "...", "edital": "..."}]}`. Entram em `campos_conferidos` só os campos que a base já trazia preenchidos e que foram comparados com o edital. Campo que a base trazia vazio e marcado "a conferir" não é divergência.
+
+O e-mail semanal informa a taxa de acerto acumulada: campos conferidos sem divergência dividido pelo total de campos conferidos, somando todas as entradas de `enriquecimento.json`, e lista as divergências da semana.
