@@ -1,4 +1,619 @@
 {
- "atualizado_em": null,
- "itens": {}
+  "atualizado_em": "2026-11-15",
+  "itens": {
+    "a_7e32cfc03846": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://apisite.jandira.sp.gov.br/uploads/jandira-site-assets/concursos/concurso/Publicacao/anexo-37a5b2e9-6ec8-42b3-a91d-5e9f2bf1ef31.pdf",
+      "descricao": "Conjunto de três concursos da Prefeitura de Jandira (SP), organizado pela Fundação Vunesp: edital 2/2026 (Procuradoria Geral do Município, 10 vagas), edital 3/2026 (Secretaria da Saúde, 344 vagas) e edital 4/2026 (Secretaria da Educação, 718 vagas), com cargos de nível fundamental, médio, técnico e superior. O edital lido na íntegra foi o 4/2026 (Educação), com cargos como Merendeira, Monitor de Educação Básica, Atendente de Desenvolvimento Educacional, Professor de Educação Básica PEB I e Professor Substituto; as provas são em Jandira/SP.",
+      "cronograma": [
+        {
+          "evento": "Inscrições (edital 4/2026 - Educação)",
+          "inicio": "2026-11-16",
+          "fim": "2027-01-04"
+        },
+        {
+          "evento": "Vencimento do boleto da taxa",
+          "inicio": "2027-01-05"
+        },
+        {
+          "evento": "Pedido de isenção da taxa (doação de sangue)",
+          "inicio": "2026-11-16",
+          "fim": "2026-11-17"
+        },
+        {
+          "evento": "Resultado dos pedidos de isenção/redução",
+          "inicio": "2026-12-09"
+        },
+        {
+          "evento": "Recurso sobre isenção/redução",
+          "inicio": "2026-12-10",
+          "fim": "2026-12-11"
+        },
+        {
+          "evento": "Resultado dos recursos da isenção",
+          "inicio": "2026-12-18"
+        },
+        {
+          "evento": "Envio de documentos PcD, condições especiais, jurado e nome social",
+          "inicio": "2026-11-16",
+          "fim": "2027-01-04"
+        },
+        {
+          "evento": "Resultado PcD, condições especiais e jurado",
+          "inicio": "2027-01-12"
+        },
+        {
+          "evento": "Recurso sobre PcD, condições especiais e jurado",
+          "inicio": "2027-01-13",
+          "fim": "2027-01-14"
+        },
+        {
+          "evento": "Análise dos recursos PcD",
+          "inicio": "2027-01-22"
+        },
+        {
+          "evento": "Envio de títulos (professores)",
+          "inicio": "2026-11-16",
+          "fim": "2027-01-04"
+        },
+        {
+          "evento": "Prova objetiva - Ensino Fundamental e Superior (tarde)",
+          "inicio": "2027-02-21"
+        },
+        {
+          "evento": "Gabarito - Fundamental e Superior",
+          "inicio": "2027-02-24"
+        },
+        {
+          "evento": "Recurso sobre o gabarito - Fundamental e Superior",
+          "inicio": "2027-02-25",
+          "fim": "2027-02-26"
+        },
+        {
+          "evento": "Prova objetiva - Ensino Médio (tarde)",
+          "inicio": "2027-02-28"
+        },
+        {
+          "evento": "Gabarito - Ensino Médio",
+          "inicio": "2027-03-03"
+        },
+        {
+          "evento": "Recurso sobre o gabarito - Ensino Médio",
+          "inicio": "2027-03-04",
+          "fim": "2027-03-05"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas (edital 4/2026); fração igual ou superior a 0,5 arredondada para cima; com 5 a 10 vagas, uma é reservada a PcD",
+        "laudo": "Laudo médico com referência ao CID, espécie e grau ou nível da deficiência, nome do candidato e nome, assinatura e carimbo do CRM do médico. Validade: 2 anos para deficiência permanente ou de longa duração; 1 ano nas demais situações; laudos de TEA dispensados do prazo.",
+        "prazo_envio": "De 2026-11-16 a 2027-01-04 (durante as inscrições)",
+        "forma_envio": "Área do Candidato > Envio de Documentos > Requerimento para Inscrição como Deficiente, por upload (PDF, PNG, JPG ou JPEG, até 2 MB por documento)",
+        "observacoes": "Perícia médica pela Vunesp em Jandira/SP após a aprovação. Informações referentes ao edital 4/2026 (Educação); os editais 2 e 3 não foram lidos."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "inscricao_inicio",
+          "inscricao_fim",
+          "vagas",
+          "banca",
+          "data_prova",
+          "isencao_inicio",
+          "isencao_fim",
+          "taxa_min",
+          "taxa_max"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_dcb42eb76b33": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-concurso-publico-crp-05.pdf",
+      "descricao": "Concurso público do Conselho Regional de Psicologia da 5ª Região (CRP/05), organizado pela FGV, com 37 vagas imediatas mais cadastro de reserva, para cargos de nível médio e superior (Técnico Administrativo, Contador, Técnico de TI, Jornalista, Psicóloga(o) e Agente Administrativo). Todas as vagas são no estado do Rio de Janeiro: na sede (município do Rio de Janeiro) e em cinco subsedes regionais (Norte e Noroeste Fluminense, Serrana, Sul Fluminense, Baixada Fluminense e Leste Fluminense). As provas serão no Rio de Janeiro, Petrópolis, Campos dos Goytacazes e Volta Redonda; a cidade da prova não define a lotação.",
+      "cronograma": [
+        {
+          "evento": "Pedido de isenção da taxa (CadÚnico e doadores de medula)",
+          "inicio": "2026-11-16",
+          "fim": "2026-11-18"
+        },
+        {
+          "evento": "Inscrições (somente internet; laudo PcD, documentos de cotas, títulos e pedido de atendimento especial enviados no mesmo período)",
+          "inicio": "2026-11-16",
+          "fim": "2026-12-17"
+        },
+        {
+          "evento": "Resultado definitivo da isenção (cronograma previsto)",
+          "inicio": "2026-12-17"
+        },
+        {
+          "evento": "Último dia para pagamento da taxa (boleto)",
+          "inicio": "2026-12-18"
+        },
+        {
+          "evento": "Provas Objetiva e Discursiva (13h às 17h, horário de Brasília)",
+          "inicio": "2027-02-28"
+        },
+        {
+          "evento": "Gabarito preliminar da Prova Objetiva (cronograma previsto)",
+          "inicio": "2027-03-01"
+        },
+        {
+          "evento": "Gabarito definitivo da Prova Objetiva (cronograma previsto)",
+          "inicio": "2027-04-06"
+        },
+        {
+          "evento": "Resultado final (cronograma previsto)",
+          "inicio": "2027-08-13"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas providas durante a validade do concurso, arredondando fração para cima",
+        "vagas_reservadas": 2,
+        "laudo": "Deve informar categoria da deficiência e CID, causa da deficiência e indicação de órteses/próteses/adaptações, se houver; audiometria recente (até 6 meses) para deficiência auditiva; exame de acuidade, patologia e campo visual para deficiência visual. Emitido nos 12 meses anteriores à publicação do edital (sem prazo de validade para deficiência permanente declarada no laudo e para TEA).",
+        "prazo_envio": "Durante o período de inscrições, até 17/12/2026 (16h)",
+        "forma_envio": "Pelo sistema de inscrição, em PDF, JPEG ou JPG, até 5 MB",
+        "observacoes": "Enviar o laudo não garante a vaga: há avaliação biopsicossocial presencial após a prova discursiva (Rio de Janeiro, Petrópolis, Campos dos Goytacazes ou Volta Redonda); reprovados ou ausentes perdem a vaga reservada. Correção de autodeclaração equivocada por e-mail até 17/12/2026."
+      },
+      "correcoes": {
+        "link_primario": "https://conhecimento.fgv.br/crp05"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "inscricao_inicio",
+          "inscricao_fim",
+          "vagas",
+          "salario_ate",
+          "banca",
+          "data_prova",
+          "taxa_min",
+          "taxa_max",
+          "link_primario"
+        ],
+        "divergencias": [
+          {
+            "campo": "link_primario",
+            "base": "https://conhecimento.fgv.br/concursos",
+            "edital": "https://conhecimento.fgv.br/crp05 (página específica do certame na FGV; a base traz a página geral de concursos)"
+          }
+        ]
+      }
+    },
+    "a_f224737130b2": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_sp_aguas_versao-final-revisao-comissao-versao-aprovada_aasncskaj_0.pdf",
+      "descricao": "Primeiro concurso público da SP-Águas (Agência de Águas do Estado de São Paulo), organizado pela FGV, com 190 vagas para empregos públicos de nível superior (qualquer área de graduação), regidos pela CLT: 170 de Especialista em Regulação e Fiscalização de Recursos Hídricos I e 20 de Analista de Suporte à Regulação de Recursos Hídricos I, com cadastro de reserva. A lotação é na sede, no município de São Paulo, ou em unidade regional em funcionamento na admissão, a critério da SP-Águas. Provas em 31/01/2027 (objetiva de manhã, discursiva à tarde) e avaliação de títulos.",
+      "cronograma": [
+        {
+          "evento": "Pedido de isenção ou redução da taxa",
+          "inicio": "2026-11-17",
+          "fim": "2026-11-19"
+        },
+        {
+          "evento": "Inscrições (laudo PcD enviado junto, no mesmo período)",
+          "inicio": "2026-11-17",
+          "fim": "2026-12-17"
+        },
+        {
+          "evento": "Resultado definitivo da isenção (cronograma previsto)",
+          "inicio": "2026-12-17"
+        },
+        {
+          "evento": "Último dia para pagamento da taxa",
+          "inicio": "2026-12-18"
+        },
+        {
+          "evento": "Provas Objetiva (8h às 12h) e Discursiva (15h às 19h)",
+          "inicio": "2027-01-31"
+        },
+        {
+          "evento": "Gabarito preliminar da Prova Objetiva (cronograma previsto)",
+          "inicio": "2027-02-01"
+        },
+        {
+          "evento": "Gabarito definitivo e resultado preliminar da Prova Objetiva (cronograma previsto)",
+          "inicio": "2027-03-03"
+        },
+        {
+          "evento": "Resultado final (cronograma previsto)",
+          "inicio": "2027-07-16"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas de cada emprego",
+        "vagas_reservadas": 11,
+        "laudo": "Deve conter tipo e grau da deficiência, referência ao CID-10, causa provável e, quando houver, órteses, próteses ou adaptações. Validade: 2 anos retroativos ao início das inscrições, se a deficiência for permanente ou de longo prazo; 1 ano nos demais casos.",
+        "prazo_envio": "Junto com a inscrição, de 17/11/2026 (16h) a 17/12/2026 (18h)",
+        "forma_envio": "Pelo mesmo link da inscrição, em PDF, JPEG ou JPG, até 5 MB",
+        "observacoes": "Das 11 vagas PcD, 9 são de Especialista e 2 de Analista. Avaliação pericial pela Diretoria de Perícias Médicas do Estado (DPME) após a publicação das listas de classificação."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "inscricao_inicio",
+          "inscricao_fim",
+          "vagas",
+          "salario_ate",
+          "banca",
+          "data_prova",
+          "taxa_min",
+          "taxa_max"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_c23619338f11": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://jundiai.sp.gov.br/noticias/wp-content/uploads/sites/32/2026/10/ce6a8179-6e72-4ba4-82ac-43928d88067e_edicao-5896-29-10-2026.pdf",
+      "descricao": "Concurso público do IPREJUN (Instituto de Previdência do Município de Jundiaí), organizado pela Vunesp, com 1 vaga de Assistente de Administração (nível médio) e 3 vagas de Analista de Planejamento, Gestão e Orçamento (nível superior: Ciências Contábeis, Direito e Informática), uma para cada área. Jornada de 40 horas semanais; benefícios de auxílio-alimentação R$ 1.300,00 e auxílio-transporte R$ 492,00. Prova objetiva prevista para 21/02/2027, pela manhã.",
+      "cronograma": [
+        {
+          "evento": "Inscrições (somente internet, www.vunesp.com.br; início às 10h, fim às 23h59; envio de laudo PcD no mesmo período)",
+          "inicio": "2026-11-16",
+          "fim": "2026-12-15"
+        },
+        {
+          "evento": "Último dia para pagamento do boleto",
+          "inicio": "2026-12-16"
+        },
+        {
+          "evento": "Autodeclaração de pretos e pardos: publicação preliminar",
+          "inicio": "2027-01-13"
+        },
+        {
+          "evento": "Autodeclaração de pretos e pardos: recursos",
+          "inicio": "2027-01-14",
+          "fim": "2027-01-15"
+        },
+        {
+          "evento": "Autodeclaração de pretos e pardos: resultado dos recursos",
+          "inicio": "2027-01-22"
+        },
+        {
+          "evento": "Prova objetiva (período da manhã, 3 horas de duração)",
+          "inicio": "2027-02-21"
+        }
+      ],
+      "pcd": {
+        "percentual": "10% das vagas oferecidas e das que surgirem no prazo de validade, arredondando para cima, com limite de 20%",
+        "laudo": "Relatório médico com tipo, grau ou nível da deficiência, código CID e causa; pedido de tempo adicional exige parecer de especialista. Validade do laudo não consta no trecho lido.",
+        "prazo_envio": "Até o último dia de inscrições (15/12/2026)",
+        "forma_envio": "Upload na Área do Candidato, durante a inscrição",
+        "observacoes": "A tabela de vagas do edital não mostra vagas PcD reservadas (todas 1 vaga em ampla concorrência); se não houver inscritos/aprovados PcD, faz-se só a lista geral. Perícia por junta médica antes da contratação."
+      },
+      "correcoes": {
+        "link_primario": "https://jundiai.sp.gov.br/noticias/2026/10/29/iprejun-abre-concurso-publico-para-cargos-de-niveis-medio-e-superior-inscricoes-comecam-em-16-de-novembro/"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "inscricao_inicio",
+          "inscricao_fim",
+          "vagas",
+          "salario_ate",
+          "banca",
+          "data_prova",
+          "taxa_min",
+          "taxa_max",
+          "link_primario"
+        ],
+        "divergencias": [
+          {
+            "campo": "link_primario",
+            "base": "https://www.vunesp.com.br",
+            "edital": "base traz apenas a home da banca; página oficial do certame é a da Prefeitura de Jundiaí (link ao lado), com o edital publicado na Imprensa Oficial, edição 5896, de 29/10/2026 (pp. 9 a 21); edital identificado no texto como 'Edital nº 015' (a notícia oficial o chama de Concurso Público nº 01/2026)"
+          }
+        ]
+      }
+    },
+    "a_22cc48c3014d": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=115772",
+      "descricao": "O Tribunal de Justiça de São Paulo abriu dois concursos, organizados pela Fundação Vunesp: Oficial de Justiça (nível superior; Comarca da Capital e circunscrições da 1ª à 10ª RAJ) e Escrevente Técnico Judiciário (nível médio; circunscrições da 2ª à 10ª RAJ). Os concursos também formam cadastro de reserva, e as vagas por comarca estão nos editais. A prova de ambos é em 14/03/2027, com 70 questões objetivas e uma prova escrita (duas questões dissertativas para Oficial de Justiça e uma redação para Escrevente).",
+      "cronograma": [
+        {
+          "evento": "Inscrições (somente pelo site da Vunesp)",
+          "inicio": "2026-10-28",
+          "fim": "2026-12-10"
+        },
+        {
+          "evento": "Prova objetiva e prova escrita (Oficial de Justiça e Escrevente)",
+          "inicio": "2027-03-14"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas para pessoas com deficiência",
+        "observacoes": "Segundo a página oficial do TJSP, os editais também reservam 25% para negros, 3% para indígenas e 2% para quilombolas. Regras de laudo, prazo e forma de envio estão nos editais (DEJESP), que não pude abrir; a página da Vunesp tem link 'Envio de Documentos' na Área do Candidato."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "inscricao_inicio",
+          "inscricao_fim",
+          "salario_ate",
+          "banca",
+          "data_prova"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_5756dd9cc457": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://www.fsa.br/wp-content/uploads/2026/11/EDITAL-014_2026-ANALISTA-ADM-ACADEMICO.pdf",
+      "descricao": "Concurso da Fundação Santo André (Santo André/SP) para Analista Administrativo-Acadêmico, com 1 vaga imediata e cadastro de reserva, exigindo ensino superior completo. A contratação é pela CLT, com jornada de 40 horas semanais e benefícios como auxílio-saúde, vale-alimentação, vale-refeição e vale-transporte. A seleção tem prova objetiva (30 questões) e prova prática em Word e Excel, ambas eliminatórias e classificatórias, aplicadas na sede da FSA.",
+      "cronograma": [
+        {
+          "evento": "Inscrições (somente pelo sistema online da FSA)",
+          "inicio": "2026-11-04",
+          "fim": "2026-12-09"
+        },
+        {
+          "evento": "Pedido de isenção da taxa (prazo final: último dia de inscrição, por e-mail concursos@fsa.br)",
+          "inicio": "2026-12-09"
+        },
+        {
+          "evento": "Envio do laudo médico PcD (pelo sistema de inscrição, durante o período de inscrições)",
+          "inicio": "2026-11-04",
+          "fim": "2026-12-09"
+        },
+        {
+          "evento": "Convocação para a prova objetiva",
+          "inicio": "2027-01-12"
+        },
+        {
+          "evento": "Prova objetiva (09h) e publicação da prova e do gabarito",
+          "inicio": "2027-01-27"
+        },
+        {
+          "evento": "Classificação preliminar da prova objetiva",
+          "inicio": "2027-01-29"
+        },
+        {
+          "evento": "Prova prática (09h)",
+          "inicio": "2027-02-04"
+        },
+        {
+          "evento": "Resultado final",
+          "inicio": "2027-02-15"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% do total das vagas",
+        "laudo": "Laudo médico original emitido nos últimos 12 meses, com CID-10 e provável causa da deficiência, junto com cópia do RG; o tipo de deficiência deve ser informado no ato da inscrição.",
+        "prazo_envio": "Durante o período de inscrições (04/11/2026 a 09/12/2026).",
+        "forma_envio": "Pelo sistema de inscrição online.",
+        "observacoes": "O enquadramento e o grau da deficiência são definidos nos exames médicos admissionais. Atendimento especializado na prova: solicitar por e-mail a concursos@fsa.br durante as inscrições. O edital trata separadamente candidatos com Diabetes Mellitus Tipo 1 (pedido por e-mail com laudo, no período de inscrições). A tabela de vagas indica 1 vaga e cadastro de reserva para PcD, mas a nota afirma que não há reserva para provimento imediato."
+      },
+      "correcoes": {
+        "banca": "Fundação Santo André (Comissão de Concurso da FSA; sem banca externa)",
+        "link_primario": "https://www.fsa.br/concursos/"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "inscricao_inicio",
+          "inscricao_fim",
+          "vagas",
+          "salario_ate",
+          "data_prova",
+          "taxa_min",
+          "taxa_max",
+          "isencao_fim"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_e5c1727f2609": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades",
+      "descricao": "Concurso da Câmara dos Deputados, organizado pelo Cebraspe, para Analista Legislativo (nível superior) em 11 opções: Comunicação Social, Documentação e Informação Legislativa, Engenharia, Museologia e Registro e Redação. Todas as vagas são lotadas em Brasília/DF, mas as provas são aplicadas nas capitais dos 26 estados e no DF (inclui São Paulo, capital); não há lotação em SP. O edital tem 66 vagas imediatas e 118 de cadastro de reserva, e foi retificado pelos Editais nº 5 (15/10/2026) e nº 6 (21/10/2026).",
+      "cronograma": [
+        {
+          "evento": "Pedido de isenção da taxa de inscrição",
+          "inicio": "2026-10-15",
+          "fim": "2026-10-23"
+        },
+        {
+          "evento": "Inscrições",
+          "inicio": "2026-10-15",
+          "fim": "2026-11-17"
+        },
+        {
+          "evento": "Verificação da foto e novo envio, se necessário",
+          "inicio": "2026-11-18",
+          "fim": "2026-11-19"
+        },
+        {
+          "evento": "Data final para pagamento da taxa",
+          "inicio": "2026-11-19"
+        },
+        {
+          "evento": "Resultado final dos pedidos de isenção",
+          "inicio": "2026-11-12"
+        },
+        {
+          "evento": "Disponibilização dos locais de prova",
+          "inicio": "2026-12-22"
+        },
+        {
+          "evento": "Provas objetivas e discursiva",
+          "inicio": "2027-01-17"
+        },
+        {
+          "evento": "Consulta aos gabaritos preliminares",
+          "inicio": "2027-01-19",
+          "fim": "2027-01-21"
+        },
+        {
+          "evento": "Divulgação dos gabaritos oficiais preliminares",
+          "inicio": "2027-01-22"
+        },
+        {
+          "evento": "Resultado final das provas objetivas e provisório da caracterização da deficiência (etapa documental)",
+          "inicio": "2027-02-18"
+        },
+        {
+          "evento": "Resultado final da prova discursiva e resultado final do concurso",
+          "inicio": "2027-04-30"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas de cada cargo, arredondado para cima, limitado a 20%",
+        "vagas_reservadas": 5,
+        "laudo": "Imagem legível do laudo, emitido nos 36 meses anteriores à publicação do edital (item 5.2.3); para TEA e impedimentos permanentes a validade é indeterminada. Para atendimento especializado, o item 6.4.9.1 exige laudo emitido nos 36 meses anteriores ao último dia de inscrição.",
+        "prazo_envio": "Durante o período de inscrições (2026-10-15 a 2026-11-17); é preciso também se autodeclarar PcD e marcar a opção no sistema de inscrição",
+        "forma_envio": "Upload no link do site do Cebraspe; arquivos .pdf, .png, .jpeg ou .jpg de até 2 MB por imagem",
+        "observacoes": "Vagas imediatas PcD: cargo 2 (1), cargo 4 (1), cargo 5 (1) e cargo 11 (2), total 5, conforme quadro do item 4.1 do edital retificado. Avaliação por análise documental e, havendo dúvida, análise telepresencial. Atendimento especializado é solicitado no ato da inscrição."
+      },
+      "correcoes": {
+        "vagas": 66
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "banca",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "data_prova",
+          "salario_ate",
+          "taxa_min",
+          "taxa_max",
+          "vagas",
+          "link_primario"
+        ],
+        "divergencias": [
+          {
+            "campo": "vagas",
+            "base": 184,
+            "edital": 66
+          }
+        ]
+      }
+    },
+    "a_7d4440a45713": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://www.trt4.jus.br/portais/trt4/servidores-2026",
+      "descricao": "Concurso do Tribunal Regional do Trabalho da 4ª Região (Rio Grande do Sul) para formar cadastro de reserva de Analista Judiciário (18 opções) e Técnico Judiciário (5 opções), organizado pela Fundação Carlos Chagas. As provas são em Porto Alegre/RS; é um concurso do RS, sem lotação em São Paulo informada nas páginas oficiais lidas.",
+      "cronograma": [
+        {
+          "evento": "Pedido de isenção da taxa",
+          "inicio": "2026-10-26",
+          "fim": "2026-10-30"
+        },
+        {
+          "evento": "Inscrições (fim)",
+          "inicio": "2026-11-25"
+        },
+        {
+          "evento": "Provas objetivas e discursivas (Porto Alegre/RS)",
+          "inicio": "2027-01-31"
+        },
+        {
+          "evento": "Teste de aptidão física (somente Técnico, Agente de Polícia Judicial)",
+          "inicio": "2027-05-08",
+          "fim": "2027-05-09"
+        }
+      ],
+      "pcd": {
+        "percentual": "10% das vagas reservadas a pessoas com deficiência",
+        "observacoes": "Segundo a página oficial do TRT4; também há reservas de 25% pretos e pardos, 3% indígenas, 2% pessoas trans e 2% quilombolas. Laudo, prazo e forma de envio não foram lidos (edital em PDF indisponível)."
+      },
+      "correcoes": {
+        "banca": "Fundação Carlos Chagas (FCC)",
+        "link_primario": "https://www.trt4.jus.br/portais/trt4/servidores-2026"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "inscricao_fim",
+          "data_prova",
+          "salario_ate",
+          "taxa_min",
+          "taxa_max"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_71f6783d1e1a": {
+      "conferido_em": "2026-11-15",
+      "link_edital": "https://www.trf3.jus.br/documentos/sege/RING_-_Concursos/2026/Editais/Edital_01_2026_completo.pdf",
+      "descricao": "Concurso do Tribunal Regional Federal da 3ª Região (SP e MS), organizado pela Vunesp, para Analista e Técnico Judiciário, com 11 vagas imediatas para áreas de tecnologia da informação (análise de sistemas, suporte em TI, desenvolvimento de sistemas, suporte técnico) e cadastro de reserva para outras áreas. A lotação é no TRF3 em São Paulo (SP) e/ou Campo Grande (MS), conforme opção do candidato; as provas são em Araçatuba, Bauru, Ribeirão Preto e São Paulo (SP), Campo Grande e Dourados (MS). Edital nº 01/2026 de 23/10/2026 (DOU de 26/10/2026), retificado pelo Edital nº 02/2026 (DOU de 04/11/2026).",
+      "cronograma": [
+        {
+          "evento": "Pedido de isenção da taxa (CadÚnico ou doação de medula)",
+          "inicio": "2026-11-04",
+          "fim": "2026-11-05"
+        },
+        {
+          "evento": "Inscrições",
+          "inicio": "2026-11-04",
+          "fim": "2026-11-23"
+        },
+        {
+          "evento": "Resultado do pedido de isenção",
+          "inicio": "2026-11-12"
+        },
+        {
+          "evento": "Recurso contra o resultado da isenção",
+          "inicio": "2026-11-13",
+          "fim": "2026-11-16"
+        },
+        {
+          "evento": "Vencimento da taxa de inscrição (até 21h59)",
+          "inicio": "2026-11-24"
+        },
+        {
+          "evento": "Resultado das solicitações especiais (inclui PcD e cotas)",
+          "inicio": "2026-12-09"
+        },
+        {
+          "evento": "Convocação para as provas",
+          "inicio": "2027-01-21"
+        },
+        {
+          "evento": "Provas objetiva e discursiva",
+          "inicio": "2027-01-31"
+        },
+        {
+          "evento": "Gabarito da prova objetiva",
+          "inicio": "2027-02-01"
+        },
+        {
+          "evento": "Recurso contra o gabarito",
+          "inicio": "2027-02-02",
+          "fim": "2027-02-03"
+        },
+        {
+          "evento": "Análise dos recursos e nota da prova objetiva",
+          "inicio": "2027-02-26"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas que surgirem ou forem criadas na validade do concurso; frações arredondadas para cima, sem passar de 20%",
+        "vagas_reservadas": 1,
+        "laudo": "Deve indicar espécie e grau ou nível da deficiência, com código CID, nome completo do candidato e nome, assinatura e carimbo do CRM do médico",
+        "prazo_envio": "Durante o período de inscrições (2026-11-04 a 2026-11-23)",
+        "forma_envio": "Upload na Área do Candidato, em 'Envio de Documentos', 'Requerimento para Inscrição como Deficiente'; arquivo pdf, png, jpg ou jpeg de até 2 MB",
+        "observacoes": "Vaga PcD imediata: 1 (Técnico, Desenvolvimento de Sistemas, código 006, Anexo III). Primeiro PcD é nomeado na 5ª vaga e depois na 25ª, 45ª etc. Avaliação biopsicossocial na convocação. Há ainda reservas de 25% (negros), 3% (indígenas) e 2% (quilombolas)."
+      },
+      "correcoes": {
+        "inscricao_inicio": "2026-11-04",
+        "data_prova": "2027-01-31",
+        "link_primario": "https://www.trf3.jus.br/sege/concurso-servidores/2026/editais"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "inscricao_fim",
+          "vagas",
+          "salario_ate",
+          "banca",
+          "taxa_min",
+          "taxa_max",
+          "link_primario"
+        ],
+        "divergencias": [
+          {
+            "campo": "link_primario",
+            "base": "https://www.vunesp.com.br",
+            "edital": "https://www.trf3.jus.br/sege/concurso-servidores/2026/editais"
+          }
+        ]
+      }
+    }
+  }
 }
