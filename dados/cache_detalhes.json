@@ -503,45 +503,6 @@
   "data_noticia": "2026-10-19",
   "coletado_em": "2026-11-14T18:59:20Z"
  },
- "https://www.pciconcursos.com.br/noticias/camara-de-ibiuna-sp-abre-concurso-publico-para-assistente-administrativo-e-controlador-interno": {
-  "inscricao_inicio": "2026-10-19",
-  "inscricao_fim": "2026-11-16",
-  "site_inscricao": "abconcursospublicos.org",
-  "taxa_min": 55.0,
-  "taxa_max": 95.0,
-  "data_prova": "2026-11-29",
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Assistente Administrativo",
-    "vagas": 1
-   },
-   {
-    "cargo": "Controlador Interno",
-    "vagas": 1
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-10-19",
-  "coletado_em": "2026-11-14T18:59:22Z"
- },
- "https://www.pciconcursos.com.br/noticias/camara-de-paraguacu-paulista-sp-abre-concurso-publico-com-salarios-de-ate-11065": {
-  "inscricao_inicio": "2026-10-21",
-  "inscricao_fim": "2026-11-15",
-  "site_inscricao": null,
-  "taxa_min": 33.0,
-  "taxa_max": 64.0,
-  "data_prova": "2026-12-13",
-  "isencao_inicio": "2026-10-21",
-  "isencao_fim": "2026-10-25",
-  "cargos": [],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-10-20",
-  "coletado_em": "2026-11-14T18:59:24Z"
- },
  "https://www.pciconcursos.com.br/noticias/camara-de-boituva-sp-abre-concursos-com-salarios-de-ate-8595": {
   "inscricao_inicio": "2026-09-21",
   "inscricao_fim": "2026-11-09",
@@ -639,30 +600,6 @@
   "links": [],
   "data_noticia": "2026-11-06",
   "coletado_em": "2026-11-14T18:59:29Z"
- },
- "https://www.pciconcursos.com.br/noticias/camara-de-joao-ramalho-sp-abre-concurso-publico-para-cargos-de-nivel-medio": {
-  "inscricao_inicio": "2026-10-27",
-  "inscricao_fim": "2026-11-15",
-  "site_inscricao": null,
-  "taxa_min": 50.0,
-  "taxa_max": 50.0,
-  "data_prova": "2026-12-13",
-  "isencao_inicio": "2026-10-27",
-  "isencao_fim": "2026-10-31",
-  "cargos": [
-   {
-    "cargo": "Secretário",
-    "vagas": 1
-   },
-   {
-    "cargo": "Assistente Administrativo, Financeiro, Compras e Tesouraria",
-    "vagas": 1
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-10-26",
-  "coletado_em": "2026-11-14T18:59:30Z"
  },
  "https://www.pciconcursos.com.br/noticias/camara-de-sete-barras-sp-abre-concurso-publico-com-salarios-de-ate-7434": {
   "inscricao_inicio": "2026-11-04",
@@ -4245,80 +4182,6 @@
   "data_noticia": "2026-11-03",
   "coletado_em": "2026-11-14T19:01:09Z"
  },
- "https://www.pciconcursos.com.br/noticias/prefeitura-de-lencois-paulista-sp-abre-concurso-publico-com-salarios-de-ate-5044": {
-  "inscricao_inicio": "2026-10-16",
-  "inscricao_fim": "2026-11-15",
-  "site_inscricao": "indepac.selecao.net.br",
-  "taxa_min": 40.0,
-  "taxa_max": 60.0,
-  "data_prova": "2026-12-06",
-  "isencao_inicio": "2026-10-16",
-  "isencao_fim": "2026-10-19",
-  "cargos": [
-   {
-    "cargo": "Agente de Cemitério",
-    "vagas": 1
-   },
-   {
-    "cargo": "Agente de Serviços Gerais",
-    "vagas": 1
-   },
-   {
-    "cargo": "Agente de Serviços Urbanos",
-    "vagas": 1
-   },
-   {
-    "cargo": "Motorista",
-    "vagas": 1
-   },
-   {
-    "cargo": "Operador de Máquinas",
-    "vagas": 1
-   },
-   {
-    "cargo": "Agente Comunitário de Saúde - área 24",
-    "vagas": 1
-   },
-   {
-    "cargo": "Agente de Vigilância Eletrônica",
-    "vagas": 1
-   },
-   {
-    "cargo": "Fiscal Ambiental",
-    "vagas": 1
-   },
-   {
-    "cargo": "Monitor de Creche",
-    "vagas": 1
-   },
-   {
-    "cargo": "Enfermeiro",
-    "vagas": 1
-   },
-   {
-    "cargo": "Médico Ortopedista",
-    "vagas": 1
-   },
-   {
-    "cargo": "Médico Pediatra",
-    "vagas": 1
-   },
-   {
-    "cargo": "Médico Psiquiatra",
-    "vagas": 1
-   },
-   {
-    "cargo": "Médico Reumatologista",
-    "vagas": 1
-   }
-  ],
-  "bancas": [
-   "Indepac"
-  ],
-  "links": [],
-  "data_noticia": "2026-10-15",
-  "coletado_em": "2026-11-14T19:01:11Z"
- },
  "https://www.pciconcursos.com.br/noticias/prefeitura-de-mairipora-sp-abre-concurso-publico-para-professores": {
   "inscricao_inicio": "2026-10-29",
   "inscricao_fim": "2026-11-25",
@@ -6811,21 +6674,6 @@
   "data_noticia": "2026-11-09",
   "coletado_em": "2026-11-14T19:03:03Z"
  },
- "https://www.pciconcursos.com.br/noticias/unesp-abre-concurso-para-contratacao-de-professor-de-ensino-medio-e-tecnico-em-bauru": {
-  "inscricao_inicio": "2026-11-10",
-  "inscricao_fim": "2026-11-17",
-  "site_inscricao": "inscricoes.unesp.br",
-  "taxa_min": 141.0,
-  "taxa_max": 141.0,
-  "data_prova": null,
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-11-09",
-  "coletado_em": "2026-11-14T19:03:04Z"
- },
  "https://www.pciconcursos.com.br/noticias/unesp-sp-abre-concursos-para-professores-substitutos-na-faculdade-de-ciencias-e-letras-de-assis": {
   "inscricao_inicio": "2026-11-12",
   "inscricao_fim": "2026-11-27",
@@ -7007,26 +6855,6 @@
   "links": [],
   "data_noticia": "2026-11-13",
   "coletado_em": "2026-11-14T19:03:19Z"
- },
- "https://www.pciconcursos.com.br/noticias/unesp-sp-abre-vaga-para-professor-substituto-em-botucatu-na-area-de-zoologia": {
-  "inscricao_inicio": "2026-11-16",
-  "inscricao_fim": "2026-12-15",
-  "site_inscricao": "inscricoes.unesp.br",
-  "taxa_min": 209.0,
-  "taxa_max": 209.0,
-  "data_prova": null,
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Professor Substituto na área de Zoologia, subárea de Zoologia Aplicada",
-    "vagas": 1
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-11-13",
-  "coletado_em": "2026-11-14T19:03:21Z"
  },
  "https://www.pciconcursos.com.br/noticias/unesp-abre-concurso-publico-para-professor-assistente-na-area-de-manejo-florestal-em-botucatu-sp": {
   "inscricao_inicio": "2026-11-23",
@@ -8261,34 +8089,6 @@
   "data_noticia": "2026-10-02",
   "coletado_em": "2026-11-14T19:43:35Z"
  },
- "https://www.pciconcursos.com.br/noticias/cref16-rn-abre-concurso-publico-para-profissionais-de-nivel-superior": {
-  "inscricao_inicio": "2026-10-30",
-  "inscricao_fim": "2026-11-15",
-  "site_inscricao": null,
-  "taxa_min": 150.0,
-  "taxa_max": 150.0,
-  "data_prova": "2026-12-13",
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Advogado",
-    "vagas": 1
-   },
-   {
-    "cargo": "Contador",
-    "vagas": 1
-   },
-   {
-    "cargo": "Agente de Licitações e Contratos",
-    "vagas": 1
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-10-26",
-  "coletado_em": "2026-11-14T19:43:37Z"
- },
  "https://www.pciconcursos.com.br/noticias/trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios": {
   "inscricao_inicio": "2026-10-26",
   "inscricao_fim": "2026-11-25",
@@ -8303,5 +8103,327 @@
   "links": [],
   "data_noticia": "2026-10-22",
   "coletado_em": "2026-11-14T19:43:38Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/camara-de-ibiuna-sp-prorroga-inscricoes-de-concurso-publico-para-assistente-administrativo-e-controlador-interno": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-12-06",
+  "site_inscricao": "abconcursospublicos.org",
+  "taxa_min": 55.0,
+  "taxa_max": 95.0,
+  "data_prova": "2026-12-06",
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Assistente Administrativo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Controlador Interno",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:19Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-catigua-sp-abre-concurso-publico-com-salarios-de-ate-14750": {
+  "inscricao_inicio": "2026-11-30",
+  "inscricao_fim": "2026-12-21",
+  "site_inscricao": null,
+  "taxa_min": 45.0,
+  "taxa_max": 75.0,
+  "data_prova": "2027-01-17",
+  "isencao_inicio": "2026-11-30",
+  "isencao_fim": "2026-12-02",
+  "cargos": [
+   {
+    "cargo": "Abastecedor, Lavador e Lubrificador de Máquinas e Veículos",
+    "vagas": 1
+   },
+   {
+    "cargo": "Agente de Serviços Escolares",
+    "vagas": 2
+   },
+   {
+    "cargo": "Auxiliar de Cozinha",
+    "vagas": 2
+   },
+   {
+    "cargo": "Coletor de Lixo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Condutor de Ambulância",
+    "vagas": 6
+   },
+   {
+    "cargo": "Motorista",
+    "vagas": 4
+   },
+   {
+    "cargo": "Operador de Máquinas",
+    "vagas": 1
+   },
+   {
+    "cargo": "Pedreiro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Roçador",
+    "vagas": 1
+   },
+   {
+    "cargo": "Tratorista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Vigia",
+    "vagas": 1
+   },
+   {
+    "cargo": "Agente Comunitário de Saúde",
+    "vagas": 1
+   },
+   {
+    "cargo": "Agente de Apoio Escolar",
+    "vagas": 2
+   },
+   {
+    "cargo": "Agente de Combate às Endemias",
+    "vagas": 1
+   },
+   {
+    "cargo": "Auxiliar de Eletricista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Fiscal de Obras, Posturas e Serviços",
+    "vagas": 1
+   },
+   {
+    "cargo": "Analista Técnico-Administrativo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Assistente Social",
+    "vagas": 1
+   },
+   {
+    "cargo": "Bibliotecário",
+    "vagas": 1
+   },
+   {
+    "cargo": "Farmacêutico",
+    "vagas": 1
+   },
+   {
+    "cargo": "Fisioterapeuta",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Generalista - ESF",
+    "vagas": 1
+   },
+   {
+    "cargo": "Psicólogo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Psicopedagogo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Terapeuta Ocupacional",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:20Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-mogi-guacu-sp-abre-tres-novos-concursos-para-cadastro-de-reserva-em-diversas-areas": {
+  "inscricao_inicio": "2026-11-14",
+  "inscricao_fim": "2026-11-27",
+  "site_inscricao": null,
+  "taxa_min": 7.53,
+  "taxa_max": 12.7,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": "2026-11-17",
+  "cargos": [],
+  "bancas": [
+   "Publiconsult"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:22Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-santana-de-parnaiba-sp-abre-concurso-para-vice-diretor-de-escola": {
+  "inscricao_inicio": "2026-11-16",
+  "inscricao_fim": "2026-12-15",
+  "site_inscricao": null,
+  "taxa_min": 81.0,
+  "taxa_max": 81.0,
+  "data_prova": "2027-01-17",
+  "isencao_inicio": "2026-11-16",
+  "isencao_fim": "2026-11-17",
+  "cargos": [
+   {
+    "cargo": "Vice-Diretor de Escola",
+    "vagas": 2
+   }
+  ],
+  "bancas": [
+   "Instituto Mais"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:24Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-prorroga-inscricoes-de-concurso-para-professor-de-ensino-medio-e-tecnico-em-bauru": {
+  "inscricao_inicio": null,
+  "inscricao_fim": "2026-11-24",
+  "site_inscricao": "inscricoes.unesp.br",
+  "taxa_min": 141.0,
+  "taxa_max": 141.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:26Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-revoga-concurso-publico-para-professor-substituto-em-botucatu": {
+  "inscricao_inicio": null,
+  "inscricao_fim": null,
+  "site_inscricao": null,
+  "taxa_min": null,
+  "taxa_max": null,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Professor Substituto na área de Zoologia, subárea de Zoologia Aplicada",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": null,
+  "coletado_em": "2026-11-16T19:37:27Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-abre-concursos-publicos-para-professores-doutores-no-instituto-de-biociencias-de-botucatu-sp": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-12-07",
+  "site_inscricao": "inscricoes.unesp.br",
+  "taxa_min": 209.0,
+  "taxa_max": 209.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Professor Substituto na área de Imunologia, subárea de conhecimento: Imunologia Aplicada",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor Substituto na área de Genética, subárea de conhecimento: Genética Geral",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:29Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-abre-vaga-para-professor-substituto-de-matematica-no-campus-de-botucatu-sp": {
+  "inscricao_inicio": "2026-11-19",
+  "inscricao_fim": "2027-01-04",
+  "site_inscricao": "inscricoes.unesp.br",
+  "taxa_min": 209.0,
+  "taxa_max": 209.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Professor Substituto na área de Matemática, subárea de Matemática Aplicada",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:31Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-abre-concurso-para-professor-substituto-na-faculdade-de-ciencias-de-botucatu-sp": {
+  "inscricao_inicio": "2026-11-18",
+  "inscricao_fim": "2026-12-03",
+  "site_inscricao": "inscricoes.unesp.br",
+  "taxa_min": 209.0,
+  "taxa_max": 209.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Professor Substituto na área de Educação, subárea de Ensino-Aprendizagem",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:32Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-sp-abre-concursos-para-professores-substitutos-na-faculdade-de-odontologia-de-aracatuba": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-12-07",
+  "site_inscricao": "inscricoes.unesp.br",
+  "taxa_min": 209.0,
+  "taxa_max": 209.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Edital Nº 155/2026: Professor Substituto na área de Ciências da Saúde, subárea de conhecimento: Odontologia",
+    "vagas": 1
+   },
+   {
+    "cargo": "Edital Nº 156/2026: Professor Substituto na área de Ciências da Saúde, subárea de conhecimento: Odontologia",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:34Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-abre-concurso-publico-para-professor-substituto-na-faculdade-de-ciencias-farmaceuticas-de-araraquara-sp": {
+  "inscricao_inicio": "2026-11-25",
+  "inscricao_fim": "2026-12-09",
+  "site_inscricao": "inscricoes.unesp.br",
+  "taxa_min": 209.0,
+  "taxa_max": 209.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Professor Substituto na área de Ciências da Saúde, subárea de Saúde Coletiva",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-16",
+  "coletado_em": "2026-11-16T19:37:36Z"
  }
 }
