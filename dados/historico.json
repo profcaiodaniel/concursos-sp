@@ -39,6 +39,16 @@
    "encerrados": 14,
    "fontes_ok": 6,
    "fontes_total": 7
+  },
+  {
+   "gerado_em": "2026-11-19T18:17:15Z",
+   "abertos": 188,
+   "autorizados": 9,
+   "banca_em_licitacao": 17,
+   "banca_contratada": 190,
+   "encerrados": 51,
+   "fontes_ok": 6,
+   "fontes_total": 7
   }
  ]
 }
