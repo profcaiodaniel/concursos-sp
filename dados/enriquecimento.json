@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-15",
+  "atualizado_em": "2026-11-22",
   "itens": {
     "a_7e32cfc03846": {
       "conferido_em": "2026-11-15",
@@ -613,6 +613,1559 @@
             "edital": "https://www.trf3.jus.br/sege/concurso-servidores/2026/editais"
           }
         ]
+      }
+    },
+    "a_7d37288cca8d": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://doe.sp.gov.br/executivo/secretaria-da-educacao/edital-de-abertura-de-inscricoes-n-01-2026-2026111813227262295323",
+      "descricao": "Concurso da Secretaria da Educação de São Paulo para contratar 5.000 professores efetivos de Ensino Fundamental e Médio, com licenciatura plena. As vagas se dividem em 2.000 de jornada de 25 horas e 3.000 de jornada de 40 horas semanais. O edital também forma uma lista para contratação temporária.",
+      "cronograma": [
+        {
+          "evento": "Impugnação do edital",
+          "inicio": "2026-11-23",
+          "fim": "2026-11-27"
+        },
+        {
+          "evento": "Solicitação de isenção ou redução da taxa",
+          "inicio": "2026-11-26",
+          "fim": "2026-11-30"
+        },
+        {
+          "evento": "Inscrições",
+          "inicio": "2026-11-26",
+          "fim": "2027-02-15"
+        },
+        {
+          "evento": "Resultado preliminar de isenção e redução",
+          "inicio": "2027-01-06",
+          "fim": "2027-01-06"
+        },
+        {
+          "evento": "Recurso contra isenção e redução",
+          "inicio": "2027-01-07",
+          "fim": "2027-01-08"
+        },
+        {
+          "evento": "Resultado definitivo de isenção e redução",
+          "inicio": "2027-01-29",
+          "fim": "2027-01-29"
+        },
+        {
+          "evento": "Data-limite de pagamento da taxa",
+          "inicio": "2027-02-16",
+          "fim": "2027-02-16"
+        },
+        {
+          "evento": "Envio do vídeo da prova prática e dos títulos",
+          "inicio": "2027-03-19",
+          "fim": "2027-04-02"
+        },
+        {
+          "evento": "Prova objetiva e discursiva (data provável)",
+          "inicio": "2027-04-25",
+          "fim": "2027-04-25"
+        },
+        {
+          "evento": "Divulgação da classificação definitiva",
+          "inicio": "2027-08-06",
+          "fim": "2027-08-06"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas de cada componente curricular/área e jornada, apurado em âmbito estadual",
+        "vagas_reservadas": 251,
+        "laudo": "Identificação do candidato, tipo e grau da deficiência, CID, limitações funcionais, local e data de emissão, nome, assinatura, carimbo e CRM do médico. Emitido até 2 anos antes do início das inscrições; deficiência permanente e irreversível, caracterizada no laudo, não tem prazo de validade.",
+        "prazo_envio": "Durante o período de inscrições (26/11/2026 a 15/02/2027)",
+        "forma_envio": "No requerimento de inscrição, pelo sistema da FGV",
+        "observacoes": "100 vagas PcD na jornada de 25h e 151 na de 40h. Quem precisar de até 60 minutos adicionais de prova também envia laudo justificando. Aprovados passam por perícia médica oficial do DPME (cadastro no eSisla)."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "banca",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "data_prova",
+          "esfera",
+          "tipo"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_d31bc5326263": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.acheconcursos.com.br/imagens/anexo/65292/edital-2.pdf",
+      "descricao": "Concurso da Prefeitura de Pilar do Sul (regime CLT) pelo Edital 02/2026, com 5 vagas imediatas e cadastro de reserva para outros cargos de nível fundamental e superior, como tratorista, dentista, médicos, psicólogo e enfermeiro. Há prova prática para tratorista e avaliação de títulos para cargos de nível superior.",
+      "cronograma": [
+        {
+          "evento": "Inscrições e envio de títulos",
+          "inicio": "2026-11-26",
+          "fim": "2026-12-28"
+        },
+        {
+          "evento": "Pedido de isenção da taxa",
+          "inicio": "2026-11-26",
+          "fim": "2026-11-30"
+        },
+        {
+          "evento": "Resultado preliminar da isenção",
+          "inicio": "2026-12-07",
+          "fim": "2026-12-07"
+        },
+        {
+          "evento": "Resultado dos recursos de isenção",
+          "inicio": "2026-12-17",
+          "fim": "2026-12-17"
+        },
+        {
+          "evento": "Vencimento do boleto",
+          "inicio": "2026-12-30",
+          "fim": "2026-12-30"
+        },
+        {
+          "evento": "Consulta de confirmação da inscrição e de condições especiais",
+          "inicio": "2027-01-18",
+          "fim": "2027-01-18"
+        },
+        {
+          "evento": "Divulgação de local e horário das provas",
+          "inicio": "2027-01-25",
+          "fim": "2027-01-25"
+        },
+        {
+          "evento": "Provas objetivas",
+          "inicio": "2027-01-31",
+          "fim": "2027-01-31"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas existentes ou que surgirem na validade; fração arredondada para cima, mínimo de uma vaga",
+        "laudo": "Cópia de laudo médico emitido até 12 meses antes do fim das inscrições, com espécie e grau/nível da deficiência, referência ao CID, nome, RG/CIN e CPF. Em deficiência irreversível, laudo mais antigo pode ser aceito.",
+        "prazo_envio": "Dentro do período de inscrições (26/11 a 28/12/2026)",
+        "forma_envio": "Upload na ficha de inscrição, com a declaração do Anexo III preenchida e assinada",
+        "observacoes": "Lista única por cargo: 5ª contratação reservada a PcD, depois 21ª, 41ª e assim por diante, limite de 20%. Cargo com vaga única não tem reserva. Visão monocular é considerada deficiência; pessoas com TEA são equiparadas, conforme lei citada no edital. Quem não se declarar na inscrição não concorre às vagas reservadas."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "banca",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "data_prova",
+          "esfera",
+          "tipo",
+          "taxa_min",
+          "taxa_max",
+          "isencao_inicio",
+          "isencao_fim"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_6c8f61d1dee0": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.inepam.org.br",
+      "descricao": "Concurso da Prefeitura de Catiguá (Edital 01/2026, regime estatutário) com 36 vagas imediatas e cadastro de reserva em 27 cargos, de nível fundamental, médio/técnico e superior. O maior salário é o de Médico Generalista da ESF. Alguns cargos têm prova prática e o de Psicopedagogo tem avaliação de títulos.",
+      "cronograma": [
+        {
+          "evento": "Inscrições",
+          "inicio": "2026-11-30",
+          "fim": "2026-12-21"
+        },
+        {
+          "evento": "Pedido de isenção da taxa (envio por SEDEX)",
+          "inicio": "2026-11-30",
+          "fim": "2026-12-02"
+        },
+        {
+          "evento": "Resultado da isenção",
+          "inicio": "2026-12-07",
+          "fim": "2026-12-07"
+        },
+        {
+          "evento": "Recurso contra indeferimento da isenção",
+          "inicio": "2026-12-08",
+          "fim": "2026-12-10"
+        },
+        {
+          "evento": "Resultado dos recursos de isenção",
+          "inicio": "2026-12-16",
+          "fim": "2026-12-16"
+        },
+        {
+          "evento": "Prova objetiva e entrega de títulos (Psicopedagogo)",
+          "inicio": "2027-01-17",
+          "fim": "2027-01-17"
+        },
+        {
+          "evento": "Divulgação do gabarito",
+          "inicio": "2027-01-18",
+          "fim": "2027-01-18"
+        },
+        {
+          "evento": "Recursos contra o gabarito",
+          "inicio": "2027-01-19",
+          "fim": "2027-01-21"
+        },
+        {
+          "evento": "Classificação e notas da prova objetiva e títulos",
+          "inicio": "2027-02-02",
+          "fim": "2027-02-02"
+        },
+        {
+          "evento": "Prova prática",
+          "inicio": "2027-02-14",
+          "fim": "2027-02-14"
+        },
+        {
+          "evento": "Homologação parcial do concurso",
+          "inicio": "2027-03-02",
+          "fim": "2027-03-02"
+        },
+        {
+          "evento": "Homologação final do concurso",
+          "inicio": "2027-05-24",
+          "fim": "2027-05-24"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas de cada cargo, incluindo as que surgirem na validade; com uma única vaga imediata, a reserva se aplica às nomeações durante a validade, por alternância proporcional",
+        "laudo": "Relatório médico original ou cópia autenticada, dos últimos 12 meses, com CID, espécie e grau da deficiência, causa provável e necessidades especiais para a prova; nome, RG e CPF iguais aos da inscrição. Deficiência auditiva: audiometria de até 6 meses. Deficiência visual: acuidade em AO, patologia e campo visual.",
+        "prazo_envio": "Durante o período de inscrições (30/11 a 21/12/2026); vale a data de postagem",
+        "forma_envio": "SEDEX ao INEPAM, Caixa Postal 390, CEP 18682-970, com Anexo III preenchido e o relatório médico",
+        "observacoes": "A deficiência deve ser compatível com o cargo. Prova em braille/ampliada e tempo adicional devem ser pedidos por escrito até o fim das inscrições. Quem não se declarar PcD na inscrição não é considerado PcD. Convocados passam por perícia médica. Na prova prática há vagas PcD reservadas (1 a 3 por cargo)."
+      },
+      "correcoes": {
+        "banca": "INEPAM",
+        "link_primario": "https://www.inepam.org.br"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "data_prova",
+          "esfera",
+          "tipo",
+          "taxa_min",
+          "taxa_max",
+          "isencao_inicio",
+          "isencao_fim"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_c07ef68ae977": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://portal.cepasf.com.br",
+      "descricao": "Concurso do SAAE de Águas de Lindóia (Edital 001/2026) com 7 vagas imediatas e cadastro de reserva em 11 empregos, do nível alfabetizado ao superior em Direito e outras áreas. Tem provas objetivas em dois domingos, discursiva para Procurador Jurídico e Controlador Interno, e provas práticas ou TAF para alguns empregos.",
+      "cronograma": [
+        {
+          "evento": "Impugnação do edital",
+          "inicio": "2026-11-18",
+          "fim": "2026-11-19"
+        },
+        {
+          "evento": "Pedido de isenção ou redução da taxa",
+          "inicio": "2026-11-20",
+          "fim": "2026-11-22"
+        },
+        {
+          "evento": "Inscrições",
+          "inicio": "2026-11-20",
+          "fim": "2026-12-21"
+        },
+        {
+          "evento": "Resultado preliminar das isenções",
+          "inicio": "2026-11-24",
+          "fim": "2026-11-24"
+        },
+        {
+          "evento": "Recursos de isenção",
+          "inicio": "2026-11-25",
+          "fim": "2026-11-26"
+        },
+        {
+          "evento": "Resultado definitivo das isenções",
+          "inicio": "2026-11-30",
+          "fim": "2026-11-30"
+        },
+        {
+          "evento": "Prazo de envio do laudo PcD (até o fim das inscrições)",
+          "inicio": "2026-11-20",
+          "fim": "2026-12-21"
+        },
+        {
+          "evento": "Último dia de pagamento da taxa",
+          "inicio": "2026-12-22",
+          "fim": "2026-12-22"
+        },
+        {
+          "evento": "Convocação para as provas objetivas e discursivas",
+          "inicio": "2027-01-06",
+          "fim": "2027-01-06"
+        },
+        {
+          "evento": "Provas, 1º domingo",
+          "inicio": "2027-01-17",
+          "fim": "2027-01-17"
+        },
+        {
+          "evento": "Gabaritos preliminares (1º domingo)",
+          "inicio": "2027-01-18",
+          "fim": "2027-01-18"
+        },
+        {
+          "evento": "Recursos contra questões e gabaritos (1º domingo)",
+          "inicio": "2027-01-19",
+          "fim": "2027-01-20"
+        },
+        {
+          "evento": "Provas, 2º domingo",
+          "inicio": "2027-01-24",
+          "fim": "2027-01-24"
+        },
+        {
+          "evento": "Gabaritos preliminares (2º domingo)",
+          "inicio": "2027-01-25",
+          "fim": "2027-01-25"
+        },
+        {
+          "evento": "Recursos contra questões e gabaritos (2º domingo)",
+          "inicio": "2027-01-26",
+          "fim": "2027-01-27"
+        },
+        {
+          "evento": "Gabaritos definitivos e notas preliminares objetivas",
+          "inicio": "2027-01-29",
+          "fim": "2027-01-29"
+        },
+        {
+          "evento": "Provas práticas e TAF",
+          "inicio": "2027-02-13",
+          "fim": "2027-02-14"
+        },
+        {
+          "evento": "Resultado definitivo e homologação (previsão)",
+          "inicio": "2027-03-10",
+          "fim": "2027-03-10"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% por emprego, calculado sobre o quadro total do emprego (efetivos ocupantes mais vagas do concurso); fração igual ou maior que 0,5 arredonda para cima",
+        "laudo": "Modelo do Anexo V é facultativo; vale outro documento com identificação do candidato e do emitente, registro profissional e assinatura verificável, descrição da deficiência, indicação de natureza permanente ou duradoura, limitações funcionais e informações clínicas. O edital não fixa validade; laudo antigo que comprove condição permanente não é recusado automaticamente.",
+        "prazo_envio": "Até o fim das inscrições (21/12/2026)",
+        "forma_envio": "Pela área do candidato no portal da banca, com documento de identidade e laudo em PDF, JPG ou PNG de até 10 MB cada",
+        "observacoes": "O número de vagas reservadas por emprego não consta do edital (fica em memória de cálculo do SAAE). O CID isolado não comprova nem afasta a condição. A confirmação é feita pelo SAAE por equipe multiprofissional na convocação. Cabe recurso em 2 dias úteis."
+      },
+      "correcoes": {
+        "banca": "CEPASF",
+        "link_primario": "https://portal.cepasf.com.br"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "data_prova",
+          "esfera",
+          "tipo",
+          "taxa_min",
+          "taxa_max",
+          "isencao_inicio",
+          "isencao_fim"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_9663185c95a3": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.acheconcursos.com.br/imagens/anexo/65299/edital.pdf",
+      "descricao": "Concurso da Prefeitura de Urânia (Edital 002/2026, organizado pelo CEPASF) para Auxiliar Educacional Feminino (ensino médio), Merendeira (fundamental incompleto) e Nutricionista (superior com registro no CRN). Há 3 vagas imediatas e cadastro reserva; a Merendeira faz também prova prática, e as inscrições são online pelo portal da banca.",
+      "cronograma": [
+        {
+          "evento": "Inscrições",
+          "inicio": "2026-11-21",
+          "fim": "2026-12-20"
+        },
+        {
+          "evento": "Pedido de isenção da taxa",
+          "inicio": "2026-11-21",
+          "fim": "2026-11-23"
+        },
+        {
+          "evento": "Resultado preliminar da isenção (até)",
+          "inicio": "2026-11-30",
+          "fim": "2026-11-30"
+        },
+        {
+          "evento": "Recursos da isenção",
+          "inicio": "2026-12-01",
+          "fim": "2026-12-02"
+        },
+        {
+          "evento": "Resultado definitivo da isenção (até)",
+          "inicio": "2026-12-10",
+          "fim": "2026-12-10"
+        },
+        {
+          "evento": "Envio de laudo PcD, atendimento especial e autodeclaração racial (até)",
+          "inicio": "2026-12-20",
+          "fim": "2026-12-20"
+        },
+        {
+          "evento": "Pagamento da taxa (vencimento do boleto)",
+          "inicio": "2026-12-21",
+          "fim": "2026-12-21"
+        },
+        {
+          "evento": "Prova objetiva",
+          "inicio": "2027-01-10",
+          "fim": "2027-01-10"
+        },
+        {
+          "evento": "Gabarito preliminar",
+          "inicio": "2027-01-11",
+          "fim": "2027-01-11"
+        },
+        {
+          "evento": "Recursos sobre questões e gabarito",
+          "inicio": "2027-01-12",
+          "fim": "2027-01-13"
+        },
+        {
+          "evento": "Gabarito definitivo e notas da objetiva (até)",
+          "inicio": "2027-01-15",
+          "fim": "2027-01-15"
+        },
+        {
+          "evento": "Prova prática de Merendeira",
+          "inicio": "2027-01-24",
+          "fim": "2027-01-24"
+        },
+        {
+          "evento": "Resultado preliminar da prova prática (até)",
+          "inicio": "2027-01-30",
+          "fim": "2027-01-30"
+        },
+        {
+          "evento": "Recursos da prova prática",
+          "inicio": "2027-02-01",
+          "fim": "2027-02-02"
+        },
+        {
+          "evento": "Avaliação oficial dos candidatos PcD aprovados (até)",
+          "inicio": "2027-02-15",
+          "fim": "2027-02-15"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas de cada cargo, incluindo as que surgirem durante a validade do concurso (item 4.49.1); garantia de 1 vaga quando o quantitativo estiver entre 5 e 10 (item 4.49.3)",
+        "vagas_reservadas": 0,
+        "laudo": "Laudo médico, preferencialmente no modelo do Anexo V, com identificação do candidato e do médico, registro profissional, assinatura verificável, data de emissão, diagnóstico com tipo e grau, CID-10, impedimentos funcionais e ajudas técnicas se necessárias. Validade: para deficiência permanente ou de longa duração, emitido nos 2 anos anteriores à abertura das inscrições; nos demais casos, no ano anterior. Diagnóstico ou CID isolado não basta.",
+        "prazo_envio": "Até 2026-12-20 (23h59)",
+        "forma_envio": "Online, anexado no ato da inscrição no portal da banca (https://portal.cepasf.com.br), respondendo SIM à pergunta sobre vaga PcD, com documento de identidade (frente e verso) e CPF",
+        "observacoes": "A tabela do item 3.1 indica 0 vaga PcD imediata em todos os cargos (a reserva vale para vagas futuras). Candidatos PcD aprovados passam por avaliação oficial, convocada em até 5 dias após a publicação da classificação, com laudo em até 5 dias; se o parecer for desfavorável, há junta médica (item 4.54). Condição temporária que exija só adaptação é tratada como atendimento especial."
+      },
+      "correcoes": {
+        "banca": "CEPASF",
+        "link_primario": "https://portal.cepasf.com.br",
+        "data_prova": "2027-01-10"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "isencao_inicio",
+          "isencao_fim",
+          "taxa_min",
+          "taxa_max",
+          "data_prova",
+          "esfera",
+          "tipo"
+        ],
+        "divergencias": [
+          {
+            "campo": "data_prova",
+            "base": "2027-01-24",
+            "edital": "2027-01-10 (prova objetiva; 2027-01-24 é apenas a prova prática de Merendeira)"
+          }
+        ]
+      }
+    },
+    "a_200b2607fc3b": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.acheconcursos.com.br/imagens/anexo/64869/edital.pdf",
+      "descricao": "Concurso da Câmara Municipal de Ibiúna (Edital 001/2026, organizado pela AB Concursos Públicos) para duas vagas em regime CLT: Assistente Administrativo (ensino fundamental) e Controlador Interno (ensino superior). Cada cargo tem 1 vaga mais cadastro de reserva, com prova objetiva de 40 questões. O edital não prevê isenção de taxa e não reserva vaga imediata para PcD, que ficam só no cadastro de reserva.",
+      "cronograma": [
+        {
+          "evento": "Publicação do edital",
+          "inicio": "2026-10-19",
+          "fim": "2026-10-19"
+        },
+        {
+          "evento": "Inscrições pela internet",
+          "inicio": "2026-10-19",
+          "fim": "2026-11-16"
+        },
+        {
+          "evento": "Envio de laudo e documentos PcD (dentro do período de inscrições)",
+          "inicio": "2026-10-19",
+          "fim": "2026-11-16"
+        },
+        {
+          "evento": "Último dia para pagamento do boleto",
+          "inicio": "2026-11-17",
+          "fim": "2026-11-17"
+        },
+        {
+          "evento": "Lista provisória de inscrições deferidas e de PcD deferidas/indeferidas",
+          "inicio": "2026-11-18",
+          "fim": "2026-11-18"
+        },
+        {
+          "evento": "Homologação das inscrições e convocação para as provas",
+          "inicio": "2026-11-23",
+          "fim": "2026-11-23"
+        },
+        {
+          "evento": "Prova objetiva",
+          "inicio": "2026-11-29",
+          "fim": "2026-11-29"
+        },
+        {
+          "evento": "Gabaritos preliminares",
+          "inicio": "2026-11-30",
+          "fim": "2026-11-30"
+        },
+        {
+          "evento": "Gabaritos oficiais e listas provisórias de resultados",
+          "inicio": "2026-12-08",
+          "fim": "2026-12-08"
+        },
+        {
+          "evento": "Classificação final e homologação",
+          "inicio": "2026-12-14",
+          "fim": "2026-12-14"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas (com regras de arredondamento)",
+        "vagas_reservadas": 0,
+        "laudo": "Cópia autenticada, legível, emitida nos últimos 12 meses antes da publicação do edital, com nome, RG ou CPF, dados do profissional (nome, CRM, assinatura e carimbo), categoria, grau ou nível da deficiência, CID, provável causa, graus de autonomia/limitações e necessidade de apoio de terceiros; deficiência auditiva exige audiometria de até 6 meses; laudo de TEA tem validade indeterminada, com relatório especializado.",
+        "prazo_envio": "Até o último dia das inscrições (2026-11-16, edital original)",
+        "forma_envio": "Upload na Área do Candidato em www.abconcursospublicos.org, com login e senha, junto com a autodeclaração (Anexo V)",
+        "observacoes": "Com apenas 1 vaga por cargo, não há reserva imediata para PcD (abaixo do mínimo legal); a PcD fica no cadastro de reserva. A condição PcD depende de perícia médica oficial."
+      },
+      "correcoes": {
+        "banca": "AB Concursos Públicos"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "vagas",
+          "salario_ate",
+          "esfera",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "data_prova"
+        ],
+        "divergencias": [
+          {
+            "campo": "inscricao_inicio",
+            "base": "2026-11-23",
+            "edital": "2026-10-19"
+          },
+          {
+            "campo": "inscricao_fim",
+            "base": "2026-11-23",
+            "edital": "2026-11-16"
+          },
+          {
+            "campo": "data_prova",
+            "base": "2026-12-06",
+            "edital": "2026-11-29"
+          }
+        ]
+      }
+    },
+    "a_92b552d846dd": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.vunesp.com.br/PJAN2601",
+      "descricao": "Concurso da Prefeitura de Jandira (Edital 1/2026, organizado pela Vunesp) com 308 vagas em 51 cargos de ensino fundamental, médio e superior, além de cadastro reserva em alguns cargos. A maior parte das vagas é para Auxiliar Administrativo (125). As provas são em duas datas: 21/02/2027 (fundamental e superior) e 28/02/2027 (médio).",
+      "cronograma": [
+        {
+          "evento": "Inscrições pela internet",
+          "inicio": "2026-11-16",
+          "fim": "2027-01-04"
+        },
+        {
+          "evento": "Pedido de isenção da taxa (envio de documentos até 17/11)",
+          "inicio": "2026-11-16",
+          "fim": "2026-11-17"
+        },
+        {
+          "evento": "Resultado do pedido de isenção/redução",
+          "inicio": "2026-12-09",
+          "fim": "2026-12-09"
+        },
+        {
+          "evento": "Recursos contra o resultado da isenção",
+          "inicio": "2026-12-10",
+          "fim": "2026-12-11"
+        },
+        {
+          "evento": "Resultado definitivo da isenção",
+          "inicio": "2026-12-18",
+          "fim": "2026-12-18"
+        },
+        {
+          "evento": "Envio de laudo PcD, condições especiais, jurado e nome social",
+          "inicio": "2026-11-16",
+          "fim": "2027-01-04"
+        },
+        {
+          "evento": "Vencimento do boleto",
+          "inicio": "2027-01-05",
+          "fim": "2027-01-05"
+        },
+        {
+          "evento": "Resultado das solicitações de PcD, condições especiais e jurado",
+          "inicio": "2027-01-12",
+          "fim": "2027-01-12"
+        },
+        {
+          "evento": "Recursos desse resultado",
+          "inicio": "2027-01-13",
+          "fim": "2027-01-14"
+        },
+        {
+          "evento": "Resultado dos recursos",
+          "inicio": "2027-01-22",
+          "fim": "2027-01-22"
+        },
+        {
+          "evento": "Prova objetiva (nível fundamental e superior, tarde)",
+          "inicio": "2027-02-21",
+          "fim": "2027-02-21"
+        },
+        {
+          "evento": "Gabarito da prova (fundamental e superior)",
+          "inicio": "2027-02-24",
+          "fim": "2027-02-24"
+        },
+        {
+          "evento": "Recurso contra o gabarito (fundamental e superior)",
+          "inicio": "2027-02-25",
+          "fim": "2027-02-26"
+        },
+        {
+          "evento": "Prova objetiva (nível médio, tarde)",
+          "inicio": "2027-02-28",
+          "fim": "2027-02-28"
+        },
+        {
+          "evento": "Gabarito da prova (médio)",
+          "inicio": "2027-03-03",
+          "fim": "2027-03-03"
+        },
+        {
+          "evento": "Recurso contra o gabarito (médio)",
+          "inicio": "2027-03-04",
+          "fim": "2027-03-05"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas atuais e futuras (fração igual ou maior que 0,5 arredonda para cima; com 5 a 10 vagas, ao menos uma para PcD)",
+        "laudo": "Laudo médico (cópia simples ou autenticada) atestando espécie e grau ou nível da deficiência, com referência ao CID; validade de 2 anos a contar do início da inscrição para deficiência permanente ou de longa duração e de 1 ano para as demais; laudo de TEA é isento de validade.",
+        "prazo_envio": "Durante o período de inscrições (2026-11-16 a 2027-01-04)",
+        "forma_envio": "Upload na Área do Candidato, link Envio de Documentos; arquivos pdf, png, jpg ou jpeg, até 2 MB por documento, frente e verso quando necessário",
+        "observacoes": "Aprovados PcD passam por perícia médica da Vunesp; deficiência incompatível com o cargo leva à exclusão. Pode haver tempo adicional de até 1 hora na prova objetiva. Sem PcD aprovados, as vagas reservadas voltam à ordem geral de classificação."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "banca",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "isencao_inicio",
+          "isencao_fim",
+          "data_prova"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_18bd99d6fb28": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.acheconcursos.com.br/imagens/anexo/65161/edital.pdf",
+      "descricao": "Concurso da Prefeitura de Brotas (Concurso Público nº 002/2026, organizado pelo INEPAM) para 1 vaga de Guarda Civil Municipal, mais cadastro de reserva, em regime CLT e jornada de 40 horas semanais. A seleção tem prova objetiva de 30 questões e teste de aptidão física eliminatório. O edital não prevê isenção da taxa.",
+      "cronograma": [
+        {
+          "evento": "Publicação do edital",
+          "inicio": "2026-11-06",
+          "fim": "2026-11-06"
+        },
+        {
+          "evento": "Inscrições pela internet (envio de laudo PcD por Sedex no mesmo período)",
+          "inicio": "2026-11-23",
+          "fim": "2027-01-01"
+        },
+        {
+          "evento": "Último dia para pagamento do boleto",
+          "inicio": "2027-01-01",
+          "fim": "2027-01-01"
+        },
+        {
+          "evento": "Divulgação da relação de inscritos",
+          "inicio": "2027-01-12",
+          "fim": "2027-01-12"
+        },
+        {
+          "evento": "Recursos sobre a relação de inscritos",
+          "inicio": "2027-01-13",
+          "fim": "2027-01-15"
+        },
+        {
+          "evento": "Retificação da relação e convocação para a prova",
+          "inicio": "2027-01-18",
+          "fim": "2027-01-18"
+        },
+        {
+          "evento": "Prova objetiva",
+          "inicio": "2027-01-31",
+          "fim": "2027-01-31"
+        },
+        {
+          "evento": "Gabarito",
+          "inicio": "2027-02-01",
+          "fim": "2027-02-01"
+        },
+        {
+          "evento": "Recursos sobre o gabarito",
+          "inicio": "2027-02-02",
+          "fim": "2027-02-04"
+        },
+        {
+          "evento": "Julgamento dos recursos",
+          "inicio": "2027-02-12",
+          "fim": "2027-02-12"
+        },
+        {
+          "evento": "Classificação e nota da prova objetiva",
+          "inicio": "2027-02-18",
+          "fim": "2027-02-18"
+        },
+        {
+          "evento": "Recursos sobre a classificação",
+          "inicio": "2027-02-19",
+          "fim": "2027-02-23"
+        },
+        {
+          "evento": "Homologação da classificação e convocação para o TAF",
+          "inicio": "2027-02-24",
+          "fim": "2027-02-24"
+        },
+        {
+          "evento": "Teste de aptidão física (TAF)",
+          "inicio": "2027-03-07",
+          "fim": "2027-03-07"
+        },
+        {
+          "evento": "Resultado do TAF",
+          "inicio": "2027-03-15",
+          "fim": "2027-03-15"
+        },
+        {
+          "evento": "Recursos sobre o TAF",
+          "inicio": "2027-03-16",
+          "fim": "2027-03-18"
+        },
+        {
+          "evento": "Homologação da classificação final e do concurso",
+          "inicio": "2027-03-25",
+          "fim": "2027-03-25"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas de cada cargo, aplicado às vagas que surgirem na validade do concurso",
+        "vagas_reservadas": 0,
+        "laudo": "Laudo ou relatório (original ou cópia autenticada) emitido nos últimos 12 meses, com espécie e grau da deficiência, CID, provável causa, grau de autonomia e necessidade de órteses, próteses ou adaptações; deficiência auditiva exige audiometria de até 6 meses; deficiência visual exige acuidade visual em AO, patologia e campo visual.",
+        "prazo_envio": "Durante o período de inscrições (2026-11-23 a 2027-01-01), valendo a data de postagem",
+        "forma_envio": "Sedex pelos Correios ao INEPAM, Caixa Postal 390, CEP 18682-970, com Anexo III preenchido e assinado; no envelope, número do concurso, cargo e 'Participação de Candidato com Deficiência'",
+        "observacoes": "Com 1 vaga, a regra de arredondamento não reserva vaga imediata para PcD. Convocação de PcD pela 5ª, 21ª, 41ª, 61ª colocação e assim por diante. Prova em braile/ampliada e tempo adicional devem ser pedidos por escrito até o fim das inscrições. Documentos fora do prazo ou da forma exigida não são aceitos."
+      },
+      "correcoes": {
+        "banca": "INEPAM"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "data_prova"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_7dddd3cdd72c": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.acheconcursos.com.br/imagens/anexo/64854/edital-concurso-ipa-sp-01-2026.pdf",
+      "descricao": "Concurso do Instituto de Pesquisas Ambientais (Edital CPRTI/CECP nº 01/2026, publicado em 19/10/2026 e organizado pela Vunesp) para 98 vagas de Pesquisador Científico I, categoria A, em dezenas de áreas de pesquisa ambiental. Exige ensino superior, jornada de 40 horas em dedicação exclusiva e prova objetiva, prova dissertativa e avaliação de títulos. A prova é em São Paulo, em 14/02/2027.",
+      "cronograma": [
+        {
+          "evento": "Inscrições pela internet",
+          "inicio": "2026-11-18",
+          "fim": "2026-12-22"
+        },
+        {
+          "evento": "Pedido de isenção ou redução da taxa (documentos também até 19/11)",
+          "inicio": "2026-11-18",
+          "fim": "2026-11-19"
+        },
+        {
+          "evento": "Resultado do pedido de isenção/redução",
+          "inicio": "2026-12-08",
+          "fim": "2026-12-08"
+        },
+        {
+          "evento": "Recurso contra o resultado de isenção/redução",
+          "inicio": "2026-12-08",
+          "fim": "2026-12-10"
+        },
+        {
+          "evento": "Resultado dos recursos de isenção/redução",
+          "inicio": "2026-12-18",
+          "fim": "2026-12-18"
+        },
+        {
+          "evento": "Envio de laudo PcD e demais documentos (condições especiais, jurado, nome social)",
+          "inicio": "2026-11-18",
+          "fim": "2026-12-22"
+        },
+        {
+          "evento": "Vencimento do boleto",
+          "inicio": "2026-12-23",
+          "fim": "2026-12-23"
+        },
+        {
+          "evento": "Resultado dessas solicitações (inclui PcD)",
+          "inicio": "2027-01-12",
+          "fim": "2027-01-12"
+        },
+        {
+          "evento": "Recurso sobre esse resultado",
+          "inicio": "2027-01-12",
+          "fim": "2027-01-14"
+        },
+        {
+          "evento": "Resultado da análise do recurso",
+          "inicio": "2027-01-22",
+          "fim": "2027-01-22"
+        },
+        {
+          "evento": "Prova objetiva e dissertativa (tarde, São Paulo)",
+          "inicio": "2027-02-14",
+          "fim": "2027-02-14"
+        },
+        {
+          "evento": "Gabarito da prova objetiva",
+          "inicio": "2027-02-16",
+          "fim": "2027-02-16"
+        },
+        {
+          "evento": "Recurso contra o gabarito",
+          "inicio": "2027-02-16",
+          "fim": "2027-02-18"
+        },
+        {
+          "evento": "Procedimento de heteroidentificação",
+          "inicio": "2027-04-04",
+          "fim": "2027-04-04"
+        },
+        {
+          "evento": "Resultado da heteroidentificação",
+          "inicio": "2027-04-15",
+          "fim": "2027-04-15"
+        },
+        {
+          "evento": "Nota da prova objetiva",
+          "inicio": "2027-05-12",
+          "fim": "2027-05-12"
+        },
+        {
+          "evento": "Nota da prova dissertativa",
+          "inicio": "2027-06-01",
+          "fim": "2027-06-01"
+        },
+        {
+          "evento": "Análise do recurso contra a nota da dissertativa",
+          "inicio": "2027-06-24",
+          "fim": "2027-06-24"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas (fração igual ou maior que 0,5 arredonda para cima; com 5 a 10 vagas, ao menos uma para PcD)",
+        "vagas_reservadas": 5,
+        "laudo": "Laudo médico com CID, assinatura e carimbo com CRM do médico; validade de 2 anos para deficiência permanente ou de longa duração e de 1 ano para as demais; laudo de TEA é isento de validade.",
+        "prazo_envio": "Durante o período de inscrições (2026-11-18 a 2026-12-22)",
+        "forma_envio": "Upload na Área do Candidato; arquivos pdf, png, jpg ou jpeg, até 2 MB cada; documentos enviados por outros meios não são considerados",
+        "observacoes": "Após a classificação, exame médico em São Paulo; pedido de junta médica em até 5 dias úteis do resultado. Deficiência incompatível com o cargo leva à exclusão. Ordem de convocação de PcD: 5ª vaga, 30ª, 50ª e depois a cada 20."
+      },
+      "correcoes": {
+        "data_prova": "2027-02-14"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "banca",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "isencao_inicio",
+          "isencao_fim",
+          "taxa_min",
+          "taxa_max",
+          "esfera"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_8b462a3d79e9": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.acheconcursos.com.br/imagens/anexo/65092/edital.pdf",
+      "descricao": "Concurso público nº 001/2026 da Prefeitura de Guaratinguetá, organizado pela Vunesp, com cerca de 107 vagas em dezenas de cargos de todos os níveis, do fundamental ao superior, em regime CLT. Há cargos de saúde (muitos médicos), educação (professores, diretor, coordenador), áreas técnicas e operacionais, e procurador municipal. Também prevê cotas para pessoas com deficiência e para candidatos negros.",
+      "cronograma": [
+        {
+          "evento": "Inscrições (somente internet)",
+          "inicio": "2026-11-16",
+          "fim": "2026-12-15"
+        },
+        {
+          "evento": "Pedido de isenção da taxa",
+          "inicio": "2026-11-16",
+          "fim": "2026-11-20"
+        },
+        {
+          "evento": "Resultado da solicitação de isenção",
+          "inicio": "2026-11-27"
+        },
+        {
+          "evento": "Recurso contra indeferimento da isenção",
+          "inicio": "2026-11-30",
+          "fim": "2026-12-01"
+        },
+        {
+          "evento": "Resultado dos recursos da isenção",
+          "inicio": "2026-12-07"
+        },
+        {
+          "evento": "Vencimento do boleto",
+          "inicio": "2026-12-16"
+        },
+        {
+          "evento": "Lista de atendimento especial, PcD e cotistas (previsto)",
+          "inicio": "2027-01-13"
+        },
+        {
+          "evento": "Recurso contra a lista de atendimento especial, PcD e cotistas",
+          "inicio": "2027-01-14",
+          "fim": "2027-01-15"
+        },
+        {
+          "evento": "Resultado dos recursos da lista de PcD, atendimento especial e cotistas",
+          "inicio": "2027-01-22"
+        },
+        {
+          "evento": "Convocação para as provas objetivas",
+          "inicio": "2027-02-11"
+        },
+        {
+          "evento": "Provas objetivas (e prático-profissional, quando o cargo exige)",
+          "inicio": "2027-02-21"
+        },
+        {
+          "evento": "Publicação dos gabaritos",
+          "inicio": "2027-02-23"
+        },
+        {
+          "evento": "Recurso contra os gabaritos",
+          "inicio": "2027-02-24",
+          "fim": "2027-02-25"
+        },
+        {
+          "evento": "Resultado da prova objetiva e dos recursos contra gabaritos",
+          "inicio": "2027-03-22"
+        },
+        {
+          "evento": "Recurso contra o resultado da prova objetiva",
+          "inicio": "2027-03-23",
+          "fim": "2027-03-24"
+        }
+      ],
+      "pcd": {
+        "percentual": "5%",
+        "laudo": "Laudo médico (cópia simples ou autenticada) com CID, assinatura e carimbo do CRM do médico. Validade: 2 anos para deficiência permanente ou de longa duração e 1 ano nos demais casos; laudos de TEA ficam isentos dessa validade.",
+        "prazo_envio": "No período de inscrições (16/11/2026 a 15/12/2026), com declaração da deficiência na ficha de inscrição",
+        "forma_envio": "Pela internet, no campo 'Envio de Documentos' da Área do Candidato (PDF, PNG, JPG ou JPEG, até 2 MB)",
+        "observacoes": "Reserva também vale para vagas que surgirem na validade do concurso; fração a partir de 5 décimos arredonda para cima. Mesma prova e nota mínima dos demais; tempo adicional de até 1 hora se justificado. Quem não declarar a deficiência na inscrição não é considerado PcD. Perícia médica verifica compatibilidade com o cargo. Edital não traz total de vagas reservadas por cargo no trecho lido."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "banca",
+          "esfera",
+          "tipo",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "isencao_inicio",
+          "isencao_fim",
+          "taxa_min",
+          "taxa_max",
+          "data_prova"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_c81ea8da3f77": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://semil.sp.gov.br/2026/11/governo-de-sp-lanca-concurso-para-a-cetesb-com-107-vagas-em-12-regioes-do-estado/",
+      "descricao": "Concurso da CETESB, a companhia ambiental do Estado de SP, feito em dois editais da FCC: o nº 01/2026 (nível superior, 84 vagas) e o nº 02/2026 (nível médio e técnico, 23 vagas), somando 107 vagas mais cadastro de reserva. Há vagas em 12 regiões do estado e as provas serão em 10 cidades, em regime CLT.",
+      "cronograma": [
+        {
+          "evento": "Inscrições (Editais 01 e 02/2026)",
+          "inicio": "2026-11-12",
+          "fim": "2026-12-14"
+        },
+        {
+          "evento": "Pedido de isenção ou redução da taxa",
+          "inicio": "2026-11-12",
+          "fim": "2026-11-14"
+        },
+        {
+          "evento": "Divulgação dos pedidos de isenção/redução",
+          "inicio": "2026-11-23"
+        },
+        {
+          "evento": "Recurso sobre isenção/redução",
+          "inicio": "2026-11-24",
+          "fim": "2026-11-25"
+        },
+        {
+          "evento": "Resultado dos pedidos de isenção após recursos",
+          "inicio": "2026-12-02"
+        },
+        {
+          "evento": "Prazo final para laudo médico PcD e condições especiais",
+          "fim": "2026-12-14"
+        },
+        {
+          "evento": "Último dia para pagamento do boleto",
+          "inicio": "2026-12-15"
+        },
+        {
+          "evento": "Relação de candidatos às vagas reservadas e condições especiais deferidas",
+          "inicio": "2027-01-07"
+        },
+        {
+          "evento": "Recurso sobre vagas reservadas e condições especiais",
+          "inicio": "2027-01-08",
+          "fim": "2027-01-11"
+        },
+        {
+          "evento": "Respostas aos recursos de PcD e condições especiais",
+          "inicio": "2027-01-15"
+        },
+        {
+          "evento": "Edital de convocação para as provas",
+          "inicio": "2027-01-26"
+        },
+        {
+          "evento": "Provas objetivas (Edital 01 também com prova discursiva-redação)",
+          "inicio": "2027-02-21"
+        },
+        {
+          "evento": "Gabaritos das provas objetivas",
+          "inicio": "2027-02-22"
+        },
+        {
+          "evento": "Resultado preliminar das provas objetivas - Edital 02 (médio/técnico)",
+          "inicio": "2027-03-12"
+        },
+        {
+          "evento": "Resultado preliminar das provas objetivas e redação - Edital 01 (superior)",
+          "inicio": "2027-03-24"
+        },
+        {
+          "evento": "Resultado final do concurso - Edital 02 (médio/técnico)",
+          "inicio": "2027-04-28"
+        },
+        {
+          "evento": "Resultado final do concurso - Edital 01 (superior)",
+          "inicio": "2027-06-08"
+        }
+      ],
+      "pcd": {
+        "percentual": "5%",
+        "vagas_reservadas": 5,
+        "laudo": "Laudo com espécie e grau/nível da deficiência, código CID, provável causa, data, assinatura e carimbo com CRM do médico; laudo digital precisa de assinatura digital ou código de verificação. Validade contada do início das inscrições: 2 anos para deficiência permanente/de longa duração e 1 ano nas demais; para TEA vale a Lei nº 17.669/2023.",
+        "prazo_envio": "De 12/11/2026 a 14/12/2026",
+        "forma_envio": "Pela internet, pelo link de inscrição no site da FCC, em arquivo legível, sem rasuras ou cortes",
+        "observacoes": "Reserva de 5% por cargo/polo e das vagas criadas na validade; fração igual ou maior que 0,5 arredonda para cima; com 5 a 10 vagas, pelo menos uma para PcD. Vagas PcD no Anexo I: 4 no Edital 01 e 1 no Edital 02. Avaliação biopsicossocial na convocação, de caráter terminativo. Condições especiais de prova devem ser pedidas por escrito até 14/12/2026."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "banca",
+          "esfera",
+          "tipo",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "taxa_min",
+          "taxa_max",
+          "data_prova"
+        ],
+        "divergencias": [
+          {
+            "campo": "salario_ate",
+            "base": "8971.98",
+            "edital": "12023.52 (maior remuneração inicial do Edital 01/2026: R$ 8.971,98 de salário base + R$ 3.051,54 de piso da formação, valores de maio/2026)"
+          }
+        ]
+      }
+    },
+    "a_c23c6153bba2": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://dhg1h5j42swfq.cloudfront.net/2026/07/11103901/01_edital_completo_cp_2026_11_10_17_28_28.pdf",
+      "descricao": "Concurso público CPPMT 001/2026 da Prefeitura de Tapiraí, organizado pelo Igecs, com 24 vagas imediatas e 11 cadastros de reserva em 29 empregos, do ensino fundamental ao superior, em regime CLT. Reúne funções de limpeza e manutenção, saúde, engenharia, educação e outras áreas, com validade de 2 anos.",
+      "cronograma": [
+        {
+          "evento": "Inscrições (internet)",
+          "inicio": "2026-11-11",
+          "fim": "2026-12-14"
+        },
+        {
+          "evento": "Pedido de isenção da taxa",
+          "inicio": "2026-11-11",
+          "fim": "2026-11-13"
+        },
+        {
+          "evento": "Divulgação dos isentos deferidos",
+          "inicio": "2026-11-27"
+        },
+        {
+          "evento": "Termo de convocação para a prova objetiva (previsto a partir de)",
+          "inicio": "2027-01-08"
+        },
+        {
+          "evento": "Prova objetiva",
+          "inicio": "2027-01-24"
+        }
+      ],
+      "pcd": {
+        "percentual": "5%",
+        "laudo": "Laudo médico carimbado e assinado pelo médico, com causa, natureza e grau da deficiência e código CID. Sem laudo adequado o candidato concorre apenas na ampla concorrência.",
+        "prazo_envio": "No ato da inscrição (não se aceitam documentos complementares depois)",
+        "forma_envio": "Anexado em um único arquivo PDF na inscrição pela internet",
+        "observacoes": "Frações abaixo de 0,5 são desconsideradas e a partir de 0,5 arredondam para cima; vale também para vagas futuras. A 5ª vaga vai ao primeiro PcD, depois a cada 20 vagas. Perícia médica oficial na convocação. Mesma prova dos demais candidatos; pedidos de atendimento especial seguem o mesmo procedimento, com laudo em PDF."
+      },
+      "correcoes": {
+        "link_primario": "https://www.igecs.org.br"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "banca",
+          "esfera",
+          "tipo",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "isencao_inicio",
+          "isencao_fim",
+          "taxa_min",
+          "taxa_max",
+          "data_prova"
+        ],
+        "divergencias": []
+      }
+    },
+    "a_bef9ec9cd019": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://www.praiagrande.sp.gov.br/arquivos/concurso/3469.pdf",
+      "descricao": "Concurso da Prefeitura de Praia Grande para professores da rede municipal, com 23 vagas para Professor Adjunto I (educação infantil e anos iniciais) e Professor III de várias áreas, todos de nível superior. Tem prova objetiva de 40 questões e prova de títulos classificatória, além de reserva de 5% das vagas para pessoas com deficiência e 20% para pessoas negras, pardas, indígenas e quilombolas em vulnerabilidade social.",
+      "cronograma": [
+        {
+          "evento": "Inscrições pela internet (site do IBAM)",
+          "inicio": "2026-11-12",
+          "fim": "2026-12-10"
+        },
+        {
+          "evento": "Pedido de isenção da taxa",
+          "inicio": "2026-11-12",
+          "fim": "2026-11-18"
+        },
+        {
+          "evento": "Resultado da isenção",
+          "inicio": "2026-11-27",
+          "fim": "2026-11-27"
+        },
+        {
+          "evento": "Recursos contra a isenção",
+          "inicio": "2026-11-30",
+          "fim": "2026-12-02"
+        },
+        {
+          "evento": "Resposta aos recursos da isenção",
+          "inicio": "2026-12-07",
+          "fim": "2026-12-07"
+        },
+        {
+          "evento": "Pedido de vaga reservada (PcD/PPIQ), envio do laudo e condições especiais",
+          "inicio": "2026-11-12",
+          "fim": "2026-12-10"
+        },
+        {
+          "evento": "Divulgação do resultado dos pedidos de vagas reservadas e condições especiais",
+          "inicio": "2026-12-18",
+          "fim": "2026-12-18"
+        },
+        {
+          "evento": "Recursos contra indeferimento dos pedidos de vagas reservadas",
+          "inicio": "2026-12-21",
+          "fim": "2026-12-23"
+        },
+        {
+          "evento": "Resultado dos recursos dos pedidos de vagas reservadas",
+          "inicio": "2027-01-06",
+          "fim": "2027-01-06"
+        },
+        {
+          "evento": "Edital de convocação para a prova objetiva",
+          "inicio": "2027-01-15",
+          "fim": "2027-01-15"
+        },
+        {
+          "evento": "Prova objetiva (data estimada)",
+          "inicio": "2027-01-24",
+          "fim": "2027-01-24"
+        },
+        {
+          "evento": "Divulgação dos gabaritos",
+          "inicio": "2027-01-26",
+          "fim": "2027-01-26"
+        },
+        {
+          "evento": "Recursos contra os gabaritos",
+          "inicio": "2027-01-27",
+          "fim": "2027-01-29"
+        },
+        {
+          "evento": "Resultado dos recursos e divulgação das notas da prova objetiva",
+          "inicio": "2027-02-23",
+          "fim": "2027-02-23"
+        },
+        {
+          "evento": "Entrega de títulos",
+          "inicio": "2027-03-08",
+          "fim": "2027-03-10"
+        },
+        {
+          "evento": "Divulgação das notas de títulos",
+          "inicio": "2027-04-02",
+          "fim": "2027-04-02"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das nomeações de cada cargo",
+        "laudo": "Deve informar tipo e grau ou nível da deficiência, código CID e causa provável, com nome completo, CRM e assinatura do médico, legível. Validade: emitido nos 12 meses anteriores à publicação do edital, salvo deficiência permanente com laudo que ateste irreversibilidade. Um laudo por inscrição.",
+        "prazo_envio": "Durante o período de inscrição, até 10/12/2026",
+        "forma_envio": "Upload pelo link do IBAM no ato da inscrição, em arquivo único de até 1 MB (PDF, JPG, JPEG ou PNG)",
+        "observacoes": "Frações de 0,5 ou mais arredondam para cima. Pedido de condição especial para a prova exige laudo próprio e não substitui o pedido de vaga reservada. Candidato aprovado passa por avaliação médica oficial, sem recurso. Resultado dos pedidos em 18/12/2026."
+      },
+      "correcoes": {},
+      "conferencia": {
+        "campos_conferidos": [
+          "esfera",
+          "banca",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "isencao_fim",
+          "taxa_min",
+          "taxa_max",
+          "data_prova",
+          "link_primario"
+        ],
+        "divergencias": [
+          {
+            "campo": "isencao_inicio",
+            "base": "2026-11-17",
+            "edital": "2026-11-12 (pedidos nos dias 12, 13, 16, 17 e 18/11/2026)"
+          }
+        ]
+      }
+    },
+    "a_aea0e1e69518": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://institutoindec.org.br/concursos/publicacoes/PREFEITURA+MUNICIPAL+DE+COSM%C3%93POLIS/187",
+      "descricao": "Concurso da Secretaria de Educação de Cosmópolis (Edital 002/2026, regime CLT) para empregos de nível superior da área de ensino, como PEB I, PEB II, Diretor de Escola e Supervisor de Ensino. Apenas PEB I tem 1 vaga imediata, os demais empregos são de cadastro reserva, e a remuneração é por hora ou hora-aula.",
+      "cronograma": [
+        {
+          "evento": "Inscrições pela internet (inclui pedido de PcD, condição especial e envio de títulos)",
+          "inicio": "2026-11-04",
+          "fim": "2026-12-10"
+        },
+        {
+          "evento": "Pedido de isenção da taxa",
+          "inicio": "2026-11-04",
+          "fim": "2026-11-05"
+        },
+        {
+          "evento": "Resultado da isenção",
+          "inicio": "2026-11-12",
+          "fim": "2026-11-12"
+        },
+        {
+          "evento": "Recurso da isenção",
+          "inicio": "2026-11-13",
+          "fim": "2026-11-14"
+        },
+        {
+          "evento": "Análise dos recursos da isenção",
+          "inicio": "2026-11-19",
+          "fim": "2026-11-19"
+        },
+        {
+          "evento": "Último dia para pagamento do boleto",
+          "inicio": "2026-12-11",
+          "fim": "2026-12-11"
+        },
+        {
+          "evento": "Relação de inscritos, de candidatos PcD e de condições especiais",
+          "inicio": "2026-12-21",
+          "fim": "2026-12-21"
+        },
+        {
+          "evento": "Recursos contra a relação de inscritos, PcD e condições especiais",
+          "inicio": "2026-12-22",
+          "fim": "2026-12-23"
+        },
+        {
+          "evento": "Edital de convocação para as provas objetivas",
+          "inicio": "2027-01-26",
+          "fim": "2027-01-26"
+        },
+        {
+          "evento": "Prova objetiva (data prevista)",
+          "inicio": "2027-01-31",
+          "fim": "2027-01-31"
+        },
+        {
+          "evento": "Gabarito preliminar e resultado da prova de títulos",
+          "inicio": "2027-02-02",
+          "fim": "2027-02-02"
+        },
+        {
+          "evento": "Recurso do gabarito e da prova de títulos",
+          "inicio": "2027-02-03",
+          "fim": "2027-02-04"
+        },
+        {
+          "evento": "Gabarito final e resultado preliminar das provas objetivas",
+          "inicio": "2027-02-23",
+          "fim": "2027-02-23"
+        },
+        {
+          "evento": "Recurso contra o resultado preliminar",
+          "inicio": "2027-02-24",
+          "fim": "2027-02-25"
+        },
+        {
+          "evento": "Resultado final e homologação",
+          "inicio": "2027-03-05",
+          "fim": "2027-03-05"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas de cada função",
+        "laudo": "Deve conter nome completo, data, assinatura, carimbo e CRM do médico, CID, causa provável e fundamentação médica. Validade: até 12 meses antes da publicação do edital, salvo deficiência permanente (irreversível); laudo de TEA tem validade indeterminada.",
+        "prazo_envio": "Até as 23h59 do último dia de inscrição (10/12/2026)",
+        "forma_envio": "Upload na ficha de inscrição, arquivo único em PDF, PNG, JPG ou JPEG de até 5 MB; laudos por correio ou e-mail não são aceitos",
+        "observacoes": "Frações de 0,5 ou mais geram uma vaga. Condição especial na prova exige pedido na inscrição, com laudo de especialista para tempo adicional (máximo 60 minutos). O candidato PcD faz exame médico oficial na convocação. O texto do edital tem divergência interna na ordem de convocação PcD (item 3.1.36.1 cita 5ª, 21ª, 41ª; a tabela orientadora cita 2ª, 21ª, 41ª)."
+      },
+      "correcoes": {
+        "link_primario": "https://institutoindec.org.br"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "esfera",
+          "banca",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "isencao_inicio",
+          "isencao_fim",
+          "taxa_min",
+          "taxa_max",
+          "data_prova",
+          "cadastro_reserva"
+        ],
+        "divergencias": [
+          {
+            "campo": "cargos",
+            "base": "PEB I - Educação Infantil e Séries Iniciais do Ensino Fundamental",
+            "edital": "17 empregos de nível superior: Diretor de Escola, PEB I, PEB II (várias disciplinas e Educação Especial), PEBAD I e II, Supervisor de Ensino; só PEB I tem 1 vaga, os demais são cadastro reserva"
+          }
+        ]
+      }
+    },
+    "a_c28c0884b4a1": {
+      "conferido_em": "2026-11-22",
+      "link_edital": "https://institutoindec.org.br/concursos/publicacoes/PREFEITURA+MUNICIPAL+DE+SANTA+BRANCA/182",
+      "descricao": "Concurso da Prefeitura de Santa Branca (Edital 001/2026, regime CLT) com 47 empregos de todos os níveis de escolaridade, dos quais 5 têm 6 vagas imediatas (Motorista I, dois Agentes Comunitários de Saúde, Fiscal Ambiental e Advogado do CREAS) e os demais formam cadastro reserva. Alguns cargos têm teste de direção veicular, prova de títulos ou teste de aptidão física além da prova objetiva.",
+      "cronograma": [
+        {
+          "evento": "Inscrições pela internet (inclui pedido de PcD, condição especial e envio de títulos)",
+          "inicio": "2026-11-09",
+          "fim": "2026-12-10"
+        },
+        {
+          "evento": "Pedido de isenção da taxa",
+          "inicio": "2026-11-09",
+          "fim": "2026-11-10"
+        },
+        {
+          "evento": "Resultado da isenção",
+          "inicio": "2026-11-24",
+          "fim": "2026-11-24"
+        },
+        {
+          "evento": "Recurso da isenção",
+          "inicio": "2026-11-25",
+          "fim": "2026-11-26"
+        },
+        {
+          "evento": "Resultado dos recursos da isenção",
+          "inicio": "2026-12-03",
+          "fim": "2026-12-03"
+        },
+        {
+          "evento": "Último dia para pagamento da taxa",
+          "inicio": "2026-12-11",
+          "fim": "2026-12-11"
+        },
+        {
+          "evento": "Relação de inscritos, de candidatos PcD e de condições especiais",
+          "inicio": "2026-12-15",
+          "fim": "2026-12-15"
+        },
+        {
+          "evento": "Recursos contra a relação e correção de dados",
+          "inicio": "2026-12-16",
+          "fim": "2026-12-17"
+        },
+        {
+          "evento": "Resultado dos recursos",
+          "inicio": "2026-12-22",
+          "fim": "2026-12-22"
+        },
+        {
+          "evento": "Edital de convocação para as provas objetivas",
+          "inicio": "2027-01-12",
+          "fim": "2027-01-12"
+        },
+        {
+          "evento": "Prova objetiva (data prevista)",
+          "inicio": "2027-01-17",
+          "fim": "2027-01-17"
+        },
+        {
+          "evento": "Gabarito preliminar e resultado da avaliação de títulos",
+          "inicio": "2027-01-19",
+          "fim": "2027-01-19"
+        },
+        {
+          "evento": "Recurso do gabarito e dos títulos",
+          "inicio": "2027-01-20",
+          "fim": "2027-01-21"
+        },
+        {
+          "evento": "Gabarito final e resultado preliminar da prova objetiva",
+          "inicio": "2027-02-04",
+          "fim": "2027-02-04"
+        },
+        {
+          "evento": "Recurso contra o resultado preliminar",
+          "inicio": "2027-02-05",
+          "fim": "2027-02-06"
+        },
+        {
+          "evento": "Resultado final da prova objetiva e convocação para teste de direção e TAF",
+          "inicio": "2027-02-16",
+          "fim": "2027-02-16"
+        },
+        {
+          "evento": "Teste de direção veicular e teste de aptidão física",
+          "inicio": "2027-02-21",
+          "fim": "2027-02-21"
+        },
+        {
+          "evento": "Resultado preliminar dos testes de direção e TAF",
+          "inicio": "2027-02-25",
+          "fim": "2027-02-25"
+        },
+        {
+          "evento": "Recurso contra o resultado dos testes",
+          "inicio": "2027-02-26",
+          "fim": "2027-02-27"
+        },
+        {
+          "evento": "Resultado final dos testes e homologação",
+          "inicio": "2027-03-05",
+          "fim": "2027-03-05"
+        }
+      ],
+      "pcd": {
+        "percentual": "5% das vagas de cada emprego",
+        "laudo": "Deve conter nome completo, espécie e grau ou nível da deficiência, CID, causa provável, justificativa médica, data, assinatura, carimbo e CRM do médico. Validade: referente aos 12 meses anteriores à publicação do edital, salvo deficiência permanente com registro de irreversibilidade; TEA tem validade indeterminada. Vale só para este concurso.",
+        "prazo_envio": "Até as 23h59 do último dia de inscrição (10/12/2026)",
+        "forma_envio": "Upload na ficha de inscrição, arquivo único de até 5 MB (PDF, PNG, JPG ou JPEG)",
+        "observacoes": "Frações de 0,5 ou mais geram uma vaga; frações menores só geram vaga se o número de vagas aumentar. Convocação PcD na 5ª, 21ª, 41ª, 61ª e 81ª vagas e assim por diante. Condição especial na prova exige pedido na inscrição; tempo adicional limitado a 60 minutos com laudo de especialista. Vagas PcD não preenchidas revertem à ampla concorrência."
+      },
+      "correcoes": {
+        "link_primario": "https://institutoindec.org.br"
+      },
+      "conferencia": {
+        "campos_conferidos": [
+          "esfera",
+          "banca",
+          "vagas",
+          "salario_ate",
+          "inscricao_inicio",
+          "inscricao_fim",
+          "isencao_inicio",
+          "isencao_fim",
+          "taxa_min",
+          "taxa_max",
+          "data_prova"
+        ],
+        "divergencias": []
       }
     }
   }
