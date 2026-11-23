@@ -1,9 +1,9 @@
 {
- "gerado_em": "2026-11-19T18:17:15Z",
+ "gerado_em": "2026-11-23T21:26:20Z",
  "resumo": {
   "PNCP (obrigatório)": 254,
-  "sem cobertura": 226,
-  "PNCP (já publicou)": 165
+  "sem cobertura": 225,
+  "PNCP (já publicou)": 166
  },
  "municipios": [
   {
@@ -25,7 +25,7 @@
    "pre_edital": "sem cobertura",
    "pncp_visto_em": null,
    "querido_diario": true,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 0
   },
   {
@@ -34,7 +34,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 32884,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -45,10 +45,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 39084,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3500758",
@@ -78,10 +78,10 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 3456,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 0,
-   "futuros": 1
+   "abertos": 1,
+   "futuros": 0
   },
   {
    "codigo_ibge": "3501004",
@@ -89,7 +89,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 17234,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -144,7 +144,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 69859,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -155,7 +155,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 33663,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -188,7 +188,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 61761,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 2
@@ -199,7 +199,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 24628,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -232,7 +232,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 33067,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -243,7 +243,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 4101,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -265,7 +265,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 5543,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -276,7 +276,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 7099,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -298,10 +298,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 254508,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 2,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3503307",
@@ -309,7 +309,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 136113,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -331,9 +331,9 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 208987,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
-   "abertos": 5,
+   "abertos": 6,
    "futuros": 0
   },
   {
@@ -342,7 +342,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 33989,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -441,7 +441,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 105051,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 3,
    "futuros": 1
@@ -452,7 +452,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 168162,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -463,7 +463,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 13841,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -485,7 +485,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 96764,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -551,10 +551,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 32406,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3505302",
@@ -562,7 +562,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 35102,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -595,10 +595,10 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 127276,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3505609",
@@ -606,10 +606,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 33414,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 3
   },
   {
    "codigo_ibge": "3505708",
@@ -617,7 +617,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 336015,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -628,7 +628,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 3644,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -639,7 +639,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 21968,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -661,9 +661,9 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 394028,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 8,
+   "abertos": 7,
    "futuros": 0
   },
   {
@@ -696,7 +696,7 @@
    "pre_edital": "PNCP (já publicou)",
    "pncp_visto_em": "2026-11-19",
    "querido_diario": false,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 0
   },
   {
@@ -705,10 +705,10 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 67941,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 2
   },
   {
    "codigo_ibge": "3506409",
@@ -716,7 +716,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 7473,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -727,7 +727,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 123655,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
    "futuros": 0
@@ -771,7 +771,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 10735,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -782,7 +782,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 64240,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -793,7 +793,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 22648,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 3
@@ -826,10 +826,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 14396,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3507456",
@@ -848,7 +848,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 935,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -859,9 +859,9 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 151600,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
-   "abertos": 11,
+   "abertos": 12,
    "futuros": 1
   },
   {
@@ -881,7 +881,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 5487,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -903,7 +903,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 26446,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -914,7 +914,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 24571,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 1
@@ -1013,7 +1013,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 16908,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -1057,10 +1057,10 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 99249,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 2
   },
   {
    "codigo_ibge": "3509254",
@@ -1068,7 +1068,7 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 29267,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -1112,9 +1112,9 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 1189761,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
-   "abertos": 5,
+   "abertos": 6,
    "futuros": 2
   },
   {
@@ -1123,7 +1123,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 79890,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -1200,7 +1200,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 51415,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -1211,7 +1211,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 47415,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -1222,10 +1222,10 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 143291,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3510609",
@@ -1233,7 +1233,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 398772,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -1277,7 +1277,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 119368,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -1290,7 +1290,7 @@
    "pre_edital": "sem cobertura",
    "pncp_visto_em": null,
    "querido_diario": false,
-   "abertos": 1,
+   "abertos": 2,
    "futuros": 0
   },
   {
@@ -1299,7 +1299,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 100422,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -1321,7 +1321,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 22329,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -1354,10 +1354,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 15827,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3557204",
@@ -1376,7 +1376,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 7082,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -1387,10 +1387,10 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 18914,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3512100",
@@ -1398,10 +1398,10 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 6822,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3512209",
@@ -1409,7 +1409,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 29220,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -1497,7 +1497,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 291704,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -1530,7 +1530,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 76381,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -1552,7 +1552,7 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 114681,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 3,
    "futuros": 0
@@ -1563,10 +1563,10 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 22467,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
-   "abertos": 1,
-   "futuros": 0
+   "abertos": 0,
+   "futuros": 2
   },
   {
    "codigo_ibge": "3510906",
@@ -1585,7 +1585,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 30144,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 2
@@ -1598,7 +1598,7 @@
    "pre_edital": "sem cobertura",
    "pncp_visto_em": null,
    "querido_diario": false,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 0
   },
   {
@@ -1618,7 +1618,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 403802,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -1640,10 +1640,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 11296,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 4
   },
   {
    "codigo_ibge": "3514007",
@@ -1662,7 +1662,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 24839,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -1695,9 +1695,9 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 46800,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
-   "abertos": 2,
+   "abertos": 3,
    "futuros": 1
   },
   {
@@ -1717,9 +1717,9 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 9804,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 1,
+   "abertos": 0,
    "futuros": 0
   },
   {
@@ -1750,7 +1750,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 18226,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -1783,7 +1783,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 260113,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -1882,7 +1882,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 7833,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -1937,7 +1937,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 186816,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -1959,7 +1959,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 2739,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -2003,7 +2003,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 171806,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -2036,7 +2036,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 43051,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 4
@@ -2058,7 +2058,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 4815,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2102,7 +2102,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 5611,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2145,11 +2145,11 @@
    "nome": "Guaraci",
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 10566,
-   "pre_edital": "sem cobertura",
-   "pncp_visto_em": null,
+   "pre_edital": "PNCP (já publicou)",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3518008",
@@ -2190,10 +2190,10 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 32785,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3518404",
@@ -2201,7 +2201,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 122100,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -2245,9 +2245,9 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 294780,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 0
   },
   {
@@ -2256,7 +2256,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 1351284,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 2
@@ -2322,10 +2322,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 9329,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3519055",
@@ -2333,7 +2333,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 15832,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2344,7 +2344,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 250195,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -2355,7 +2355,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 10661,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 4
@@ -2377,7 +2377,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 8362,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2421,7 +2421,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 62353,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 3
@@ -2432,7 +2432,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 77936,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 1
@@ -2454,10 +2454,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 7739,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
-   "abertos": 0,
-   "futuros": 1
+   "abertos": 1,
+   "futuros": 0
   },
   {
    "codigo_ibge": "3520103",
@@ -2487,7 +2487,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 23414,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 3
@@ -2498,7 +2498,7 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 29900,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2522,7 +2522,7 @@
    "pre_edital": "PNCP (obrigatório)",
    "pncp_visto_em": "2025-04-04",
    "querido_diario": false,
-   "abertos": 3,
+   "abertos": 2,
    "futuros": 0
   },
   {
@@ -2531,7 +2531,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 36766,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2575,7 +2575,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 3670,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -2586,10 +2586,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 13936,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3521002",
@@ -2597,10 +2597,10 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 38527,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 1,
-   "futuros": 0
+   "abertos": 0,
+   "futuros": 3
   },
   {
    "codigo_ibge": "3521101",
@@ -2641,7 +2641,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 14711,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2652,7 +2652,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 22559,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -2696,7 +2696,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 17576,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2718,7 +2718,7 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 119274,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 1
@@ -2742,7 +2742,7 @@
    "pre_edital": "PNCP (obrigatório)",
    "pncp_visto_em": null,
    "querido_diario": false,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 0
   },
   {
@@ -2751,7 +2751,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 164687,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -2773,7 +2773,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 243967,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -2850,9 +2850,9 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 45111,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 2
   },
   {
@@ -2861,10 +2861,10 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 15917,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3523404",
@@ -2883,7 +2883,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 19493,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -2905,10 +2905,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 16473,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3523701",
@@ -2938,7 +2938,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 175483,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 2,
    "futuros": 0
@@ -2949,9 +2949,9 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 75776,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 1,
+   "abertos": 2,
    "futuros": 1
   },
   {
@@ -2960,7 +2960,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 38379,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -2971,10 +2971,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 40429,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
-   "abertos": 1,
-   "futuros": 2
+   "abertos": 0,
+   "futuros": 3
   },
   {
    "codigo_ibge": "3524204",
@@ -3004,7 +3004,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 251848,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 3
@@ -3070,7 +3070,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 121848,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 2,
    "futuros": 0
@@ -3081,7 +3081,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 47354,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -3092,7 +3092,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 40433,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 2
@@ -3103,7 +3103,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 137486,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -3114,7 +3114,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 4021,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -3158,7 +3158,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 3139,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -3169,10 +3169,10 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 465277,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3526001",
@@ -3180,10 +3180,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 20991,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 3
   },
   {
    "codigo_ibge": "3526209",
@@ -3202,7 +3202,7 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 17121,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -3268,7 +3268,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 101734,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -3279,10 +3279,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 68724,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3526902",
@@ -3290,10 +3290,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 301780,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 2,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3527009",
@@ -3301,7 +3301,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 7167,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -3312,7 +3312,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 76946,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -3323,7 +3323,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 87551,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -3378,10 +3378,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 4730,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 3
   },
   {
    "codigo_ibge": "3527801",
@@ -3389,10 +3389,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 3993,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3527900",
@@ -3402,7 +3402,7 @@
    "pre_edital": "sem cobertura",
    "pncp_visto_em": null,
    "querido_diario": false,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 0
   },
   {
@@ -3554,10 +3554,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 25260,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3529005",
@@ -3567,7 +3567,7 @@
    "pre_edital": "PNCP (obrigatório)",
    "pncp_visto_em": "2024-11-08",
    "querido_diario": true,
-   "abertos": 3,
+   "abertos": 2,
    "futuros": 0
   },
   {
@@ -3587,7 +3587,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 429064,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -3609,7 +3609,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 4743,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -3664,7 +3664,7 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 18549,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 2
@@ -3688,7 +3688,7 @@
    "pre_edital": "PNCP (já publicou)",
    "pncp_visto_em": "2026-11-14",
    "querido_diario": true,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 0
   },
   {
@@ -3730,7 +3730,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 160841,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
    "futuros": 0
@@ -3774,9 +3774,9 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 65321,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 1,
+   "abertos": 0,
    "futuros": 0
   },
   {
@@ -3796,7 +3796,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 48787,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -3807,10 +3807,10 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 22684,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3531506",
@@ -3873,10 +3873,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 28485,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3532009",
@@ -3884,7 +3884,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 14206,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -3917,7 +3917,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 2696,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -3950,7 +3950,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 18729,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -4005,7 +4005,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 8630,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -4093,7 +4093,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 64924,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -4148,7 +4148,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 57028,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -4181,7 +4181,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 6167,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 2
@@ -4203,7 +4203,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 761441,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
    "futuros": 0
@@ -4225,7 +4225,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 32123,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4247,10 +4247,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 7899,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3534757",
@@ -4313,7 +4313,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 19666,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -4335,7 +4335,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 42014,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -4346,7 +4346,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 17968,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -4357,7 +4357,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 19901,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -4379,7 +4379,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 10712,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -4412,7 +4412,7 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 19627,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4434,7 +4434,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 14934,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
    "futuros": 0
@@ -4467,10 +4467,10 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 7354,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3536505",
@@ -4478,7 +4478,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 117554,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -4522,7 +4522,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 15732,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4533,7 +4533,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 44433,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4566,10 +4566,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 63523,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 3
+   "futuros": 5
   },
   {
    "codigo_ibge": "3537404",
@@ -4577,7 +4577,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 24334,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4621,10 +4621,10 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 54291,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3537909",
@@ -4632,7 +4632,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 28496,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -4643,7 +4643,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 173267,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4654,10 +4654,10 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 14689,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 3
   },
   {
    "codigo_ibge": "3538204",
@@ -4687,7 +4687,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 12468,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4698,7 +4698,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 26823,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4709,7 +4709,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 442635,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4720,10 +4720,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 30324,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3538907",
@@ -4731,10 +4731,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 22726,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3539004",
@@ -4764,7 +4764,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 26125,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -4786,7 +4786,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 15748,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4874,7 +4874,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 4199,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4885,7 +4885,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 2407,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -4918,7 +4918,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 58837,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4929,7 +4929,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 54005,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4940,7 +4940,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 20831,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -4984,7 +4984,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 17291,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -4997,7 +4997,7 @@
    "pre_edital": "PNCP (obrigatório)",
    "pncp_visto_em": "2025-09-22",
    "querido_diario": false,
-   "abertos": 1,
+   "abertos": 2,
    "futuros": 0
   },
   {
@@ -5006,7 +5006,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 5280,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -5028,7 +5028,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 14830,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -5039,7 +5039,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 40267,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -5050,10 +5050,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 235264,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 7,
-   "futuros": 3
+   "futuros": 4
   },
   {
    "codigo_ibge": "3541505",
@@ -5083,7 +5083,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 3482,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5105,10 +5105,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 3380,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3541901",
@@ -5171,10 +5171,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 20671,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3542503",
@@ -5250,7 +5250,7 @@
    "pre_edital": "sem cobertura",
    "pncp_visto_em": null,
    "querido_diario": false,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 0
   },
   {
@@ -5259,10 +5259,10 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 7572,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3543303",
@@ -5314,7 +5314,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 4198,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5336,7 +5336,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 9314,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5347,7 +5347,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 210794,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 2,
    "futuros": 0
@@ -5369,7 +5369,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 32386,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5391,7 +5391,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 5611,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5413,7 +5413,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 11174,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5468,7 +5468,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 6675,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -5479,7 +5479,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 11708,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5490,7 +5490,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 15368,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5523,10 +5523,10 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 141994,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3545407",
@@ -5545,7 +5545,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 45373,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5589,7 +5589,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 14226,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -5644,10 +5644,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 29456,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3546405",
@@ -5732,10 +5732,10 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 3020,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3547403",
@@ -5754,7 +5754,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 24938,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -5765,10 +5765,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 23697,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 2
+   "futuros": 3
   },
   {
    "codigo_ibge": "3547650",
@@ -5798,7 +5798,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 165193,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 3,
    "futuros": 0
@@ -5820,7 +5820,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 784290,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 2,
    "futuros": 0
@@ -5831,7 +5831,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 6947,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -5875,7 +5875,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 7333,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -5930,7 +5930,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 3775,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -5985,10 +5985,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 132692,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
-   "abertos": 0,
-   "futuros": 3
+   "abertos": 1,
+   "futuros": 2
   },
   {
    "codigo_ibge": "3551801",
@@ -5996,10 +5996,10 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 12895,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 1,
-   "futuros": 1
+   "abertos": 2,
+   "futuros": 0
   },
   {
    "codigo_ibge": "3551900",
@@ -6007,7 +6007,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 14666,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6029,10 +6029,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 41633,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3552205",
@@ -6040,10 +6040,10 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 766390,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 2,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3552304",
@@ -6073,10 +6073,10 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 321600,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3552551",
@@ -6106,10 +6106,10 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 842558,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 3
   },
   {
    "codigo_ibge": "3548807",
@@ -6117,7 +6117,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 173216,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 1
@@ -6128,7 +6128,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 267441,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 3,
    "futuros": 0
@@ -6139,7 +6139,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 2617,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -6150,7 +6150,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 49948,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6183,10 +6183,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 53437,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 3
   },
   {
    "codigo_ibge": "3549805",
@@ -6194,7 +6194,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 506466,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 2,
    "futuros": 0
@@ -6205,7 +6205,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 729153,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
    "futuros": 0
@@ -6216,10 +6216,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 96365,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3549201",
@@ -6227,7 +6227,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 2623,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6271,7 +6271,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 10485,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6282,7 +6282,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 38099,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
    "futuros": 2
@@ -6293,7 +6293,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 32943,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -6304,9 +6304,9 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 11911337,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 1,
+   "abertos": 2,
    "futuros": 1
   },
   {
@@ -6315,7 +6315,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 40054,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -6326,7 +6326,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 7334,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6337,7 +6337,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 81387,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
    "futuros": 1
@@ -6348,7 +6348,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 84514,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 0
@@ -6370,7 +6370,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 13533,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -6381,10 +6381,10 @@
    "regiao": "Baixada Santista e Vale do Ribeira (DDD 13)",
    "populacao": 338253,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 3
   },
   {
    "codigo_ibge": "3552601",
@@ -6414,10 +6414,10 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 286201,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 0,
-   "futuros": 1
+   "abertos": 1,
+   "futuros": 2
   },
   {
    "codigo_ibge": "3552908",
@@ -6447,7 +6447,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 5737,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6458,10 +6458,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 6804,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3553302",
@@ -6469,7 +6469,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 21620,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 1
@@ -6480,7 +6480,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 26116,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -6502,7 +6502,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 8121,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 1,
    "futuros": 0
@@ -6524,10 +6524,10 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 53212,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3553807",
@@ -6535,7 +6535,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 24995,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6568,7 +6568,7 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 15375,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 1
@@ -6579,7 +6579,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 129640,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -6590,10 +6590,10 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 323380,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 3
   },
   {
    "codigo_ibge": "3554201",
@@ -6601,10 +6601,10 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 4098,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3554300",
@@ -6612,9 +6612,9 @@
    "regiao": "Presidente Prudente e Araçatuba (DDD 18)",
    "populacao": 22622,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 0,
+   "abertos": 1,
    "futuros": 1
   },
   {
@@ -6623,7 +6623,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 7947,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 1
@@ -6634,7 +6634,7 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 38749,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6645,7 +6645,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 2478,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6678,7 +6678,7 @@
    "regiao": "Ribeirão Preto, Araraquara e Franca (DDD 16)",
    "populacao": 1728,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-16",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -6733,7 +6733,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 65447,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6777,7 +6777,7 @@
    "regiao": "Vale do Paraíba e Litoral Norte (DDD 12)",
    "populacao": 97541,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6799,7 +6799,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 10698,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 0
@@ -6821,7 +6821,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 1428,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -6843,7 +6843,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 8973,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 0
@@ -6854,7 +6854,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 14727,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6865,7 +6865,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 132862,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
    "futuros": 2
@@ -6898,7 +6898,7 @@
    "regiao": "Grande São Paulo, Jundiaí e Bragança (DDD 11)",
    "populacao": 52574,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6909,10 +6909,10 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 41283,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
-   "abertos": 0,
-   "futuros": 2
+   "abertos": 1,
+   "futuros": 1
   },
   {
    "codigo_ibge": "3556602",
@@ -6934,7 +6934,7 @@
    "pncp_visto_em": "2026-02-13",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3556800",
@@ -6964,7 +6964,7 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 1830,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -6975,10 +6975,10 @@
    "regiao": "Sorocaba e Itapetininga (DDD 15)",
    "populacao": 134103,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 1
+   "futuros": 2
   },
   {
    "codigo_ibge": "3557105",
@@ -6986,10 +6986,10 @@
    "regiao": "São José do Rio Preto e Barretos (DDD 17)",
    "populacao": 100935,
    "pre_edital": "PNCP (obrigatório)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": true,
    "abertos": 0,
-   "futuros": 0
+   "futuros": 1
   },
   {
    "codigo_ibge": "3556503",
@@ -7030,7 +7030,7 @@
    "regiao": "Campinas e Piracicaba (DDD 19)",
    "populacao": 18277,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 1,
    "futuros": 2
@@ -7041,7 +7041,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 7508,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1
@@ -7096,7 +7096,7 @@
    "regiao": "Bauru, Marília e Botucatu (DDD 14)",
    "populacao": 2530,
    "pre_edital": "PNCP (já publicou)",
-   "pncp_visto_em": "2026-11-19",
+   "pncp_visto_em": "2026-11-23",
    "querido_diario": false,
    "abertos": 0,
    "futuros": 1

@@ -757,105 +757,6 @@
   "data_noticia": "2026-11-12",
   "coletado_em": "2026-11-14T18:59:42Z"
  },
- "https://www.pciconcursos.com.br/noticias/faculdade-sebrae-sp-abre-selecao-para-professor-adjunto-arquiteto-de-solucoes": {
-  "inscricao_inicio": "2026-11-13",
-  "inscricao_fim": "2026-11-19",
-  "site_inscricao": null,
-  "taxa_min": null,
-  "taxa_max": null,
-  "data_prova": null,
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Professor Adjunto - Arquiteto de Soluções",
-    "vagas": 1
-   }
-  ],
-  "bancas": [
-   "RBO"
-  ],
-  "links": [],
-  "data_noticia": "2026-11-13",
-  "coletado_em": "2026-11-14T18:59:43Z"
- },
- "https://www.pciconcursos.com.br/noticias/feg-sp-retifica-edital-de-concurso-publico-para-professores": {
-  "inscricao_inicio": "2026-10-24",
-  "inscricao_fim": "2026-11-19",
-  "site_inscricao": "www.publiconsult.com.br",
-  "taxa_min": 12.7,
-  "taxa_max": 12.7,
-  "data_prova": "2026-12-13",
-  "isencao_inicio": null,
-  "isencao_fim": "2026-10-28",
-  "cargos": [],
-  "bancas": [
-   "Publiconsult"
-  ],
-  "links": [],
-  "data_noticia": "2026-10-28",
-  "coletado_em": "2026-11-14T18:59:47Z"
- },
- "https://www.pciconcursos.com.br/noticias/fundacao-educacional-guacuana-sp-abre-concurso-publico-para-bibliotecario-e-tecnico-em-informatica": {
-  "inscricao_inicio": "2026-10-28",
-  "inscricao_fim": "2026-11-19",
-  "site_inscricao": "www.publiconsult.com.br",
-  "taxa_min": 11.3,
-  "taxa_max": 12.7,
-  "data_prova": "2026-12-13",
-  "isencao_inicio": null,
-  "isencao_fim": "2026-10-30",
-  "cargos": [
-   {
-    "cargo": "Bibliotecário",
-    "vagas": 1
-   },
-   {
-    "cargo": "Técnico em Informática",
-    "vagas": 1
-   }
-  ],
-  "bancas": [
-   "Publiconsult"
-  ],
-  "links": [],
-  "data_noticia": "2026-10-28",
-  "coletado_em": "2026-11-14T18:59:48Z"
- },
- "https://www.pciconcursos.com.br/noticias/fundacao-jose-pedro-de-oliveira-sp-prorroga-inscricoes-para-concurso-publico": {
-  "inscricao_inicio": null,
-  "inscricao_fim": "2026-11-19",
-  "site_inscricao": null,
-  "taxa_min": 66.0,
-  "taxa_max": 99.0,
-  "data_prova": "2026-12-13",
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Agente de Apoio Operacional",
-    "vagas": 1
-   },
-   {
-    "cargo": "Técnico Ambiental",
-    "vagas": 1
-   },
-   {
-    "cargo": "Analista Administrativo",
-    "vagas": 1
-   },
-   {
-    "cargo": "Contador",
-    "vagas": 1
-   }
-  ],
-  "bancas": [
-   "Instituto Mais"
-  ],
-  "links": [],
-  "data_noticia": "2026-11-13",
-  "coletado_em": "2026-11-14T18:59:52Z"
- },
  "https://www.pciconcursos.com.br/noticias/fundacao-santo-andre-sp-abre-concurso-publico-para-o-cargo-de-secretario-executivo": {
   "inscricao_inicio": "2026-10-27",
   "inscricao_fim": "2026-11-27",
@@ -1262,50 +1163,6 @@
   "links": [],
   "data_noticia": "2026-11-03",
   "coletado_em": "2026-11-14T19:00:10Z"
- },
- "https://www.pciconcursos.com.br/noticias/ipsm-de-sao-jose-dos-campos-sp-divulga-retificacoes-de-concurso-publico": {
-  "inscricao_inicio": null,
-  "inscricao_fim": "2026-11-06",
-  "site_inscricao": "www.institutoaocp.org.br",
-  "taxa_min": 89.0,
-  "taxa_max": 89.0,
-  "data_prova": "2026-12-13",
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Analista em Gestão Previdenciária",
-    "vagas": 7
-   },
-   {
-    "cargo": "Analista Previdenciário - Direito",
-    "vagas": 2
-   },
-   {
-    "cargo": "Analista Previdenciário - Administrador",
-    "vagas": 4
-   },
-   {
-    "cargo": "Analista Previdenciário - TI",
-    "vagas": 1
-   },
-   {
-    "cargo": "Analista Previdenciário - Psicólogo",
-    "vagas": 1
-   },
-   {
-    "cargo": "Analista Previdenciário - Assistente Social",
-    "vagas": null
-   },
-   {
-    "cargo": "Médico",
-    "vagas": null
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-11-03",
-  "coletado_em": "2026-11-14T19:00:11Z"
  },
  "https://www.pciconcursos.com.br/noticias/prefeitura-de-praia-grande-sp-abre-concurso-publico-para-professores": {
   "inscricao_inicio": "2026-11-12",
@@ -2697,36 +2554,6 @@
   "data_noticia": "2026-11-11",
   "coletado_em": "2026-11-14T19:00:53Z"
  },
- "https://www.pciconcursos.com.br/noticias/prefeitura-de-cunha-sp-abre-concurso-publico-com-salarios-de-ate-9147": {
-  "inscricao_inicio": "2026-10-23",
-  "inscricao_fim": "2026-11-21",
-  "site_inscricao": "www.promun.com.br",
-  "taxa_min": 50.0,
-  "taxa_max": 100.0,
-  "data_prova": "2026-12-20",
-  "isencao_inicio": "2026-10-23",
-  "isencao_fim": "2026-10-26",
-  "cargos": [],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-10-26",
-  "coletado_em": "2026-11-14T19:00:54Z"
- },
- "https://www.pciconcursos.com.br/noticias/prefeitura-de-dumont-sp-abre-processo-seletivo-para-cadastro-de-reserva-em-diversas-areas": {
-  "inscricao_inicio": "2026-11-12",
-  "inscricao_fim": "2026-11-19",
-  "site_inscricao": "www.inepam.org.br",
-  "taxa_min": 45.0,
-  "taxa_max": 65.0,
-  "data_prova": "2026-12-13",
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-11-12",
-  "coletado_em": "2026-11-14T19:00:56Z"
- },
  "https://www.pciconcursos.com.br/noticias/prefeitura-de-estiva-gerbi-sp-abre-processo-seletivo-para-area-da-educacao": {
   "inscricao_inicio": "2026-11-11",
   "inscricao_fim": "2026-12-07",
@@ -2807,165 +2634,6 @@
   "links": [],
   "data_noticia": "2026-11-12",
   "coletado_em": "2026-11-14T19:01:01Z"
- },
- "https://www.pciconcursos.com.br/noticias/prefeitura-de-ipero-sp-abre-concursos-publicos-e-processo-seletivo": {
-  "inscricao_inicio": "2026-11-09",
-  "inscricao_fim": "2026-11-19",
-  "site_inscricao": null,
-  "taxa_min": 39.0,
-  "taxa_max": 59.0,
-  "data_prova": "2026-12-06",
-  "isencao_inicio": "2026-11-09",
-  "isencao_fim": "2026-11-10",
-  "cargos": [
-   {
-    "cargo": "Auxiliar de Desenvolvimento Infantil",
-    "vagas": 8
-   },
-   {
-    "cargo": "Professor de Ensino Fundamental I",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor de Ensino Fundamental II, Arte",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor de Ensino Fundamental II, Ciências",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor de Ensino Fundamental II, Geografia",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor de Ensino Fundamental II, História",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor de Ensino Fundamental II, Inglês",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor de Ensino Fundamental II, Matemática",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor de Ensino Fundamental II, Português",
-    "vagas": null
-   },
-   {
-    "cargo": "Profissional de Apoio Escolar",
-    "vagas": 15
-   },
-   {
-    "cargo": "Professor Titular de Educação Infantil",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor Titular de Ensino Fundamental II, Geografia",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor Titular de Ensino Fundamental II, História",
-    "vagas": null
-   },
-   {
-    "cargo": "Professor Titular de Ensino Fundamental II, Inglês",
-    "vagas": 1
-   },
-   {
-    "cargo": "Professor Titular de Ensino Fundamental II, Arte",
-    "vagas": null
-   },
-   {
-    "cargo": "Agente de Segurança Escolar",
-    "vagas": 3
-   },
-   {
-    "cargo": "Assistente Social",
-    "vagas": 2
-   },
-   {
-    "cargo": "Auxiliar de Saúde Bucal",
-    "vagas": 2
-   },
-   {
-    "cargo": "Contador",
-    "vagas": 1
-   },
-   {
-    "cargo": "Dentista I",
-    "vagas": 1
-   },
-   {
-    "cargo": "Escriturário",
-    "vagas": 3
-   },
-   {
-    "cargo": "Farmacêutico",
-    "vagas": null
-   },
-   {
-    "cargo": "Fiscal de Tributos",
-    "vagas": 1
-   },
-   {
-    "cargo": "Fiscal de Tributos I",
-    "vagas": 1
-   },
-   {
-    "cargo": "Fonoaudiólogo",
-    "vagas": 2
-   },
-   {
-    "cargo": "Médico Ginecologista, GIN1",
-    "vagas": 2
-   },
-   {
-    "cargo": "Psicólogo II",
-    "vagas": 2
-   },
-   {
-    "cargo": "Técnico em Edificações",
-    "vagas": 1
-   },
-   {
-    "cargo": "Técnico em Enfermagem",
-    "vagas": 3
-   },
-   {
-    "cargo": "Motorista",
-    "vagas": 3
-   },
-   {
-    "cargo": "Pedreiro",
-    "vagas": 2
-   },
-   {
-    "cargo": "Vigia de Patrimônio",
-    "vagas": 2
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-11-09",
-  "coletado_em": "2026-11-14T19:01:03Z"
- },
- "https://www.pciconcursos.com.br/noticias/prefeitura-de-itapolis-sp-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva": {
-  "inscricao_inicio": "2026-11-10",
-  "inscricao_fim": "2026-11-22",
-  "site_inscricao": null,
-  "taxa_min": 40.0,
-  "taxa_max": 60.0,
-  "data_prova": "2026-12-06",
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-11-05",
-  "coletado_em": "2026-11-14T19:01:04Z"
  },
  "https://www.pciconcursos.com.br/noticias/prefeitura-de-jandira-sp-abre-concurso-publico-com-salarios-de-ate-6812": {
   "inscricao_inicio": "2026-11-16",
@@ -3564,21 +3232,6 @@
   "links": [],
   "data_noticia": "2026-10-26",
   "coletado_em": "2026-11-14T19:01:12Z"
- },
- "https://www.pciconcursos.com.br/noticias/prefeitura-de-mongagua-sp-abre-processo-seletivo-para-profissional-de-apoio-escolar-e-atendente-de-educacao-i": {
-  "inscricao_inicio": "2026-11-10",
-  "inscricao_fim": "2026-11-19",
-  "site_inscricao": "www.mongagua.sp.gov.br",
-  "taxa_min": null,
-  "taxa_max": null,
-  "data_prova": "2026-12-12",
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-11-12",
-  "coletado_em": "2026-11-14T19:01:16Z"
  },
  "https://www.pciconcursos.com.br/noticias/prefeitura-de-monte-mor-sp-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva": {
   "inscricao_inicio": "2026-11-06",
@@ -5139,26 +4792,6 @@
   "data_noticia": "2026-10-08",
   "coletado_em": "2026-11-14T19:02:17Z"
  },
- "https://www.pciconcursos.com.br/noticias/unesp-abre-vaga-para-professor-titular-na-faculdade-de-filosofia-e-ciencias-de-marilia-sp": {
-  "inscricao_inicio": "2026-10-08",
-  "inscricao_fim": "2026-11-22",
-  "site_inscricao": "inscricoes.unesp.br",
-  "taxa_min": 286.0,
-  "taxa_max": 286.0,
-  "data_prova": null,
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Professor Titular nas disciplinas de Filosofia da Educação, Filosofia da Educação I e Filosofia da Educação II",
-    "vagas": 1
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-10-08",
-  "coletado_em": "2026-11-14T19:02:18Z"
- },
  "https://www.pciconcursos.com.br/noticias/unesp-abre-concurso-publico-para-professor-titular-em-botucatu-sp": {
   "inscricao_inicio": "2026-10-19",
   "inscricao_fim": "2026-12-02",
@@ -5294,30 +4927,6 @@
   "data_noticia": "2026-10-27",
   "coletado_em": "2026-11-14T19:02:35Z"
  },
- "https://www.pciconcursos.com.br/noticias/unesp-abre-concursos-para-professores-substitutos-na-faculdade-de-engenharia-de-ilha-solteira-sp": {
-  "inscricao_inicio": "2026-11-05",
-  "inscricao_fim": "2026-11-19",
-  "site_inscricao": "inscricoes.unesp.br",
-  "taxa_min": 209.0,
-  "taxa_max": 209.0,
-  "data_prova": null,
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Professor Substituto na área de Ciências Sociais Aplicadas, subárea de Administração",
-    "vagas": 1
-   },
-   {
-    "cargo": "Professor Substituto na área de Ciências Agrárias, subárea de Agronomia",
-    "vagas": 1
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-10-28",
-  "coletado_em": "2026-11-14T19:02:40Z"
- },
  "https://www.pciconcursos.com.br/noticias/unesp-abre-concurso-para-professor-titular-na-faculdade-de-filosofia-e-ciencias-de-marilia-sp": {
   "inscricao_inicio": "2026-11-03",
   "inscricao_fim": "2026-12-19",
@@ -5337,26 +4946,6 @@
   "links": [],
   "data_noticia": "2026-11-03",
   "coletado_em": "2026-11-14T19:02:45Z"
- },
- "https://www.pciconcursos.com.br/noticias/unesp-abre-vaga-para-professor-substituto-de-psicologia-no-campus-de-bauru-sp": {
-  "inscricao_inicio": "2026-11-06",
-  "inscricao_fim": "2026-11-20",
-  "site_inscricao": "inscricoes.unesp.br",
-  "taxa_min": 209.0,
-  "taxa_max": 209.0,
-  "data_prova": null,
-  "isencao_inicio": null,
-  "isencao_fim": null,
-  "cargos": [
-   {
-    "cargo": "Professor Substituto na área de Psicologia, subárea de Fundamento e Medidas da Psicologia",
-    "vagas": 1
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-11-04",
-  "coletado_em": "2026-11-14T19:02:46Z"
  },
  "https://www.pciconcursos.com.br/noticias/unesp-divulga-concursos-publicos-para-professores-substitutos-em-jaboticabal-sp": {
   "inscricao_inicio": "2026-11-09",
@@ -6608,118 +6197,6 @@
   "data_noticia": "2026-10-02",
   "coletado_em": "2026-11-14T19:43:33Z"
  },
- "https://www.pciconcursos.com.br/noticias/trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios": {
-  "inscricao_inicio": "2026-10-05",
-  "inscricao_fim": "2026-11-05",
-  "site_inscricao": null,
-  "taxa_min": 90.0,
-  "taxa_max": 110.0,
-  "data_prova": "2027-01-17",
-  "isencao_inicio": "2026-10-05",
-  "isencao_fim": "2026-10-09",
-  "cargos": [
-   {
-    "cargo": "Analista Judiciário - Área Judiciária",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área Judiciária - Especialidade Oficial de Justiça Avaliador Federal",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área Administrativa",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Tecnologia da Informação",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área Administrativa - Especialidade Contabilidade",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Estatística",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Comunicação Social",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Arquitetura",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Arquivologia",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Biblioteconomia",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Enfermagem",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Engenharia Civil",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Engenharia Elétrica",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Engenharia de Segurança do Trabalho",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Medicina",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Médico do Trabalho",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Odontologia",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Psicologia",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade Serviço Social",
-    "vagas": null
-   },
-   {
-    "cargo": "Analista Judiciário - Área de Apoio Especializado - Especialidade História",
-    "vagas": null
-   },
-   {
-    "cargo": "Técnico Judiciário - Área Administrativa",
-    "vagas": null
-   },
-   {
-    "cargo": "Técnico Judiciário - Área de Apoio Especializado - Especialidade Enfermagem",
-    "vagas": null
-   },
-   {
-    "cargo": "Técnico Judiciário - Área de Apoio Especializado - Especialidade Tecnologia da Informação",
-    "vagas": null
-   },
-   {
-    "cargo": "Técnico Judiciário - Área Administrativa - Especialidade Agente da Polícia Judicial",
-    "vagas": null
-   }
-  ],
-  "bancas": [],
-  "links": [],
-  "data_noticia": "2026-10-02",
-  "coletado_em": "2026-11-14T19:43:35Z"
- },
  "https://www.pciconcursos.com.br/noticias/trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios": {
   "inscricao_inicio": "2026-10-26",
   "inscricao_fim": "2026-11-25",
@@ -7673,5 +7150,1327 @@
   "links": [],
   "data_noticia": "2026-11-18",
   "coletado_em": "2026-11-19T18:18:06Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/camara-de-guaruja-sp-abre-concurso-com-salario-de-17868-para-procurador-legislativo": {
+  "inscricao_inicio": "2026-12-03",
+  "inscricao_fim": "2027-01-04",
+  "site_inscricao": null,
+  "taxa_min": 115.0,
+  "taxa_max": 115.0,
+  "data_prova": "2027-03-07",
+  "isencao_inicio": "2026-12-03",
+  "isencao_fim": "2026-12-04",
+  "cargos": [
+   {
+    "cargo": "Procurador Legislativo",
+    "vagas": 1
+   }
+  ],
+  "bancas": [
+   "Vunesp"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:31Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/ciop-sp-abre-concurso-publico-para-motoristas-e-tecnicos-em-enfermagem": {
+  "inscricao_inicio": "2026-11-19",
+  "inscricao_fim": "2026-11-29",
+  "site_inscricao": "www.consesp.com.br",
+  "taxa_min": 60.0,
+  "taxa_max": 60.0,
+  "data_prova": "2026-12-13",
+  "isencao_inicio": "2026-11-20",
+  "isencao_fim": "2026-11-21",
+  "cargos": [
+   {
+    "cargo": "Motorista Condutor de Ambulância SAMU 192",
+    "vagas": 1
+   },
+   {
+    "cargo": "Técnico em Enfermagem",
+    "vagas": 5
+   }
+  ],
+  "bancas": [
+   "Consesp"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:26:33Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/fundacao-adib-jatene-sp-abre-selecao-com-salarios-de-ate-7000-na-enfermagem": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-11-30",
+  "site_inscricao": null,
+  "taxa_min": null,
+  "taxa_max": null,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Técnico de Enfermagem Áreas Hospitalares",
+    "vagas": 4
+   },
+   {
+    "cargo": "Enfermeiro UTI Pediátrica",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:34Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/fascamp-sp-abre-processos-seletivos-para-o-hospital-regional-de-piracicaba": {
+  "inscricao_inicio": "2026-11-06",
+  "inscricao_fim": "2026-11-23",
+  "site_inscricao": null,
+  "taxa_min": 44.0,
+  "taxa_max": 75.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Auxiliar de Enfermagem",
+    "vagas": 1
+   },
+   {
+    "cargo": "Nutricionista",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-22",
+  "coletado_em": "2026-11-23T21:26:36Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/funcamp-sp-abre-vaga-para-camareiro-na-casa-do-professor-visitante": {
+  "inscricao_inicio": "2026-11-11",
+  "inscricao_fim": "2026-11-27",
+  "site_inscricao": null,
+  "taxa_min": null,
+  "taxa_max": null,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Camareiro",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:26:37Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/ibfc-sp-abre-selecao-para-curso-gratuito-de-capacitacao-profissional-em-taboao-da-serra": {
+  "inscricao_inicio": "2026-10-13",
+  "inscricao_fim": "2026-12-01",
+  "site_inscricao": null,
+  "taxa_min": null,
+  "taxa_max": null,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Formação para o Mundo do Trabalho, Módulo de Qualificação Básica",
+    "vagas": 40
+   }
+  ],
+  "bancas": [
+   "IBFC"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-22",
+  "coletado_em": "2026-11-23T21:26:39Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/santa-casa-de-dracena-sp-abre-processo-seletivo-com-salarios-de-ate-5231": {
+  "inscricao_inicio": "2026-11-19",
+  "inscricao_fim": "2026-12-10",
+  "site_inscricao": "www.consesp.com.br",
+  "taxa_min": 70.0,
+  "taxa_max": 90.0,
+  "data_prova": "2026-12-20",
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Auxiliar de Enfermagem",
+    "vagas": 10
+   },
+   {
+    "cargo": "Técnico de Enfermagem",
+    "vagas": 2
+   }
+  ],
+  "bancas": [
+   "Consesp"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:26:41Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-praia-grande-sp-abre-concurso-publico-para-diversos-cargos": {
+  "inscricao_inicio": "2026-11-20",
+  "inscricao_fim": "2026-12-21",
+  "site_inscricao": null,
+  "taxa_min": 59.0,
+  "taxa_max": 96.0,
+  "data_prova": "2027-02-21",
+  "isencao_inicio": "2026-11-23",
+  "isencao_fim": "2026-11-27",
+  "cargos": [
+   {
+    "cargo": "Agente Administrativo",
+    "vagas": 10
+   },
+   {
+    "cargo": "Agente de Combate às Endemias",
+    "vagas": 1
+   },
+   {
+    "cargo": "Carpinteiro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Coveiro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Dentista, Clínico Geral",
+    "vagas": 1
+   },
+   {
+    "cargo": "Dentista, Protesista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Eletricista de Autos",
+    "vagas": 1
+   },
+   {
+    "cargo": "Instrutor de Dança",
+    "vagas": 1
+   },
+   {
+    "cargo": "Mecânico de Veículos Pesados",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Alergista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Endocrinologista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Gastroenterologista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Neurologista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Ortopedista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Pneumologista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Proctologista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Psiquiatra Infantil",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Mensalista, Reumatologista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Plantonista, Clínico de Pronto Socorro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Operador de Máquinas, Retro, Patrol e Poclain",
+    "vagas": 1
+   },
+   {
+    "cargo": "Porteiro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Técnico em Farmácia",
+    "vagas": 1
+   },
+   {
+    "cargo": "Tecnólogo de Geoprocessamento",
+    "vagas": 1
+   },
+   {
+    "cargo": "Telefonista",
+    "vagas": 1
+   }
+  ],
+  "bancas": [
+   "IBAM"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:26:42Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-sertaozinho-sp-abre-selecao-com-salarios-de-ate-8732-na-educacao": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-12-03",
+  "site_inscricao": null,
+  "taxa_min": 52.0,
+  "taxa_max": 58.0,
+  "data_prova": null,
+  "isencao_inicio": "2026-11-23",
+  "isencao_fim": "2026-11-24",
+  "cargos": [],
+  "bancas": [
+   "Access"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:44Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-adolfo-sp-abre-concurso-publico-para-o-cargo-de-contador": {
+  "inscricao_inicio": "2026-11-30",
+  "inscricao_fim": "2026-12-21",
+  "site_inscricao": null,
+  "taxa_min": 60.0,
+  "taxa_max": 60.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Contador",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:46Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-altair-sp-abre-tres-editais-com-41-vagas-e-cadastro-reserva": {
+  "inscricao_inicio": "2026-11-21",
+  "inscricao_fim": "2026-12-06",
+  "site_inscricao": null,
+  "taxa_min": 40.0,
+  "taxa_max": 80.0,
+  "data_prova": "2026-12-27",
+  "isencao_inicio": "2026-11-21",
+  "isencao_fim": "2026-11-25",
+  "cargos": [
+   {
+    "cargo": "Merendeira",
+    "vagas": null
+   },
+   {
+    "cargo": "Motorista",
+    "vagas": 3
+   },
+   {
+    "cargo": "Operador de Máquinas",
+    "vagas": null
+   },
+   {
+    "cargo": "Pedreiro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Serviços Gerais",
+    "vagas": 3
+   },
+   {
+    "cargo": "Professor Educação Básica I",
+    "vagas": 3
+   },
+   {
+    "cargo": "Professor Educação Básica II Artes",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor Educação Básica II Inglês",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor Educação Básica II Educação Física",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor Educação Básica II Informática",
+    "vagas": null
+   },
+   {
+    "cargo": "Agente de Defesa Civil",
+    "vagas": null
+   },
+   {
+    "cargo": "Auxiliar Administrativo",
+    "vagas": 2
+   },
+   {
+    "cargo": "Auxiliar de Consultório Dentário",
+    "vagas": 1
+   },
+   {
+    "cargo": "Auxiliar de Enfermagem",
+    "vagas": null
+   },
+   {
+    "cargo": "Auxiliar de Farmácia",
+    "vagas": null
+   },
+   {
+    "cargo": "Eletricista",
+    "vagas": null
+   },
+   {
+    "cargo": "Inspetor de Alunos",
+    "vagas": null
+   },
+   {
+    "cargo": "Monitor",
+    "vagas": 3
+   },
+   {
+    "cargo": "Monitor de Esportes",
+    "vagas": 1
+   },
+   {
+    "cargo": "Orientador Social",
+    "vagas": 1
+   },
+   {
+    "cargo": "Segurança Municipal",
+    "vagas": null
+   },
+   {
+    "cargo": "Técnico em Radiologia",
+    "vagas": null
+   },
+   {
+    "cargo": "Técnico em Enfermagem",
+    "vagas": 1
+   },
+   {
+    "cargo": "Administrador Financeiro",
+    "vagas": null
+   },
+   {
+    "cargo": "Agente Patrimonial",
+    "vagas": null
+   },
+   {
+    "cargo": "Almoxarife",
+    "vagas": null
+   },
+   {
+    "cargo": "Analista de Sistemas",
+    "vagas": null
+   },
+   {
+    "cargo": "Assistente Administrativo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Assistente Jurídico",
+    "vagas": null
+   },
+   {
+    "cargo": "Assistente Social",
+    "vagas": 1
+   },
+   {
+    "cargo": "Contador",
+    "vagas": 1
+   },
+   {
+    "cargo": "Controlador Interno",
+    "vagas": 1
+   },
+   {
+    "cargo": "Coordenador do CRAS",
+    "vagas": null
+   },
+   {
+    "cargo": "Dentista",
+    "vagas": null
+   },
+   {
+    "cargo": "Diretor de Atenção Social",
+    "vagas": null
+   },
+   {
+    "cargo": "Diretor de Educação Básica",
+    "vagas": null
+   },
+   {
+    "cargo": "Diretor de Saúde Pública",
+    "vagas": null
+   },
+   {
+    "cargo": "Diretor Executivo",
+    "vagas": null
+   },
+   {
+    "cargo": "Diretor Jurídico",
+    "vagas": null
+   },
+   {
+    "cargo": "Educador Físico",
+    "vagas": 1
+   },
+   {
+    "cargo": "Enfermeiro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Engenheiro Agrônomo",
+    "vagas": null
+   },
+   {
+    "cargo": "Engenheiro Civil",
+    "vagas": null
+   },
+   {
+    "cargo": "Farmacêutico",
+    "vagas": null
+   },
+   {
+    "cargo": "Fiscal da Vigilância Sanitária",
+    "vagas": null
+   },
+   {
+    "cargo": "Fiscal de Postura",
+    "vagas": null
+   },
+   {
+    "cargo": "Fiscal Municipal",
+    "vagas": null
+   },
+   {
+    "cargo": "Fiscal Tributário Municipal",
+    "vagas": null
+   },
+   {
+    "cargo": "Fisioterapeuta",
+    "vagas": 1
+   },
+   {
+    "cargo": "Fonoaudiólogo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Gestor de Recursos Humanos",
+    "vagas": null
+   },
+   {
+    "cargo": "Gestor de Unidade Básica de Saúde",
+    "vagas": null
+   },
+   {
+    "cargo": "Médico Clínico Geral",
+    "vagas": 5
+   },
+   {
+    "cargo": "Médico Generalista da Estratégia Saúde da Família",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Veterinário",
+    "vagas": null
+   },
+   {
+    "cargo": "Nutricionista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Ouvidor Municipal",
+    "vagas": null
+   },
+   {
+    "cargo": "Procurador Municipal",
+    "vagas": null
+   },
+   {
+    "cargo": "Promotor Cultural",
+    "vagas": null
+   },
+   {
+    "cargo": "Psicólogo",
+    "vagas": 3
+   },
+   {
+    "cargo": "Psicopedagogo",
+    "vagas": null
+   },
+   {
+    "cargo": "Terapeuta Ocupacional",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Cardiologista",
+    "vagas": null
+   },
+   {
+    "cargo": "Médico Ginecologista e Obstetrícia",
+    "vagas": null
+   },
+   {
+    "cargo": "Médico Pediatra",
+    "vagas": null
+   },
+   {
+    "cargo": "Médico Psiquiatra",
+    "vagas": null
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:47Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-bernardino-de-campos-sp-abre-processo-seletivo-para-a-educacao": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-12-03",
+  "site_inscricao": null,
+  "taxa_min": 35.0,
+  "taxa_max": 40.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:26:49Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-candido-rodrigues-sp-abre-concurso-publico-com-salarios-de-ate-8862": {
+  "inscricao_inicio": "2026-11-20",
+  "inscricao_fim": "2026-12-04",
+  "site_inscricao": null,
+  "taxa_min": 50.0,
+  "taxa_max": 90.0,
+  "data_prova": "2027-01-17",
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Merendeira",
+    "vagas": 2
+   },
+   {
+    "cargo": "Motorista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Serviços Gerais",
+    "vagas": 2
+   },
+   {
+    "cargo": "Auxiliar de Cirurgião Dentista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Instrutor de Artes",
+    "vagas": 1
+   },
+   {
+    "cargo": "Operador de Máquinas e Equipamentos Pesados",
+    "vagas": 1
+   },
+   {
+    "cargo": "Operador de Trator e Máquinas Leves",
+    "vagas": 1
+   },
+   {
+    "cargo": "Pedreiro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Auxiliar de Farmácia",
+    "vagas": 1
+   },
+   {
+    "cargo": "Diretor de Transporte da Secretaria Municipal de Saúde",
+    "vagas": 1
+   },
+   {
+    "cargo": "Eletricista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Ouvidor",
+    "vagas": 1
+   },
+   {
+    "cargo": "Monitor de Educação Infantil",
+    "vagas": 1
+   },
+   {
+    "cargo": "Secretário",
+    "vagas": 1
+   },
+   {
+    "cargo": "Agente de Organização e Inspeção",
+    "vagas": 1
+   },
+   {
+    "cargo": "Técnico em Enfermagem",
+    "vagas": 1
+   },
+   {
+    "cargo": "Guarda-Vidas",
+    "vagas": 1
+   },
+   {
+    "cargo": "Analista Educacional",
+    "vagas": 1
+   },
+   {
+    "cargo": "Assistente Social",
+    "vagas": null
+   },
+   {
+    "cargo": "Cirurgião Dentista, 20 horas",
+    "vagas": 1
+   },
+   {
+    "cargo": "Contador",
+    "vagas": null
+   },
+   {
+    "cargo": "Controlador Interno",
+    "vagas": 1
+   },
+   {
+    "cargo": "Coordenador de Regulação da Saúde",
+    "vagas": 1
+   },
+   {
+    "cargo": "Diretor Escolar",
+    "vagas": 1
+   },
+   {
+    "cargo": "Enfermeiro",
+    "vagas": 1
+   },
+   {
+    "cargo": "Engenheiro Agrônomo",
+    "vagas": null
+   },
+   {
+    "cargo": "Engenheiro Civil",
+    "vagas": null
+   },
+   {
+    "cargo": "Farmacêutico",
+    "vagas": null
+   },
+   {
+    "cargo": "Fisioterapeuta",
+    "vagas": null
+   },
+   {
+    "cargo": "Monitor de Informática",
+    "vagas": null
+   },
+   {
+    "cargo": "Nutricionista",
+    "vagas": null
+   },
+   {
+    "cargo": "Procurador Jurídico",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica I",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor de Educação Básica I, Educação Especial ou AEE",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica II, Artes",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor de Educação Básica II, Ciências",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica II, Educação Física",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica II, Geografia",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica II, História",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica II, Língua Espanhola",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica II, Língua Inglesa",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica II, Língua Portuguesa",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica II, Matemática",
+    "vagas": null
+   },
+   {
+    "cargo": "Psicólogo, 20 horas",
+    "vagas": null
+   },
+   {
+    "cargo": "Veterinário",
+    "vagas": null
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:26:51Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-catigua-sp-abre-vagas-para-professores-em-diversas-especialidades": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-12-07",
+  "site_inscricao": "www.inepam.org.br",
+  "taxa_min": 50.0,
+  "taxa_max": 50.0,
+  "data_prova": "2026-12-20",
+  "isencao_inicio": "2026-11-23",
+  "isencao_fim": "2026-11-25",
+  "cargos": [],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:52Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-iepe-sp-abre-concurso-com-salarios-de-ate-6520": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-12-20",
+  "site_inscricao": "www.consesp.com.br",
+  "taxa_min": 60.0,
+  "taxa_max": 120.0,
+  "data_prova": "2027-01-24",
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Assistente em Administração Pública",
+    "vagas": null
+   },
+   {
+    "cargo": "Assistente Social",
+    "vagas": null
+   },
+   {
+    "cargo": "Dentista",
+    "vagas": null
+   },
+   {
+    "cargo": "Fisioterapeuta",
+    "vagas": null
+   },
+   {
+    "cargo": "Agente Comunitário ESF I",
+    "vagas": null
+   },
+   {
+    "cargo": "Agente Comunitário ESF II",
+    "vagas": null
+   },
+   {
+    "cargo": "Agente Comunitário ESF III",
+    "vagas": null
+   },
+   {
+    "cargo": "Agente de Combate às Endemias",
+    "vagas": null
+   },
+   {
+    "cargo": "Agente Fiscal",
+    "vagas": null
+   },
+   {
+    "cargo": "Auxiliar de Consultório Dentário",
+    "vagas": null
+   },
+   {
+    "cargo": "Auxiliar de Enfermagem",
+    "vagas": null
+   },
+   {
+    "cargo": "Motorista",
+    "vagas": null
+   }
+  ],
+  "bancas": [
+   "Consesp"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:54Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-itarare-sp-abre-processo-seletivo-para-profissionais-da-educacao-com-salarios-de-ate-5905": {
+  "inscricao_inicio": "2026-11-19",
+  "inscricao_fim": "2026-12-16",
+  "site_inscricao": null,
+  "taxa_min": 37.53,
+  "taxa_max": 37.53,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [],
+  "bancas": [
+   "Publiconsult"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:26:56Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-itupeva-sp-abre-concurso-com-salarios-de-ate-13289": {
+  "inscricao_inicio": "2026-11-30",
+  "inscricao_fim": "2026-12-27",
+  "site_inscricao": "www.idcap.org.br",
+  "taxa_min": 70.0,
+  "taxa_max": 100.0,
+  "data_prova": "2027-03-07",
+  "isencao_inicio": "2026-11-30",
+  "isencao_fim": "2026-12-01",
+  "cargos": [
+   {
+    "cargo": "Analista de Planejamento e Gestão Pública",
+    "vagas": 2
+   },
+   {
+    "cargo": "Arquiteto",
+    "vagas": 1
+   },
+   {
+    "cargo": "Engenheiro Agrônomo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Engenheiro Civil",
+    "vagas": 1
+   },
+   {
+    "cargo": "Engenheiro Segurança do Trabalho",
+    "vagas": 1
+   },
+   {
+    "cargo": "Assistente Social",
+    "vagas": 2
+   },
+   {
+    "cargo": "Professor de Educação Básica Filosofia",
+    "vagas": 3
+   },
+   {
+    "cargo": "Professor de Educação Básica Música",
+    "vagas": 5
+   },
+   {
+    "cargo": "Professor de Educação Básica Arte",
+    "vagas": 2
+   },
+   {
+    "cargo": "Fonoaudiólogo",
+    "vagas": 2
+   },
+   {
+    "cargo": "Médico Ortopedista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Pneumologista",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Pediatra",
+    "vagas": 1
+   },
+   {
+    "cargo": "Analista de Licitações",
+    "vagas": 3
+   },
+   {
+    "cargo": "Cientista Social",
+    "vagas": 1
+   },
+   {
+    "cargo": "Contador",
+    "vagas": 2
+   },
+   {
+    "cargo": "Educador Social",
+    "vagas": 3
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:57Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-lutecia-sp-abre-concurso-e-processo-seletivo-para-cadastro-reserva": {
+  "inscricao_inicio": null,
+  "inscricao_fim": null,
+  "site_inscricao": null,
+  "taxa_min": 25.0,
+  "taxa_max": 50.0,
+  "data_prova": "2027-01-17",
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:26:59Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-mirante-do-paranapanema-sp-abre-selecao-para-profissionais-da-educacao": {
+  "inscricao_inicio": "2027-01-10",
+  "inscricao_fim": "2027-01-31",
+  "site_inscricao": "www.consesp.com.br",
+  "taxa_min": 60.0,
+  "taxa_max": 80.0,
+  "data_prova": "2027-01-31",
+  "isencao_inicio": "2026-11-16",
+  "isencao_fim": "2026-11-18",
+  "cargos": [],
+  "bancas": [
+   "Consesp"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:27:00Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-presidente-venceslau-sp-abre-selecao-para-profissionais-da-educacao": {
+  "inscricao_inicio": "2026-11-25",
+  "inscricao_fim": "2026-12-07",
+  "site_inscricao": null,
+  "taxa_min": 30.0,
+  "taxa_max": 40.0,
+  "data_prova": "2026-12-20",
+  "isencao_inicio": "2026-11-25",
+  "isencao_fim": "2026-11-26",
+  "cargos": [],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:27:02Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-ribeirao-corrente-sp-abre-processo-seletivo-para-diversos-cargos": {
+  "inscricao_inicio": "2026-11-19",
+  "inscricao_fim": "2026-12-27",
+  "site_inscricao": null,
+  "taxa_min": 30.0,
+  "taxa_max": 55.0,
+  "data_prova": "2027-01-24",
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [],
+  "bancas": [
+   "Consesp"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:27:04Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-sete-barras-sp-abre-concurso-publico-com-42-vagas-e-salarios-de-ate-6449": {
+  "inscricao_inicio": "2026-11-27",
+  "inscricao_fim": "2026-12-20",
+  "site_inscricao": null,
+  "taxa_min": 60.0,
+  "taxa_max": 80.0,
+  "data_prova": "2027-01-10",
+  "isencao_inicio": "2026-11-27",
+  "isencao_fim": "2026-12-03",
+  "cargos": [
+   {
+    "cargo": "Monitor de Apoio Escolar",
+    "vagas": 6
+   },
+   {
+    "cargo": "Advogado",
+    "vagas": 1
+   },
+   {
+    "cargo": "Assistente Social",
+    "vagas": 1
+   },
+   {
+    "cargo": "Contador",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor Auxiliar",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor Auxiliar Braile",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor Auxiliar Libras",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Básica I",
+    "vagas": 8
+   },
+   {
+    "cargo": "Professor de Educação Básica II",
+    "vagas": 21
+   },
+   {
+    "cargo": "Professor de Educação Básica III, Ciências",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor de Educação Básica III, Geografia",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor de Educação Básica III, História",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor de Educação Básica III, Língua Portuguesa",
+    "vagas": 1
+   }
+  ],
+  "bancas": [
+   "Indepac"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:27:05Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-teodoro-sampaio-sp-abre-processos-seletivos-para-cadastro-reserva": {
+  "inscricao_inicio": "2026-11-19",
+  "inscricao_fim": "2026-11-29",
+  "site_inscricao": "www.klcconcursos.com.br",
+  "taxa_min": 17.75,
+  "taxa_max": 21.75,
+  "data_prova": "2026-12-13",
+  "isencao_inicio": "2026-11-19",
+  "isencao_fim": "2026-11-20",
+  "cargos": [],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:27:07Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-vargem-grande-do-sul-sp-abre-concurso-publico-com-salarios-de-ate-10788": {
+  "inscricao_inicio": "2026-11-30",
+  "inscricao_fim": "2026-12-15",
+  "site_inscricao": "www.aplicativa.net.br",
+  "taxa_min": 60.0,
+  "taxa_max": 80.0,
+  "data_prova": "2027-01-24",
+  "isencao_inicio": "2026-11-30",
+  "isencao_fim": "2026-12-02",
+  "cargos": [
+   {
+    "cargo": "Assistente Administrativo",
+    "vagas": 1
+   },
+   {
+    "cargo": "Contador",
+    "vagas": 1
+   },
+   {
+    "cargo": "Médico Ginecologista e Obstetra",
+    "vagas": null
+   },
+   {
+    "cargo": "Médico Neuropediatra",
+    "vagas": null
+   },
+   {
+    "cargo": "Professor de Educação Especial",
+    "vagas": null
+   },
+   {
+    "cargo": "Terapeuta Ocupacional",
+    "vagas": null
+   }
+  ],
+  "bancas": [
+   "Aplicativa"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:27:09Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/prefeitura-de-itapecerica-da-serra-sp-abre-concurso-publico-para-pedreiro": {
+  "inscricao_inicio": "2026-11-19",
+  "inscricao_fim": "2026-12-21",
+  "site_inscricao": null,
+  "taxa_min": 58.0,
+  "taxa_max": 58.0,
+  "data_prova": "2027-02-14",
+  "isencao_inicio": null,
+  "isencao_fim": "2026-11-24",
+  "cargos": [
+   {
+    "cargo": "Pedreiro",
+    "vagas": 1
+   }
+  ],
+  "bancas": [
+   "Avança SP"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-19",
+  "coletado_em": "2026-11-23T21:27:10Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/sebrae-sp-abre-selecao-para-analista-com-salario-de-13814-000": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-11-27",
+  "site_inscricao": null,
+  "taxa_min": null,
+  "taxa_max": null,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Analista de Projetos Setoriais Sênior",
+    "vagas": 1
+   }
+  ],
+  "bancas": [
+   "RBO"
+  ],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:27:12Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-sp-abre-concursos-para-professor-substituto-em-aracatuba": {
+  "inscricao_inicio": "2026-11-30",
+  "inscricao_fim": "2026-12-14",
+  "site_inscricao": null,
+  "taxa_min": 209.0,
+  "taxa_max": 209.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Professor substituto em Ortodontia Preventiva",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:27:14Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-sp-abre-vagas-para-professor-substituto-em-botucatu": {
+  "inscricao_inicio": "2026-11-26",
+  "inscricao_fim": "2026-12-10",
+  "site_inscricao": "inscricoes.unesp.br",
+  "taxa_min": 209.0,
+  "taxa_max": 209.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Professor substituto em Medicina Veterinária, na área de Clínica e Cirurgia Animal",
+    "vagas": 1
+   },
+   {
+    "cargo": "Professor substituto em Zootecnia, na área de Produção Animal",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:27:15Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unesp-sp-concurso-publico-oferece-vaga-para-professor-titular-com-salario-de-25261": {
+  "inscricao_inicio": "2026-11-30",
+  "inscricao_fim": "2027-01-14",
+  "site_inscricao": "inscricoes.unesp.br",
+  "taxa_min": 286.0,
+  "taxa_max": 286.0,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Professor titular na disciplina de Cirurgia e Traumatologia Buco-Maxilo-Facial",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:27:17Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/unifesp-sp-abre-vaga-para-professor-substituto-com-salario-de-6157": {
+  "inscricao_inicio": null,
+  "inscricao_fim": "2026-11-27",
+  "site_inscricao": null,
+  "taxa_min": 153.93,
+  "taxa_max": 153.93,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:27:19Z"
+ },
+ "https://www.pciconcursos.com.br/noticias/crbm-4-regiao-am-abre-processo-seletivo-para-agente-administrativo-em-manaus": {
+  "inscricao_inicio": "2026-11-23",
+  "inscricao_fim": "2026-11-27",
+  "site_inscricao": "crbm4.org.br",
+  "taxa_min": null,
+  "taxa_max": null,
+  "data_prova": null,
+  "isencao_inicio": null,
+  "isencao_fim": null,
+  "cargos": [
+   {
+    "cargo": "Agente Administrativo",
+    "vagas": 1
+   }
+  ],
+  "bancas": [],
+  "links": [],
+  "data_noticia": "2026-11-23",
+  "coletado_em": "2026-11-23T21:27:20Z"
  }
 }
