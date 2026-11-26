@@ -1,25 +1,25 @@
 {
- "gerado_em": "2026-11-23T21:26:20Z",
+ "gerado_em": "2026-11-26T19:00:05Z",
  "fontes": [
   {
    "nome": "PCI Concursos",
    "tipo": "agregador",
    "url": "https://www.pciconcursos.com.br/concursos/sudeste/",
    "papel": "Descoberta de concursos abertos (seção SP e nacional)",
-   "quando": "2026-11-23T21:26:20Z",
+   "quando": "2026-11-26T19:00:05Z",
    "ok": true,
-   "itens": 207,
+   "itens": 206,
    "erro": null,
-   "obs": "199 na seção SP, 6 na nacional, 4 federais de outros estados; 31 páginas de detalhe lidas nesta execução"
+   "obs": "196 na seção SP, 5 na nacional, 7 federais de outros estados; 35 páginas de detalhe lidas nesta execução"
   },
   {
    "nome": "Nosso Rumo",
    "tipo": "banca",
    "url": "https://www.nossorumo.org.br/",
    "papel": "Fonte primária: datas de inscrição, prova e resultado",
-   "quando": "2026-11-23T21:26:20Z",
+   "quando": "2026-11-26T19:00:05Z",
    "ok": true,
-   "itens": 68,
+   "itens": 69,
    "erro": null,
    "obs": "0 registros que não estavam nos agregadores"
   },
@@ -28,40 +28,40 @@
    "tipo": "banca",
    "url": "https://www.institutomais.org.br/Concursos/ConcursosAbertos",
    "papel": "Fonte primária: confirma concursos com inscrições abertas",
-   "quando": "2026-11-23T21:26:20Z",
+   "quando": "2026-11-26T19:00:05Z",
    "ok": true,
-   "itens": 4,
+   "itens": 8,
    "erro": null,
-   "obs": "6 registros confirmados na banca"
+   "obs": "14 registros confirmados na banca"
   },
   {
    "nome": "Concursos no Brasil",
    "tipo": "agregador",
    "url": "https://concursosnobrasil.com/concursos/sp/",
    "papel": "Checagem cruzada do PCI",
-   "quando": "2026-11-23T21:26:20Z",
+   "quando": "2026-11-26T19:00:05Z",
    "ok": true,
-   "itens": 107,
+   "itens": 111,
    "erro": null,
-   "obs": "4 registros que não estavam no PCI"
+   "obs": "6 registros que não estavam no PCI"
   },
   {
    "nome": "PNCP",
    "tipo": "oficial",
    "url": "https://pncp.gov.br",
    "papel": "Fase anterior ao edital: contratação da banca organizadora",
-   "quando": "2026-11-23T21:26:20Z",
+   "quando": "2026-11-26T19:00:05Z",
    "ok": true,
-   "itens": 454,
+   "itens": 259,
    "erro": null,
-   "obs": "1900 contratações lidas; 1 consultas falharam"
+   "obs": "600 contratações lidas; 3 consultas falharam"
   },
   {
    "nome": "Diário Oficial do Estado de SP",
    "tipo": "oficial",
    "url": "https://www.doe.sp.gov.br",
    "papel": "Autorizações de concurso na esfera estadual",
-   "quando": "2026-11-23T21:26:20Z",
+   "quando": "2026-11-26T19:00:05Z",
    "ok": true,
    "itens": 9,
    "erro": null,
@@ -72,7 +72,7 @@
    "tipo": "oficial",
    "url": "https://queridodiario.ok.org.br",
    "papel": "Diários oficiais de 116 municípios: autorizações, comissões e contratações",
-   "quando": "2026-11-23T21:26:20Z",
+   "quando": "2026-11-26T19:00:05Z",
    "ok": false,
    "itens": 0,
    "erro": "Querido Diário: API não respondeu. SSLError em https://api.queridodiario.ok.org.br/gazettes",
